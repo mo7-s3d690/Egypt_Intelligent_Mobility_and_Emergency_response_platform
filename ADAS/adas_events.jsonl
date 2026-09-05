@@ -1,0 +1,481 @@
+{"timestamp": "2026-08-26T21:15:59.861263", "event_type": "WARNING", "severity": "WARNING", "risk_score": 50.0, "features": {"EAR": 0.204, "MAR": 0.124, "yaw": -1376.37, "pitch": -229.98, "roll": -15246.21}}
+{"timestamp": "2026-08-26T21:15:59.911842", "event_type": "SAFE", "severity": "INFO", "risk_score": 40.0, "features": {"EAR": 0.203, "MAR": 0.129, "yaw": 159.12, "pitch": 188.47, "roll": -32570.54}}
+{"timestamp": "2026-08-26T21:16:00.046903", "event_type": "WARNING", "severity": "WARNING", "risk_score": 50.0, "features": {"EAR": 0.211, "MAR": 0.091, "yaw": -1047.12, "pitch": -114.97, "roll": -18499.8}}
+{"timestamp": "2026-08-26T21:16:00.148047", "event_type": "SAFE", "severity": "INFO", "risk_score": 40.0, "features": {"EAR": 0.224, "MAR": 0.038, "yaw": -28.27, "pitch": 178.08, "roll": -30467.91}}
+{"timestamp": "2026-08-26T21:16:00.461175", "event_type": "YAWNING", "severity": "WARNING", "risk_score": 0.0, "features": {"EAR": 0.256, "MAR": 0.004, "yaw": -1220.2, "pitch": -300.62, "roll": -16070.44}}
+{"timestamp": "2026-08-26T21:16:01.156760", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "features": {"EAR": 0.283, "MAR": 0.006, "yaw": -631.35, "pitch": -55.02, "roll": -22856.21}}
+{"timestamp": "2026-08-26T21:16:03.416357", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.178, "MAR": 0.444, "yaw": -365.07, "pitch": 96.25, "roll": -28633.34}}
+{"timestamp": "2026-08-26T21:16:03.647606", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.189, "MAR": 0.499, "yaw": 1331.68, "pitch": 571.16, "roll": -40052.16}}
+{"timestamp": "2026-08-26T21:16:03.761344", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 30.0, "features": {"EAR": 0.251, "MAR": 0.54, "yaw": 1348.33, "pitch": 577.85, "roll": -39538.65}}
+{"timestamp": "2026-08-26T21:16:04.793056", "event_type": "SAFE", "severity": "INFO", "risk_score": 10.0, "features": {"EAR": 0.314, "MAR": 0.532, "yaw": -10.38, "pitch": 194.14, "roll": -29913.13}}
+{"timestamp": "2026-08-26T21:16:05.332479", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.176, "MAR": 0.442, "yaw": -602.67, "pitch": 91.47, "roll": -25659.15}}
+{"timestamp": "2026-08-26T21:16:06.155349", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.057, "MAR": 0.127, "yaw": -2237.12, "pitch": -129.25, "roll": -13709.63}}
+{"timestamp": "2026-08-26T21:16:06.282037", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.073, "MAR": 0.044, "yaw": -478.75, "pitch": 140.39, "roll": -26412.71}}
+{"timestamp": "2026-08-26T21:16:06.389410", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.076, "MAR": 0.021, "yaw": -559.06, "pitch": 127.02, "roll": -25872.03}}
+{"timestamp": "2026-08-26T21:16:06.640873", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.095, "MAR": 0.006, "yaw": 2000.62, "pitch": 544.32, "roll": -44505.57}}
+{"timestamp": "2026-08-26T21:16:06.855907", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.119, "MAR": 0.001, "yaw": 2248.98, "pitch": 591.72, "roll": -46407.11}}
+{"timestamp": "2026-08-26T21:16:08.274612", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.182, "MAR": 0.005, "yaw": 3151.44, "pitch": 746.71, "roll": -52856.91}}
+{"timestamp": "2026-08-26T21:16:08.342652", "event_type": "POSSIBLE_UNCONSCIOUSNESS", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.181, "MAR": 0.007, "yaw": 3730.56, "pitch": 831.73, "roll": -57029.15}}
+{"timestamp": "2026-08-26T21:16:13.236548", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "features": {"EAR": 0.242, "MAR": 0.006, "yaw": 1231.79, "pitch": 32.62, "roll": 51535.81}}
+{"timestamp": "2026-08-26T21:16:13.569228", "event_type": "WARNING", "severity": "WARNING", "risk_score": 50.0, "features": {"EAR": 0.217, "MAR": 0.007, "yaw": -1413.7, "pitch": 125.63, "roll": 5933.9}}
+{"timestamp": "2026-08-26T21:16:13.612369", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 40.0, "features": {"EAR": 0.194, "MAR": 0.004, "yaw": -1532.5, "pitch": 112.36, "roll": 3840.62}}
+{"timestamp": "2026-08-26T21:16:13.663865", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.177, "MAR": 0.003, "yaw": -300.81, "pitch": 182.63, "roll": -20167.0}}
+{"timestamp": "2026-08-26T21:16:13.809205", "event_type": "SAFE", "severity": "INFO", "risk_score": 30.0, "features": {"EAR": 0.211, "MAR": 0.005, "yaw": 10.91, "pitch": 266.06, "roll": -28216.14}}
+{"timestamp": "2026-08-26T21:16:15.418063", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "features": {"EAR": 0.234, "MAR": 0.147, "yaw": 1020.8, "pitch": 647.72, "roll": -43264.89}}
+{"timestamp": "2026-08-26T21:16:15.523210", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.221, "MAR": 0.159, "yaw": -962.26, "pitch": -812.55, "roll": -18227.39}}
+{"timestamp": "2026-08-26T21:16:15.835106", "event_type": "SAFE", "severity": "INFO", "risk_score": 10.0, "features": {"EAR": 0.232, "MAR": 0.172, "yaw": 985.58, "pitch": 604.86, "roll": -42257.29}}
+{"timestamp": "2026-08-26T21:16:17.247418", "event_type": "WARNING", "severity": "WARNING", "risk_score": 50.0, "features": {"EAR": 0.201, "MAR": 0.065, "yaw": -1022.35, "pitch": -692.34, "roll": -19325.43}}
+{"timestamp": "2026-08-26T21:16:17.391115", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.16, "MAR": 0.024, "yaw": -2289.21, "pitch": -1832.16, "roll": -5223.8}}
+{"timestamp": "2026-08-26T21:16:17.440937", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.195, "MAR": 0.019, "yaw": -558.02, "pitch": -296.02, "roll": -26025.53}}
+{"timestamp": "2026-08-26T21:16:17.531484", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 30.0, "features": {"EAR": 0.234, "MAR": 0.014, "yaw": -350.68, "pitch": -380.39, "roll": -25674.43}}
+{"timestamp": "2026-08-26T21:16:17.867550", "event_type": "YAWNING", "severity": "WARNING", "risk_score": 0.0, "features": {"EAR": 0.282, "MAR": 0.006, "yaw": 140.23, "pitch": 17.31, "roll": -31250.07}}
+{"timestamp": "2026-08-26T21:16:18.219530", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.18, "MAR": 0.007, "yaw": -1378.43, "pitch": -1568.77, "roll": -11116.33}}
+{"timestamp": "2026-08-26T21:16:18.269598", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.152, "MAR": 0.005, "yaw": -1712.52, "pitch": -1885.98, "roll": -7186.28}}
+{"timestamp": "2026-08-26T21:16:18.584572", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.171, "MAR": 0.007, "yaw": -2235.08, "pitch": -2106.82, "roll": -6441.4}}
+{"timestamp": "2026-08-26T21:16:18.627629", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.166, "MAR": 0.005, "yaw": -328.49, "pitch": -384.9, "roll": -26803.79}}
+{"timestamp": "2026-08-26T21:16:19.096338", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.168, "MAR": 0.003, "yaw": 1164.57, "pitch": 1042.2, "roll": -43028.13}}
+{"timestamp": "2026-08-26T21:16:19.358069", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.185, "MAR": 0.003, "yaw": 1495.45, "pitch": 1386.91, "roll": -47393.15}}
+{"timestamp": "2026-08-26T21:16:19.511836", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "features": {"EAR": 0.232, "MAR": 0.003, "yaw": 2618.14, "pitch": 2395.04, "roll": -59910.4}}
+{"timestamp": "2026-08-26T21:16:19.786709", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.204, "MAR": 0.0, "yaw": -666.0, "pitch": -578.07, "roll": -23191.05}}
+{"timestamp": "2026-08-26T21:16:19.834824", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.165, "MAR": 0.004, "yaw": -1398.24, "pitch": -1168.81, "roll": -15033.11}}
+{"timestamp": "2026-08-26T21:16:19.880923", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.14, "MAR": 0.003, "yaw": 182.07, "pitch": 101.76, "roll": -32399.86}}
+{"timestamp": "2026-08-26T21:16:19.923293", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.124, "MAR": 0.002, "yaw": -851.83, "pitch": -730.09, "roll": -21018.11}}
+{"timestamp": "2026-08-26T21:16:20.008579", "event_type": "WARNING", "severity": "WARNING", "risk_score": 60.0, "features": {"EAR": 0.188, "MAR": 0.004, "yaw": -1973.14, "pitch": -1582.52, "roll": -8818.49}}
+{"timestamp": "2026-08-26T21:16:20.532524", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.209, "MAR": 0.007, "yaw": -586.7, "pitch": -491.78, "roll": -24538.68}}
+{"timestamp": "2026-08-26T21:16:20.588188", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.214, "MAR": 0.008, "yaw": 717.24, "pitch": 622.64, "roll": -38574.75}}
+{"timestamp": "2026-08-26T21:16:20.658179", "event_type": "CRITICAL", "severity": "CRITICAL", "risk_score": 80.0, "features": {"EAR": 0.218, "MAR": 0.009, "yaw": -541.81, "pitch": -481.48, "roll": -25027.18}}
+{"timestamp": "2026-08-26T21:16:20.721706", "event_type": "WARNING", "severity": "WARNING", "risk_score": 70.0, "features": {"EAR": 0.217, "MAR": 0.011, "yaw": 733.34, "pitch": 615.38, "roll": -38894.06}}
+{"timestamp": "2026-08-26T21:16:21.008245", "event_type": "DISTRACTED", "severity": "WARNING", "risk_score": 40.0, "features": {"EAR": 0.235, "MAR": 0.007, "yaw": -1227.22, "pitch": -1225.4, "roll": -15732.04}}
+{"timestamp": "2026-08-26T21:16:24.204568", "event_type": "SAFE", "severity": "INFO", "risk_score": 0.0, "features": {"EAR": 0.269, "MAR": 0.003, "yaw": -4.82, "pitch": -17.47, "roll": -30496.15}}
+{"timestamp": "2026-08-26T21:54:50.616403", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.271, "MAR": 0.004, "yaw": -39.25, "pitch": 247.33, "roll": -29191.7}
+{"timestamp": "2026-08-26T21:54:52.409111", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.298, "MAR": 0.009, "yaw": -1525.44, "pitch": -264.55, "roll": -8174.58}
+{"timestamp": "2026-08-26T21:54:52.471094", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.3, "MAR": 0.01, "yaw": -498.66, "pitch": 65.32, "roll": -23426.38}
+{"timestamp": "2026-08-26T21:54:52.500684", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.301, "MAR": 0.007, "yaw": -978.34, "pitch": -99.66, "roll": -16395.22}
+{"timestamp": "2026-08-26T21:54:52.650931", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.298, "MAR": 0.005, "yaw": -600.28, "pitch": 22.63, "roll": -22171.06}
+{"timestamp": "2026-08-26T21:54:52.680016", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.296, "MAR": 0.003, "yaw": -1051.96, "pitch": -142.88, "roll": -15516.34}
+{"timestamp": "2026-08-26T21:54:52.770644", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.3, "MAR": 0.004, "yaw": -422.97, "pitch": 63.41, "roll": -24740.11}
+{"timestamp": "2026-08-26T21:54:52.802194", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.3, "MAR": 0.003, "yaw": -927.58, "pitch": -125.8, "roll": -17313.61}
+{"timestamp": "2026-08-26T21:54:52.860399", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.298, "MAR": 0.007, "yaw": -205.24, "pitch": 129.06, "roll": -27903.49}
+{"timestamp": "2026-08-26T21:54:53.196220", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.275, "MAR": 0.008, "yaw": -693.12, "pitch": -95.05, "roll": -20436.92}
+{"timestamp": "2026-08-26T21:54:53.292518", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.279, "MAR": 0.003, "yaw": -299.5, "pitch": 63.34, "roll": -26426.28}
+{"timestamp": "2026-08-26T21:54:53.436881", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.271, "MAR": 0.007, "yaw": -549.15, "pitch": -46.85, "roll": -22515.75}
+{"timestamp": "2026-08-26T21:54:53.467982", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.267, "MAR": 0.008, "yaw": 275.96, "pitch": 296.97, "roll": -35182.41}
+{"timestamp": "2026-08-26T21:54:53.636885", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.271, "MAR": 0.005, "yaw": -883.65, "pitch": -184.47, "roll": -17229.32}
+{"timestamp": "2026-08-26T21:54:53.678992", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.275, "MAR": 0.007, "yaw": 46.18, "pitch": 196.18, "roll": -31483.89}
+{"timestamp": "2026-08-26T21:54:53.771967", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.285, "MAR": 0.005, "yaw": -680.17, "pitch": -95.9, "roll": -20310.2}
+{"timestamp": "2026-08-26T21:54:53.800113", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.289, "MAR": 0.003, "yaw": 191.97, "pitch": 258.66, "roll": -33640.11}
+{"timestamp": "2026-08-26T21:54:54.240438", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.298, "MAR": 0.008, "yaw": -400.31, "pitch": -20.66, "roll": -24055.01}
+{"timestamp": "2026-08-26T21:54:54.404159", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.294, "MAR": 0.005, "yaw": -347.8, "pitch": 0.66, "roll": -25192.73}
+{"timestamp": "2026-08-26T21:54:54.741181", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.291, "MAR": 0.008, "yaw": -693.59, "pitch": -237.91, "roll": -19270.1}
+{"timestamp": "2026-08-26T21:54:54.912095", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.29, "MAR": 0.009, "yaw": 351.09, "pitch": 324.43, "roll": -36252.67}
+{"timestamp": "2026-08-26T21:54:55.012374", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.285, "MAR": 0.003, "yaw": -545.38, "pitch": -197.71, "roll": -21939.95}
+{"timestamp": "2026-08-26T21:54:55.076055", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.285, "MAR": 0.001, "yaw": -32.6, "pitch": 91.67, "roll": -30167.18}
+{"timestamp": "2026-08-26T21:54:55.122165", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.281, "MAR": 0.004, "yaw": -637.95, "pitch": -229.72, "roll": -21108.05}
+{"timestamp": "2026-08-26T21:54:55.336227", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.299, "MAR": 0.008, "yaw": -146.88, "pitch": 56.35, "roll": -28541.02}
+{"timestamp": "2026-08-26T21:54:55.368788", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.303, "MAR": 0.009, "yaw": -804.37, "pitch": -330.13, "roll": -19962.66}
+{"timestamp": "2026-08-26T21:54:55.500532", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.297, "MAR": 0.007, "yaw": 496.2, "pitch": 493.38, "roll": -37785.8}
+{"timestamp": "2026-08-26T21:54:55.599148", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.303, "MAR": 0.005, "yaw": -611.89, "pitch": -373.75, "roll": -22443.69}
+{"timestamp": "2026-08-26T21:54:55.858404", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.304, "MAR": 0.006, "yaw": -44.73, "pitch": 44.65, "roll": -30191.15}
+{"timestamp": "2026-08-26T21:54:55.916562", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.31, "MAR": 0.006, "yaw": -148.7, "pitch": -98.88, "roll": -28365.74}
+{"timestamp": "2026-08-26T21:54:56.039528", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.307, "MAR": 0.005, "yaw": 597.33, "pitch": 568.81, "roll": -39270.61}
+{"timestamp": "2026-08-26T21:54:56.139515", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.304, "MAR": 0.006, "yaw": -514.27, "pitch": -434.91, "roll": -22951.6}
+{"timestamp": "2026-08-26T21:54:56.171100", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.306, "MAR": 0.004, "yaw": 343.75, "pitch": 310.37, "roll": -35481.13}
+{"timestamp": "2026-08-26T21:54:56.689508", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.301, "MAR": 0.005, "yaw": 6.55, "pitch": 15.85, "roll": -30500.24}
+{"timestamp": "2026-08-26T21:54:58.513677", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.3, "MAR": 0.006, "yaw": -1834.51, "pitch": -1547.69, "roll": -2674.56}
+{"timestamp": "2026-08-26T21:54:59.802827", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.316, "MAR": 0.001, "yaw": -3.21, "pitch": 9.89, "roll": -30409.42}
+{"timestamp": "2026-08-26T21:55:01.046626", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.257, "MAR": 0.001, "yaw": 423.4, "pitch": -529.67, "roll": -6291.93}
+{"timestamp": "2026-08-26T21:55:01.127062", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.236, "MAR": 0.004, "yaw": 117.07, "pitch": 198.03, "roll": -36128.12}
+{"timestamp": "2026-08-26T21:55:01.290469", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.244, "MAR": 0.004, "yaw": 286.61, "pitch": 555.87, "roll": -50445.67}
+{"timestamp": "2026-08-26T21:55:01.341867", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.253, "MAR": 0.003, "yaw": 7.63, "pitch": 230.06, "roll": -35312.68}
+{"timestamp": "2026-08-26T21:55:01.736162", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.218, "MAR": 0.01, "yaw": -237.05, "pitch": -61.51, "roll": -22476.55}
+{"timestamp": "2026-08-26T21:55:01.765258", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.231, "MAR": 0.01, "yaw": 139.67, "pitch": 220.51, "roll": -35167.23}
+{"timestamp": "2026-08-26T21:55:03.090265", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.284, "MAR": 0.01, "yaw": -147.25, "pitch": 68.32, "roll": -27780.84}
+{"timestamp": "2026-08-26T21:55:03.805183", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.311, "MAR": 0.012, "yaw": -608.23, "pitch": -105.12, "roll": -18516.07}
+{"timestamp": "2026-08-26T21:55:03.833310", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.31, "MAR": 0.012, "yaw": 86.84, "pitch": 177.74, "roll": -32392.18}
+{"timestamp": "2026-08-26T21:55:04.109008", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.315, "MAR": 0.006, "yaw": 0.27, "pitch": 146.63, "roll": -30823.23}
+{"timestamp": "2026-08-26T21:55:07.343282", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.265, "MAR": 0.01, "yaw": 592.33, "pitch": 405.61, "roll": -43349.76}
+{"timestamp": "2026-08-26T21:55:08.418011", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.22, "MAR": 0.003, "yaw": 922.01, "pitch": 549.74, "roll": -50769.45}
+{"timestamp": "2026-08-26T21:55:08.688838", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.25, "MAR": 0.006, "yaw": 977.79, "pitch": 501.28, "roll": -48172.11}
+{"timestamp": "2026-08-26T21:55:09.307639", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.317, "MAR": 0.001, "yaw": -460.29, "pitch": -67.41, "roll": -23788.39}
+{"timestamp": "2026-08-26T21:55:09.337251", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.319, "MAR": 0.001, "yaw": 379.96, "pitch": 216.73, "roll": -36083.16}
+{"timestamp": "2026-08-26T21:55:09.374226", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.318, "MAR": 0.001, "yaw": -358.67, "pitch": -21.15, "roll": -25247.21}
+{"timestamp": "2026-08-26T21:55:09.403939", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.319, "MAR": 0.0, "yaw": 444.55, "pitch": 250.58, "roll": -37104.33}
+{"timestamp": "2026-08-26T21:55:09.494958", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.318, "MAR": 0.003, "yaw": -575.97, "pitch": -83.65, "roll": -22228.84}
+{"timestamp": "2026-08-26T21:55:09.528045", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.317, "MAR": 0.002, "yaw": 283.24, "pitch": 202.0, "roll": -34990.12}
+{"timestamp": "2026-08-26T21:55:09.614362", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.308, "MAR": 0.003, "yaw": -1.65, "pitch": 115.46, "roll": -30735.6}
+{"timestamp": "2026-08-26T21:55:10.543538", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.19, "MAR": 0.002, "yaw": 1318.75, "pitch": 630.24, "roll": -51985.04}
+{"timestamp": "2026-08-26T21:55:10.993229", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.24, "MAR": 0.007, "yaw": -746.93, "pitch": -279.8, "roll": -16279.73}
+{"timestamp": "2026-08-26T21:55:11.234506", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.25, "MAR": 0.01, "yaw": -128.34, "pitch": 155.0, "roll": -19616.68}
+{"timestamp": "2026-08-26T21:55:11.477985", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.305, "MAR": 0.009, "yaw": -14.64, "pitch": 133.42, "roll": -27994.36}
+{"timestamp": "2026-08-26T21:55:12.795065", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.307, "MAR": 0.003, "yaw": 179.7, "pitch": -591.25, "roll": -11372.9}
+{"timestamp": "2026-08-26T21:55:13.260960", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.318, "MAR": 0.01, "yaw": -9.25, "pitch": 136.09, "roll": -25892.52}
+{"timestamp": "2026-08-26T21:55:16.729922", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.275, "MAR": 0.009, "yaw": -545.15, "pitch": 84.47, "roll": -9899.28}
+{"timestamp": "2026-08-26T21:55:17.149653", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.275, "MAR": 0.005, "yaw": -3.16, "pitch": 121.36, "roll": -30318.66}
+{"timestamp": "2026-08-26T21:55:18.248706", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.181, "MAR": 0.003, "yaw": 234.59, "pitch": 138.24, "roll": -36768.13}
+{"timestamp": "2026-08-26T21:55:18.588203", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.236, "MAR": 0.005, "yaw": -1560.27, "pitch": 364.84, "roll": 32461.23}
+{"timestamp": "2026-08-26T21:55:18.924143", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.244, "MAR": 0.01, "yaw": -1061.56, "pitch": 361.48, "roll": 56885.36}
+{"timestamp": "2026-08-26T21:55:19.100459", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.28, "MAR": 0.011, "yaw": 1.81, "pitch": 50.23, "roll": -8730.15}
+{"timestamp": "2026-08-26T21:55:19.797029", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.184, "MAR": 0.012, "yaw": 64.57, "pitch": 131.0, "roll": -28284.85}
+{"timestamp": "2026-08-26T21:55:19.965890", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.246, "MAR": 0.011, "yaw": 72.27, "pitch": -70.37, "roll": 13694.39}
+{"timestamp": "2026-08-26T21:55:20.372799", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.219, "MAR": 0.004, "yaw": -79.36, "pitch": -76.74, "roll": 55108.84}
+{"timestamp": "2026-08-26T21:55:20.459132", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.246, "MAR": 0.001, "yaw": 26.79, "pitch": -38.22, "roll": 42023.17}
+{"timestamp": "2026-08-26T21:55:20.986710", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.297, "MAR": 0.004, "yaw": -167.71, "pitch": 56.35, "roll": -45665.46}
+{"timestamp": "2026-08-26T21:55:21.050325", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.29, "MAR": 0.003, "yaw": -11.32, "pitch": 25.29, "roll": -31976.08}
+{"timestamp": "2026-08-26T21:55:30.741958", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.299, "MAR": 0.011, "yaw": -63.8, "pitch": 197.16, "roll": -29397.89}
+{"timestamp": "2026-08-26T21:55:32.299245", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.181, "MAR": 0.003, "yaw": 1276.42, "pitch": 412.07, "roll": -58136.9}
+{"timestamp": "2026-08-26T21:55:32.536797", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.126, "MAR": 0.008, "yaw": 54.79, "pitch": 145.64, "roll": -40085.11}
+{"timestamp": "2026-08-26T21:55:32.671871", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.192, "MAR": 0.007, "yaw": 50.48, "pitch": 107.77, "roll": -25832.65}
+{"timestamp": "2026-08-26T21:55:32.848700", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.236, "MAR": 0.001, "yaw": 6.82, "pitch": 58.11, "roll": -34130.29}
+{"timestamp": "2026-08-26T21:55:34.109262", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.301, "MAR": 0.009, "yaw": 106.3, "pitch": -100.45, "roll": 28768.92}
+{"timestamp": "2026-08-26T21:55:34.139839", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.296, "MAR": 0.011, "yaw": -11.38, "pitch": 85.21, "roll": 39563.17}
+{"timestamp": "2026-08-26T21:55:34.525489", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.185, "MAR": 0.006, "yaw": 95.07, "pitch": -83.64, "roll": 30586.2}
+{"timestamp": "2026-08-26T21:55:34.590343", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.154, "MAR": 0.013, "yaw": 231.31, "pitch": -317.11, "roll": 15036.75}
+{"timestamp": "2026-08-26T21:55:34.641161", "event": "SAFE", "severity": "INFO", "risk_score": 20.0, "EAR": 0.248, "MAR": 0.018, "yaw": 243.3, "pitch": -365.51, "roll": 10559.45}
+{"timestamp": "2026-08-26T21:55:36.477282", "event": "YAWNING", "severity": "WARNING", "risk_score": 0.0, "EAR": 0.392, "MAR": 0.009, "yaw": 158.44, "pitch": 530.65, "roll": 56011.09}
+{"timestamp": "2026-08-26T21:55:36.588981", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.372, "MAR": 0.003, "yaw": 135.7, "pitch": -76.9, "roll": 32837.43}
+{"timestamp": "2026-08-26T21:55:36.858206", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.405, "MAR": 0.058, "yaw": -7.13, "pitch": 363.0, "roll": 47368.02}
+{"timestamp": "2026-08-26T21:55:38.095059", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.292, "MAR": 0.11, "yaw": -653.15, "pitch": 890.44, "roll": 63259.76}
+{"timestamp": "2026-08-26T21:55:38.348735", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.318, "MAR": 0.152, "yaw": -7.61, "pitch": 60.0, "roll": 35283.43}
+{"timestamp": "2026-08-26T21:55:39.257090", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.237, "MAR": 0.02, "yaw": 73.98, "pitch": -249.3, "roll": 24460.41}
+{"timestamp": "2026-08-26T21:55:39.334021", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.247, "MAR": 0.044, "yaw": 178.76, "pitch": 172.09, "roll": 44944.95}
+{"timestamp": "2026-08-26T21:55:39.372741", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.226, "MAR": 0.047, "yaw": 166.91, "pitch": -82.54, "roll": 31512.17}
+{"timestamp": "2026-08-26T21:55:39.438980", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.278, "MAR": 0.092, "yaw": 116.77, "pitch": 6.93, "roll": 34874.02}
+{"timestamp": "2026-08-26T21:55:41.324499", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.239, "MAR": 0.003, "yaw": 257.12, "pitch": -20.7, "roll": 30435.78}
+{"timestamp": "2026-08-26T21:55:41.354332", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.25, "MAR": 0.002, "yaw": 1120.16, "pitch": -977.82, "roll": 21218.55}
+{"timestamp": "2026-08-26T21:55:41.892127", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.307, "MAR": 0.005, "yaw": 1498.22, "pitch": -1578.11, "roll": 15856.41}
+{"timestamp": "2026-08-26T21:55:42.017308", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.3, "MAR": 0.012, "yaw": 5.56, "pitch": 413.78, "roll": 34248.56}
+{"timestamp": "2026-08-26T21:55:42.917372", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.001, "yaw": 928.02, "pitch": -1540.2, "roll": 12731.92}
+{"timestamp": "2026-08-26T21:55:43.012257", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.243, "MAR": 0.005, "yaw": -0.48, "pitch": 629.8, "roll": 39249.49}
+{"timestamp": "2026-08-26T21:55:43.223151", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.233, "MAR": 0.004, "yaw": 109.16, "pitch": -152.45, "roll": 29641.59}
+{"timestamp": "2026-08-26T21:55:43.253656", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.237, "MAR": 0.003, "yaw": -23.66, "pitch": 675.28, "roll": 40180.01}
+{"timestamp": "2026-08-26T21:55:43.980474", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.227, "MAR": 0.008, "yaw": -19.12, "pitch": -346.17, "roll": -23771.87}
+{"timestamp": "2026-08-26T21:55:44.015449", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.233, "MAR": 0.006, "yaw": 47.38, "pitch": 377.02, "roll": -36077.74}
+{"timestamp": "2026-08-26T21:55:44.241959", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.002, "yaw": -129.05, "pitch": -646.92, "roll": -19836.54}
+{"timestamp": "2026-08-26T21:55:44.271231", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.237, "MAR": 0.002, "yaw": 13.78, "pitch": 140.27, "roll": -33322.87}
+{"timestamp": "2026-08-26T21:55:44.357326", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.238, "MAR": 0.012, "yaw": -27.54, "pitch": -107.78, "roll": -29919.99}
+{"timestamp": "2026-08-26T21:55:44.414964", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.228, "MAR": 0.011, "yaw": 18.31, "pitch": 169.84, "roll": -34086.13}
+{"timestamp": "2026-08-26T21:55:47.706304", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.227, "MAR": 0.005, "yaw": 254.27, "pitch": -249.09, "roll": 35958.05}
+{"timestamp": "2026-08-26T21:55:47.775990", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.222, "MAR": 0.008, "yaw": 13.19, "pitch": 80.43, "roll": 31187.74}
+{"timestamp": "2026-08-26T21:55:47.804556", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.222, "MAR": 0.005, "yaw": 392.1, "pitch": -606.36, "roll": 41227.65}
+{"timestamp": "2026-08-26T21:55:47.905125", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.243, "MAR": 0.011, "yaw": 1005.69, "pitch": -1664.67, "roll": 56626.11}
+{"timestamp": "2026-08-26T21:55:47.993058", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.232, "MAR": 0.004, "yaw": 1240.74, "pitch": -2017.41, "roll": 61903.15}
+{"timestamp": "2026-08-26T21:55:48.185918", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.217, "MAR": 0.008, "yaw": -42.36, "pitch": 334.59, "roll": 26692.27}
+{"timestamp": "2026-08-26T21:55:48.219411", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.21, "MAR": 0.01, "yaw": 300.97, "pitch": -385.42, "roll": 38095.91}
+{"timestamp": "2026-08-26T21:55:48.245876", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.209, "MAR": 0.007, "yaw": -69.42, "pitch": 344.46, "roll": 26660.0}
+{"timestamp": "2026-08-26T21:55:48.359971", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.231, "MAR": 0.002, "yaw": 326.02, "pitch": -461.12, "roll": 39390.29}
+{"timestamp": "2026-08-26T21:55:48.410675", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.234, "MAR": 0.006, "yaw": -51.52, "pitch": 289.37, "roll": 27567.13}
+{"timestamp": "2026-08-26T21:55:48.567681", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.232, "MAR": 0.002, "yaw": 331.85, "pitch": -535.7, "roll": 40202.54}
+{"timestamp": "2026-08-26T21:55:48.594408", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.233, "MAR": 0.002, "yaw": -45.62, "pitch": 241.9, "roll": 28136.79}
+{"timestamp": "2026-08-26T21:55:48.763357", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.183, "MAR": 0.002, "yaw": -168.98, "pitch": 472.62, "roll": 24130.02}
+{"timestamp": "2026-08-26T21:55:48.904524", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.197, "MAR": 0.001, "yaw": -599.74, "pitch": 1203.02, "roll": 11812.04}
+{"timestamp": "2026-08-26T21:55:49.404136", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.149, "MAR": 0.008, "yaw": 79.16, "pitch": -133.06, "roll": 33137.88}
+{"timestamp": "2026-08-26T21:55:49.548080", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.185, "MAR": 0.016, "yaw": 85.79, "pitch": -283.66, "roll": 34505.64}
+{"timestamp": "2026-08-26T21:55:49.610764", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.233, "MAR": 0.018, "yaw": 358.3, "pitch": -997.14, "roll": 4714.13}
+{"timestamp": "2026-08-26T21:55:49.637353", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.27, "MAR": 0.023, "yaw": -45.67, "pitch": 24.57, "roll": 3284.53}
+{"timestamp": "2026-08-26T21:55:49.793121", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.279, "MAR": 0.019, "yaw": -135.94, "pitch": 225.17, "roll": 23654.87}
+{"timestamp": "2026-08-26T21:55:49.850704", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.286, "MAR": 0.017, "yaw": 43.22, "pitch": -177.19, "roll": 31011.62}
+{"timestamp": "2026-08-26T21:55:49.943371", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.279, "MAR": 0.02, "yaw": -292.7, "pitch": 655.87, "roll": 21687.74}
+{"timestamp": "2026-08-26T21:55:49.973212", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.276, "MAR": 0.022, "yaw": 120.87, "pitch": -384.66, "roll": 34621.23}
+{"timestamp": "2026-08-26T21:55:50.044533", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.264, "MAR": 0.016, "yaw": -47.26, "pitch": 24.2, "roll": 30550.78}
+{"timestamp": "2026-08-26T21:55:50.072769", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.254, "MAR": 0.019, "yaw": 317.84, "pitch": -852.39, "roll": 40822.24}
+{"timestamp": "2026-08-26T21:55:50.182813", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.242, "MAR": 0.016, "yaw": -327.05, "pitch": 645.38, "roll": 23494.03}
+{"timestamp": "2026-08-26T21:55:50.250812", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.222, "MAR": 0.008, "yaw": -58.26, "pitch": 29.87, "roll": 30932.06}
+{"timestamp": "2026-08-26T21:55:50.563572", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.246, "MAR": 0.011, "yaw": -660.54, "pitch": 1566.19, "roll": 11489.63}
+{"timestamp": "2026-08-26T21:55:50.988656", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.26, "MAR": 0.012, "yaw": 498.92, "pitch": -1031.82, "roll": 44728.37}
+{"timestamp": "2026-08-26T21:55:51.050822", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.272, "MAR": 0.008, "yaw": 12.19, "pitch": -8.95, "roll": 31301.5}
+{"timestamp": "2026-08-26T21:55:52.235681", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.003, "yaw": 361.0, "pitch": -755.4, "roll": 45260.48}
+{"timestamp": "2026-08-26T21:55:52.266768", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.212, "MAR": 0.002, "yaw": 55.82, "pitch": 1.73, "roll": 31682.77}
+{"timestamp": "2026-08-26T21:55:52.769027", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.229, "MAR": 0.0, "yaw": 137.73, "pitch": -192.05, "roll": 34860.02}
+{"timestamp": "2026-08-26T21:55:52.796578", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.222, "MAR": 0.0, "yaw": -141.05, "pitch": 431.64, "roll": 24400.24}
+{"timestamp": "2026-08-26T21:55:52.897756", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.004, "yaw": 349.2, "pitch": -596.51, "roll": 41365.48}
+{"timestamp": "2026-08-26T21:55:52.938738", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.239, "MAR": 0.011, "yaw": -35.2, "pitch": 165.97, "roll": 28951.25}
+{"timestamp": "2026-08-26T21:55:53.337494", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.266, "MAR": 0.006, "yaw": 510.15, "pitch": -974.04, "roll": 46908.04}
+{"timestamp": "2026-08-26T21:55:53.640457", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.232, "MAR": 0.005, "yaw": -132.5, "pitch": 365.91, "roll": 25137.65}
+{"timestamp": "2026-08-26T21:55:53.741838", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.171, "MAR": 0.007, "yaw": 249.31, "pitch": -534.36, "roll": 41623.2}
+{"timestamp": "2026-08-26T21:55:53.859268", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.158, "MAR": 0.006, "yaw": 44.04, "pitch": 83.67, "roll": 30251.56}
+{"timestamp": "2026-08-26T21:55:53.888837", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.163, "MAR": 0.009, "yaw": 153.04, "pitch": -411.96, "roll": 40602.18}
+{"timestamp": "2026-08-26T21:55:53.930419", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.178, "MAR": 0.007, "yaw": 77.84, "pitch": 141.0, "roll": 28422.28}
+{"timestamp": "2026-08-26T21:55:53.982071", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.182, "MAR": 0.003, "yaw": 65.04, "pitch": -53.11, "roll": 33362.28}
+{"timestamp": "2026-08-26T21:55:54.135031", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.194, "MAR": 0.001, "yaw": -80.8, "pitch": -440.49, "roll": -27613.15}
+{"timestamp": "2026-08-26T21:55:54.294120", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.247, "MAR": 0.003, "yaw": -295.28, "pitch": -907.22, "roll": -53868.33}
+{"timestamp": "2026-08-26T21:55:54.638734", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.274, "MAR": 0.005, "yaw": 10.91, "pitch": 140.31, "roll": -27132.82}
+{"timestamp": "2026-08-26T21:55:55.369805", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.227, "MAR": 0.008, "yaw": -30.01, "pitch": -819.38, "roll": 35010.49}
+{"timestamp": "2026-08-26T21:55:55.429561", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.228, "MAR": 0.008, "yaw": -132.36, "pitch": 438.58, "roll": 17152.68}
+{"timestamp": "2026-08-26T21:55:55.626847", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.23, "MAR": 0.003, "yaw": 61.0, "pitch": -534.97, "roll": 35029.79}
+{"timestamp": "2026-08-26T21:55:55.866001", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.24, "MAR": 0.002, "yaw": 63.28, "pitch": -341.17, "roll": 35146.03}
+{"timestamp": "2026-08-26T21:55:55.992950", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.236, "MAR": 0.008, "yaw": 124.47, "pitch": -107.51, "roll": 37383.65}
+{"timestamp": "2026-08-26T21:55:56.076197", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.237, "MAR": 0.004, "yaw": -5.63, "pitch": 17.9, "roll": 31919.4}
+{"timestamp": "2026-08-26T21:55:56.330336", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.233, "MAR": 0.006, "yaw": 37.99, "pitch": -162.31, "roll": 32714.24}
+{"timestamp": "2026-08-26T21:55:56.455279", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.215, "MAR": 0.005, "yaw": -328.92, "pitch": 642.84, "roll": 24004.26}
+{"timestamp": "2026-08-26T21:55:56.490464", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.232, "MAR": 0.003, "yaw": 443.55, "pitch": -54.93, "roll": 36211.27}
+{"timestamp": "2026-08-26T21:55:56.520522", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.242, "MAR": 0.002, "yaw": -206.37, "pitch": 600.46, "roll": 25320.92}
+{"timestamp": "2026-08-26T21:55:57.325415", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.274, "MAR": 0.007, "yaw": 433.89, "pitch": 222.61, "roll": -37522.17}
+{"timestamp": "2026-08-26T21:55:57.628964", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.186, "MAR": 0.003, "yaw": -1243.07, "pitch": -163.8, "roll": -12153.94}
+{"timestamp": "2026-08-26T21:55:57.829603", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.197, "MAR": 0.013, "yaw": -1536.4, "pitch": -399.35, "roll": -10922.85}
+{"timestamp": "2026-08-26T21:55:57.960284", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.003, "yaw": -405.99, "pitch": 14.93, "roll": -25720.59}
+{"timestamp": "2026-08-26T21:55:59.280171", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.275, "MAR": 0.007, "yaw": -614.2, "pitch": -30.71, "roll": -23932.62}
+{"timestamp": "2026-08-26T21:55:59.432268", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.264, "MAR": 0.006, "yaw": -127.34, "pitch": 187.21, "roll": -30081.95}
+{"timestamp": "2026-08-26T21:55:59.545761", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.264, "MAR": 0.01, "yaw": -944.45, "pitch": -190.26, "roll": -19813.43}
+{"timestamp": "2026-08-26T21:55:59.575829", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.268, "MAR": 0.007, "yaw": 132.06, "pitch": 284.8, "roll": -33282.09}
+{"timestamp": "2026-08-26T21:55:59.666342", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.284, "MAR": 0.002, "yaw": -811.27, "pitch": -183.45, "roll": -20910.63}
+{"timestamp": "2026-08-26T21:55:59.696962", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.283, "MAR": 0.008, "yaw": 186.74, "pitch": 303.78, "roll": -34050.34}
+{"timestamp": "2026-08-26T21:55:59.727035", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.288, "MAR": 0.011, "yaw": -592.13, "pitch": -99.38, "roll": -23825.64}
+{"timestamp": "2026-08-26T21:55:59.832861", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.286, "MAR": 0.008, "yaw": 439.73, "pitch": 411.44, "roll": -37089.87}
+{"timestamp": "2026-08-26T21:56:00.301863", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.287, "MAR": 0.0, "yaw": 941.97, "pitch": -114.95, "roll": 37298.77}
+{"timestamp": "2026-08-26T21:56:00.339984", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.291, "MAR": 0.0, "yaw": -89.79, "pitch": 259.42, "roll": 26094.54}
+{"timestamp": "2026-08-26T21:56:00.372755", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.29, "MAR": 0.004, "yaw": 808.03, "pitch": -57.98, "roll": 37695.68}
+{"timestamp": "2026-08-26T21:56:00.408908", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.292, "MAR": 0.006, "yaw": -179.94, "pitch": 344.81, "roll": 26372.14}
+{"timestamp": "2026-08-26T21:56:00.463117", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.285, "MAR": 0.004, "yaw": 737.1, "pitch": -86.67, "roll": 37888.82}
+{"timestamp": "2026-08-26T21:56:00.679268", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.301, "MAR": 0.003, "yaw": -54.72, "pitch": 372.93, "roll": 29486.02}
+{"timestamp": "2026-08-26T21:56:01.264245", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.267, "MAR": 0.001, "yaw": 1.19, "pitch": 273.23, "roll": -30386.59}
+{"timestamp": "2026-08-26T21:56:02.513971", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.253, "MAR": 0.0, "yaw": -1561.37, "pitch": 540.01, "roll": -7863.03}
+{"timestamp": "2026-08-26T21:56:03.261218", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.216, "MAR": 0.004, "yaw": 347.55, "pitch": 236.86, "roll": -35789.08}
+{"timestamp": "2026-08-26T21:56:04.067300", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.154, "MAR": 0.012, "yaw": 621.59, "pitch": 207.78, "roll": -39515.14}
+{"timestamp": "2026-08-26T21:56:04.097889", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.151, "MAR": 0.008, "yaw": 1172.73, "pitch": 154.07, "roll": -47090.34}
+{"timestamp": "2026-08-26T21:56:05.213318", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.243, "MAR": 0.014, "yaw": 888.8, "pitch": 169.77, "roll": -43522.19}
+{"timestamp": "2026-08-26T21:56:05.250255", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.238, "MAR": 0.013, "yaw": -30.7, "pitch": 264.53, "roll": -30476.33}
+{"timestamp": "2026-08-26T21:56:05.284257", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.009, "yaw": -673.8, "pitch": 325.79, "roll": -21342.66}
+{"timestamp": "2026-08-26T21:56:05.627940", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.24, "MAR": 0.002, "yaw": 4.49, "pitch": 265.1, "roll": -31028.86}
+{"timestamp": "2026-08-26T21:56:06.905789", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.219, "MAR": 0.002, "yaw": 651.8, "pitch": 209.72, "roll": -40212.91}
+{"timestamp": "2026-08-26T21:56:07.281963", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.242, "MAR": 0.002, "yaw": 489.31, "pitch": 230.82, "roll": -37687.57}
+{"timestamp": "2026-08-26T21:56:07.474260", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.21, "MAR": 0.003, "yaw": 598.89, "pitch": 228.6, "roll": -38839.45}
+{"timestamp": "2026-08-26T21:56:07.630398", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.24, "MAR": 0.005, "yaw": 344.54, "pitch": -62.13, "roll": -42340.36}
+{"timestamp": "2026-08-26T21:56:07.899870", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.329, "MAR": 0.004, "yaw": -13.23, "pitch": 156.6, "roll": -31389.85}
+{"timestamp": "2026-08-26T21:56:09.170986", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.282, "MAR": 0.002, "yaw": 678.51, "pitch": -242.91, "roll": -49610.83}
+{"timestamp": "2026-08-26T21:56:11.043377", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.205, "MAR": 0.003, "yaw": -691.98, "pitch": 525.09, "roll": -15154.43}
+{"timestamp": "2026-08-26T21:56:11.158550", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.168, "MAR": 0.002, "yaw": -88.61, "pitch": 224.27, "roll": -30010.92}
+{"timestamp": "2026-08-26T21:56:11.262206", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.194, "MAR": 0.003, "yaw": 46.78, "pitch": 146.64, "roll": -33399.35}
+{"timestamp": "2026-08-26T21:56:11.641003", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.242, "MAR": 0.004, "yaw": -397.51, "pitch": 542.45, "roll": -23177.61}
+{"timestamp": "2026-08-26T21:56:11.669166", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.235, "MAR": 0.003, "yaw": 173.56, "pitch": 138.58, "roll": -35632.04}
+{"timestamp": "2026-08-26T21:56:11.772965", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.246, "MAR": 0.006, "yaw": -16.25, "pitch": 198.7, "roll": -31657.0}
+{"timestamp": "2026-08-26T21:56:12.502864", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.223, "MAR": 0.008, "yaw": -752.39, "pitch": -75.22, "roll": -43316.37}
+{"timestamp": "2026-08-26T21:56:12.611216", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.237, "MAR": 0.003, "yaw": -469.38, "pitch": -10.29, "roll": -37959.77}
+{"timestamp": "2026-08-26T21:56:12.639722", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.006, "yaw": -880.98, "pitch": -72.49, "roll": -45991.49}
+{"timestamp": "2026-08-26T21:56:12.669359", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.236, "MAR": 0.004, "yaw": -144.03, "pitch": 65.44, "roll": -32196.95}
+{"timestamp": "2026-08-26T21:56:12.845218", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.23, "MAR": 0.01, "yaw": -713.71, "pitch": -31.13, "roll": -45098.09}
+{"timestamp": "2026-08-26T21:56:12.876840", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.237, "MAR": 0.007, "yaw": -80.1, "pitch": 113.23, "roll": -31570.52}
+{"timestamp": "2026-08-26T21:56:14.247673", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.185, "MAR": 0.002, "yaw": 253.7, "pitch": 294.2, "roll": -21639.18}
+{"timestamp": "2026-08-26T21:56:14.399523", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.203, "MAR": 0.0, "yaw": -147.48, "pitch": 90.01, "roll": -34115.19}
+{"timestamp": "2026-08-26T21:56:15.807252", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.186, "MAR": 0.006, "yaw": 399.14, "pitch": 134.67, "roll": -20261.41}
+{"timestamp": "2026-08-26T21:56:15.838852", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.205, "MAR": 0.008, "yaw": 657.4, "pitch": 143.14, "roll": -14204.26}
+{"timestamp": "2026-08-26T21:56:17.258175", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.266, "MAR": 0.001, "yaw": 1134.32, "pitch": 39.31, "roll": -8062.44}
+{"timestamp": "2026-08-26T21:56:18.824777", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.24, "MAR": 0.005, "yaw": 7.2, "pitch": 67.04, "roll": -30457.81}
+{"timestamp": "2026-08-26T21:56:20.056253", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.24, "MAR": 0.007, "yaw": -87.83, "pitch": 82.71, "roll": -32366.02}
+{"timestamp": "2026-08-26T21:56:20.988308", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.002, "yaw": 759.22, "pitch": 44.54, "roll": -16039.98}
+{"timestamp": "2026-08-26T21:56:21.019889", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.242, "MAR": 0.002, "yaw": 1006.78, "pitch": 29.06, "roll": -11252.32}
+{"timestamp": "2026-08-26T21:56:21.052008", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.24, "MAR": 0.001, "yaw": 177.07, "pitch": 64.57, "roll": -27282.81}
+{"timestamp": "2026-08-26T21:56:21.085089", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.001, "yaw": 598.06, "pitch": 45.77, "roll": -19122.26}
+{"timestamp": "2026-08-26T21:56:21.425140", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.248, "MAR": 0.001, "yaw": -2.12, "pitch": 70.94, "roll": -30687.35}
+{"timestamp": "2026-08-26T21:56:23.033840", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.189, "MAR": 0.006, "yaw": 985.45, "pitch": 33.96, "roll": -12919.76}
+{"timestamp": "2026-08-26T21:56:23.154053", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.205, "MAR": 0.007, "yaw": 1008.23, "pitch": 80.72, "roll": -13980.86}
+{"timestamp": "2026-08-26T21:56:23.749653", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.292, "MAR": 0.004, "yaw": 331.59, "pitch": 37.63, "roll": -26013.27}
+{"timestamp": "2026-08-26T21:56:24.378239", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.23, "MAR": 0.009, "yaw": 42.25, "pitch": 34.68, "roll": -30291.28}
+{"timestamp": "2026-08-26T21:56:24.416154", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.243, "MAR": 0.011, "yaw": 661.45, "pitch": 58.81, "roll": -21220.67}
+{"timestamp": "2026-08-26T21:56:24.571133", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.297, "MAR": 0.007, "yaw": 13.72, "pitch": 7.83, "roll": -31360.07}
+{"timestamp": "2026-08-26T21:56:25.803169", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.325, "MAR": 0.008, "yaw": 1872.53, "pitch": 130.25, "roll": -3054.25}
+{"timestamp": "2026-08-26T21:56:26.601992", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.322, "MAR": 0.011, "yaw": -1786.68, "pitch": -118.23, "roll": -58486.02}
+{"timestamp": "2026-08-26T21:56:26.634550", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.319, "MAR": 0.008, "yaw": -626.39, "pitch": -32.69, "roll": -40959.12}
+{"timestamp": "2026-08-26T21:56:27.656639", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.326, "MAR": 0.0, "yaw": -1114.49, "pitch": -42.72, "roll": -48248.15}
+{"timestamp": "2026-08-26T21:56:27.720563", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.323, "MAR": 0.005, "yaw": -382.2, "pitch": -2.25, "roll": -37249.34}
+{"timestamp": "2026-08-26T21:56:27.757760", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.318, "MAR": 0.003, "yaw": -933.9, "pitch": -29.12, "roll": -45488.02}
+{"timestamp": "2026-08-26T21:56:27.981087", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.331, "MAR": 0.001, "yaw": -611.64, "pitch": -14.19, "roll": -40704.6}
+{"timestamp": "2026-08-26T21:56:28.009305", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.331, "MAR": 0.008, "yaw": -1089.83, "pitch": -29.75, "roll": -47904.32}
+{"timestamp": "2026-08-26T21:56:28.103131", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.329, "MAR": 0.009, "yaw": -371.02, "pitch": -1.11, "roll": -37083.1}
+{"timestamp": "2026-08-26T21:56:28.130863", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.329, "MAR": 0.006, "yaw": -924.92, "pitch": -27.86, "roll": -45371.61}
+{"timestamp": "2026-08-26T21:56:28.172292", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.331, "MAR": 0.004, "yaw": -17.83, "pitch": 11.05, "roll": -31780.44}
+{"timestamp": "2026-08-26T21:56:30.093563", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.321, "MAR": 0.003, "yaw": 285.77, "pitch": 25.99, "roll": -27121.68}
+{"timestamp": "2026-08-26T21:56:32.007169", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.328, "MAR": 0.007, "yaw": -12.27, "pitch": 13.01, "roll": -31507.49}
+{"timestamp": "2026-08-26T21:56:34.078235", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.283, "MAR": 0.003, "yaw": -533.86, "pitch": 140.88, "roll": -51857.55}
+{"timestamp": "2026-08-26T21:56:35.065275", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.296, "MAR": 0.001, "yaw": -5.84, "pitch": 136.91, "roll": -29905.92}
+{"timestamp": "2026-08-26T21:56:41.884897", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.295, "MAR": 0.013, "yaw": -111.81, "pitch": 108.49, "roll": -35104.98}
+{"timestamp": "2026-08-26T21:56:43.391257", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.269, "MAR": 0.005, "yaw": 10.46, "pitch": 118.8, "roll": -29247.04}
+{"timestamp": "2026-08-26T21:56:44.227927", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.195, "MAR": 0.134, "yaw": 159.63, "pitch": 93.06, "roll": -19816.62}
+{"timestamp": "2026-08-26T21:56:44.725000", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.244, "MAR": 0.009, "yaw": -35.37, "pitch": 14.15, "roll": -20796.51}
+{"timestamp": "2026-08-26T21:56:45.550365", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.189, "MAR": 0.005, "yaw": 129.63, "pitch": 131.57, "roll": -16250.41}
+{"timestamp": "2026-08-26T21:56:45.841030", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.267, "MAR": 0.013, "yaw": 411.8, "pitch": 92.59, "roll": 23248.52}
+{"timestamp": "2026-08-26T21:56:46.170092", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.185, "MAR": 0.008, "yaw": 1361.11, "pitch": 172.85, "roll": 9222.81}
+{"timestamp": "2026-08-26T21:56:46.746356", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.183, "MAR": 0.007, "yaw": 301.0, "pitch": -63.02, "roll": 33405.79}
+{"timestamp": "2026-08-26T21:56:46.776928", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.245, "MAR": 0.005, "yaw": -361.98, "pitch": 110.93, "roll": 23373.2}
+{"timestamp": "2026-08-26T21:56:47.010197", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.237, "MAR": 0.005, "yaw": -672.12, "pitch": 534.43, "roll": 10919.92}
+{"timestamp": "2026-08-26T21:56:47.528801", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.263, "MAR": 0.013, "yaw": -25.22, "pitch": 57.14, "roll": -32585.72}
+{"timestamp": "2026-08-26T21:56:47.859576", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.222, "MAR": 0.005, "yaw": -1191.48, "pitch": 99.99, "roll": -61526.68}
+{"timestamp": "2026-08-26T21:56:47.968822", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.277, "MAR": 0.002, "yaw": 64.71, "pitch": 61.99, "roll": -7498.13}
+{"timestamp": "2026-08-26T21:56:48.257076", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.218, "MAR": 0.008, "yaw": -739.31, "pitch": 2.17, "roll": 4899.42}
+{"timestamp": "2026-08-26T21:56:48.603944", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.264, "MAR": 0.008, "yaw": -253.68, "pitch": 224.09, "roll": 16438.87}
+{"timestamp": "2026-08-26T21:56:48.658263", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.324, "MAR": 0.012, "yaw": -740.6, "pitch": 292.41, "roll": 11506.84}
+{"timestamp": "2026-08-26T21:56:48.688932", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.363, "MAR": 0.008, "yaw": 33.74, "pitch": 52.17, "roll": 27489.79}
+{"timestamp": "2026-08-26T21:56:48.724043", "event": "WARNING", "severity": "WARNING", "risk_score": 40.0, "EAR": 0.392, "MAR": 0.011, "yaw": 572.04, "pitch": -126.74, "roll": 38680.4}
+{"timestamp": "2026-08-26T21:56:49.234906", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.25, "MAR": 0.005, "yaw": 487.0, "pitch": 64.64, "roll": 7725.28}
+{"timestamp": "2026-08-26T21:56:49.414857", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.269, "MAR": 0.009, "yaw": 16.91, "pitch": 51.16, "roll": -24793.25}
+{"timestamp": "2026-08-26T21:56:51.414000", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.231, "MAR": 0.018, "yaw": 291.56, "pitch": -117.62, "roll": -7881.22}
+{"timestamp": "2026-08-26T21:56:52.766827", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.188, "MAR": 0.668, "yaw": 97.35, "pitch": 280.09, "roll": -41444.3}
+{"timestamp": "2026-08-26T21:56:54.442742", "event": "POSSIBLE_UNCONSCIOUSNESS", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.09, "MAR": 0.923, "yaw": -81.14, "pitch": 208.66, "roll": 6840.56}
+{"timestamp": "2026-08-26T21:56:59.463431", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.24, "MAR": 0.006, "yaw": -188.51, "pitch": -273.58, "roll": -19963.64}
+{"timestamp": "2026-08-26T21:56:59.740706", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.236, "MAR": 0.001, "yaw": -196.53, "pitch": -306.93, "roll": -19211.9}
+{"timestamp": "2026-08-26T21:56:59.771878", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.236, "MAR": 0.0, "yaw": 2.53, "pitch": 114.65, "roll": -32886.3}
+{"timestamp": "2026-08-26T21:57:01.267057", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.009, "yaw": -348.12, "pitch": -665.22, "roll": -6653.34}
+{"timestamp": "2026-08-26T21:57:01.330852", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.24, "MAR": 0.005, "yaw": 59.17, "pitch": 211.33, "roll": -36305.03}
+{"timestamp": "2026-08-26T21:57:01.495592", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.239, "MAR": 0.002, "yaw": -134.88, "pitch": -201.67, "roll": -21970.92}
+{"timestamp": "2026-08-26T21:57:01.523816", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.239, "MAR": 0.001, "yaw": 38.28, "pitch": 177.25, "roll": -34817.67}
+{"timestamp": "2026-08-26T21:57:01.553531", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.237, "MAR": 0.001, "yaw": -105.8, "pitch": -129.71, "roll": -24368.25}
+{"timestamp": "2026-08-26T21:57:01.616030", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.0, "yaw": -267.25, "pitch": -487.35, "roll": -11933.84}
+{"timestamp": "2026-08-26T21:57:01.642681", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.237, "MAR": 0.0, "yaw": -48.28, "pitch": -28.92, "roll": -27792.05}
+{"timestamp": "2026-08-26T21:57:01.784464", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.006, "yaw": -348.05, "pitch": -677.35, "roll": -4662.6}
+{"timestamp": "2026-08-26T21:57:02.540419", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.185, "MAR": 0.011, "yaw": 37.61, "pitch": 215.3, "roll": -39009.71}
+{"timestamp": "2026-08-26T21:57:02.794354", "event": "SAFE", "severity": "INFO", "risk_score": 25.0, "EAR": 0.197, "MAR": 0.006, "yaw": 251.1, "pitch": 223.38, "roll": -35282.19}
+{"timestamp": "2026-08-26T21:57:03.395312", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.228, "MAR": 0.035, "yaw": -537.28, "pitch": 116.49, "roll": -15759.12}
+{"timestamp": "2026-08-26T21:57:03.893363", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.242, "MAR": 0.666, "yaw": -45.09, "pitch": 213.65, "roll": -28356.77}
+{"timestamp": "2026-08-26T21:57:03.989911", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.743, "yaw": 280.4, "pitch": 178.44, "roll": -52261.93}
+{"timestamp": "2026-08-26T21:57:04.793248", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.182, "MAR": 0.827, "yaw": -280.09, "pitch": 236.25, "roll": 3535.28}
+{"timestamp": "2026-08-26T21:57:05.798069", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.136, "MAR": 0.766, "yaw": -1224.9, "pitch": 389.79, "roll": 4945.27}
+{"timestamp": "2026-08-26T21:57:06.030390", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.124, "MAR": 0.799, "yaw": 6.52, "pitch": 226.05, "roll": 31173.07}
+{"timestamp": "2026-08-26T21:57:07.048621", "event": "POSSIBLE_UNCONSCIOUSNESS", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.075, "MAR": 0.928, "yaw": -298.09, "pitch": 314.06, "roll": -23312.65}
+{"timestamp": "2026-08-26T21:57:13.721886", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.244, "MAR": 0.006, "yaw": -415.43, "pitch": 67.49, "roll": -12176.66}
+{"timestamp": "2026-08-26T21:57:14.108351", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.261, "MAR": 0.009, "yaw": -233.49, "pitch": 50.88, "roll": -15978.37}
+{"timestamp": "2026-08-26T21:57:14.829713", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.296, "MAR": 0.007, "yaw": -2.4, "pitch": 136.2, "roll": -30055.57}
+{"timestamp": "2026-08-26T21:57:15.310229", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.229, "MAR": 0.001, "yaw": -159.91, "pitch": -77.3, "roll": -14369.17}
+{"timestamp": "2026-08-26T21:57:15.341352", "event": "SAFE", "severity": "INFO", "risk_score": 0.0, "EAR": 0.244, "MAR": 0.001, "yaw": -8.34, "pitch": 129.45, "roll": -29485.37}
+{"timestamp": "2026-08-26T21:57:17.162839", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.187, "MAR": 0.008, "yaw": 41.49, "pitch": 165.09, "roll": -34572.92}
+{"timestamp": "2026-08-26T21:57:17.589326", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.095, "MAR": 0.023, "yaw": -1585.23, "pitch": -108.18, "roll": -2638.26}
+{"timestamp": "2026-08-26T21:57:17.677527", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.106, "MAR": 0.146, "yaw": -618.76, "pitch": 200.03, "roll": 18566.94}
+{"timestamp": "2026-08-26T21:57:17.771909", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.163, "MAR": 0.112, "yaw": -2322.5, "pitch": -534.15, "roll": 13094.74}
+{"timestamp": "2026-08-26T21:57:17.800584", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.211, "MAR": 0.083, "yaw": -3555.8, "pitch": -1074.67, "roll": 9257.0}
+{"timestamp": "2026-08-26T21:57:18.642501", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.139, "MAR": 0.009, "yaw": -892.65, "pitch": -36.28, "roll": -25000.53}
+{"timestamp": "2026-08-26T21:57:18.677619", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.131, "MAR": 0.006, "yaw": 1453.07, "pitch": 1027.69, "roll": -36895.05}
+{"timestamp": "2026-08-26T21:57:18.749324", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.128, "MAR": 0.003, "yaw": -2318.11, "pitch": -722.44, "roll": -17899.86}
+{"timestamp": "2026-08-26T21:57:18.815931", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.12, "MAR": 0.001, "yaw": -321.05, "pitch": 210.17, "roll": -28090.69}
+{"timestamp": "2026-08-26T21:57:18.978538", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.102, "MAR": 0.004, "yaw": 1668.62, "pitch": 1154.13, "roll": -38197.16}
+{"timestamp": "2026-08-26T21:57:19.575853", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.101, "MAR": 0.007, "yaw": -2573.14, "pitch": -836.06, "roll": -16600.63}
+{"timestamp": "2026-08-26T21:57:19.609426", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.094, "MAR": 0.005, "yaw": 263.24, "pitch": 486.08, "roll": -31019.77}
+{"timestamp": "2026-08-26T21:57:20.432507", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.077, "MAR": 0.003, "yaw": -866.75, "pitch": -56.46, "roll": -25170.57}
+{"timestamp": "2026-08-26T21:57:20.466219", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.086, "MAR": 0.002, "yaw": 1472.69, "pitch": 1039.08, "roll": -37018.53}
+{"timestamp": "2026-08-26T21:57:20.568307", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.1, "MAR": 0.003, "yaw": -1477.21, "pitch": -338.83, "roll": -22043.22}
+{"timestamp": "2026-08-26T21:57:20.599175", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.101, "MAR": 0.002, "yaw": 1017.89, "pitch": 837.86, "roll": -34839.35}
+{"timestamp": "2026-08-26T21:57:20.644317", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.103, "MAR": 0.001, "yaw": -1057.09, "pitch": -141.41, "roll": -24291.64}
+{"timestamp": "2026-08-26T21:57:20.712423", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.097, "MAR": 0.005, "yaw": 306.56, "pitch": 493.14, "roll": -31241.48}
+{"timestamp": "2026-08-26T21:57:20.744236", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.097, "MAR": 0.003, "yaw": -1551.15, "pitch": -384.63, "roll": -21772.91}
+{"timestamp": "2026-08-26T21:57:20.775831", "event": "POSSIBLE_UNCONSCIOUSNESS", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.095, "MAR": 0.006, "yaw": 967.32, "pitch": 807.16, "roll": -34643.48}
+{"timestamp": "2026-08-26T21:57:28.718775", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.241, "MAR": 0.006, "yaw": 1312.15, "pitch": 960.31, "roll": -36254.25}
+{"timestamp": "2026-08-26T21:57:28.748348", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.25, "MAR": 0.004, "yaw": -863.0, "pitch": -39.88, "roll": -25276.6}
+{"timestamp": "2026-08-26T21:57:28.844208", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.186, "MAR": 0.008, "yaw": 2355.69, "pitch": 1443.78, "roll": -41618.11}
+{"timestamp": "2026-08-26T21:57:28.904382", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.193, "MAR": 0.004, "yaw": 838.51, "pitch": 751.36, "roll": -33890.01}
+{"timestamp": "2026-08-26T21:57:29.020165", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.188, "MAR": 0.001, "yaw": 5410.49, "pitch": 2790.17, "roll": -57332.09}
+{"timestamp": "2026-08-26T21:57:29.086938", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.194, "MAR": 0.004, "yaw": 3473.24, "pitch": 1901.61, "roll": -47465.63}
+{"timestamp": "2026-08-26T21:57:29.226759", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.189, "MAR": 0.009, "yaw": -3425.67, "pitch": -800.11, "roll": -11228.66}
+{"timestamp": "2026-08-26T21:57:29.261852", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.194, "MAR": 0.006, "yaw": -4019.07, "pitch": -945.09, "roll": -7812.79}
+{"timestamp": "2026-08-26T21:57:29.400697", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.184, "MAR": 0.011, "yaw": -2184.08, "pitch": -204.33, "roll": 9802.11}
+{"timestamp": "2026-08-26T21:57:29.430771", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.168, "MAR": 0.008, "yaw": -3112.58, "pitch": -431.59, "roll": 6898.53}
+{"timestamp": "2026-08-26T21:57:29.640930", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.139, "MAR": 0.012, "yaw": -1179.72, "pitch": 336.43, "roll": 20299.9}
+{"timestamp": "2026-08-26T21:57:29.669481", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.154, "MAR": 0.008, "yaw": -1986.31, "pitch": 190.57, "roll": 14211.18}
+{"timestamp": "2026-08-26T21:57:29.813891", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.201, "MAR": 0.005, "yaw": -1611.3, "pitch": 147.39, "roll": -11221.62}
+{"timestamp": "2026-08-26T21:57:29.916657", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.227, "MAR": 0.004, "yaw": -2437.62, "pitch": -78.38, "roll": -3862.54}
+{"timestamp": "2026-08-26T21:57:29.986366", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.251, "MAR": 0.006, "yaw": -936.44, "pitch": 153.03, "roll": -21318.1}
+{"timestamp": "2026-08-26T21:57:30.193525", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.293, "MAR": 0.006, "yaw": -1095.46, "pitch": -28.01, "roll": -16833.29}
+{"timestamp": "2026-08-26T21:57:30.280008", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.305, "MAR": 0.006, "yaw": -303.14, "pitch": 155.23, "roll": -27672.34}
+{"timestamp": "2026-08-26T21:57:30.416153", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.305, "MAR": 0.012, "yaw": -117.85, "pitch": 169.67, "roll": -29762.78}
+{"timestamp": "2026-08-26T21:57:30.443968", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.303, "MAR": 0.008, "yaw": 590.13, "pitch": 357.19, "roll": -40251.56}
+{"timestamp": "2026-08-26T21:57:30.569919", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.295, "MAR": 0.011, "yaw": -84.16, "pitch": 175.59, "roll": -29932.13}
+{"timestamp": "2026-08-26T21:57:30.597482", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.294, "MAR": 0.008, "yaw": 603.35, "pitch": 353.26, "roll": -40371.91}
+{"timestamp": "2026-08-26T21:57:30.634167", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.293, "MAR": 0.032, "yaw": 1073.89, "pitch": 477.99, "roll": -47679.2}
+{"timestamp": "2026-08-26T21:57:32.142217", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.188, "MAR": 0.655, "yaw": -536.82, "pitch": 155.08, "roll": -22495.53}
+{"timestamp": "2026-08-26T21:57:32.229207", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.181, "MAR": 0.665, "yaw": -9.74, "pitch": 207.21, "roll": -30837.31}
+{"timestamp": "2026-08-26T21:57:32.468901", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.173, "MAR": 0.674, "yaw": -757.7, "pitch": 133.62, "roll": -19406.89}
+{"timestamp": "2026-08-26T21:57:33.474484", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.185, "MAR": 0.681, "yaw": -718.55, "pitch": 172.86, "roll": -20117.6}
+{"timestamp": "2026-08-26T21:57:34.372235", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.179, "MAR": 0.627, "yaw": -7.91, "pitch": 208.3, "roll": -30686.01}
+{"timestamp": "2026-08-26T21:57:34.664048", "event": "POSSIBLE_UNCONSCIOUSNESS", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.169, "MAR": 0.632, "yaw": -407.08, "pitch": 178.79, "roll": -24773.44}
+{"timestamp": "2026-08-26T21:57:35.578033", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.862, "yaw": 874.61, "pitch": 299.29, "roll": -43489.27}
+{"timestamp": "2026-08-26T21:57:35.620449", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.253, "MAR": 0.9, "yaw": 1312.99, "pitch": 338.59, "roll": -49874.68}
+{"timestamp": "2026-08-26T21:57:37.439467", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.343, "MAR": 0.952, "yaw": -1376.01, "pitch": 118.76, "roll": -10884.94}
+{"timestamp": "2026-08-26T21:57:39.439154", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.236, "MAR": 0.685, "yaw": -898.74, "pitch": 138.48, "roll": -18302.4}
+{"timestamp": "2026-08-26T21:57:39.523443", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.243, "MAR": 0.633, "yaw": -165.93, "pitch": 212.71, "roll": -28406.02}
+{"timestamp": "2026-08-26T21:57:40.403993", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.265, "MAR": 0.009, "yaw": -345.44, "pitch": -14.15, "roll": -24575.48}
+{"timestamp": "2026-08-26T21:57:40.523980", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.292, "MAR": 0.005, "yaw": -270.15, "pitch": -27.26, "roll": -26154.84}
+{"timestamp": "2026-08-26T21:57:40.634203", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.299, "MAR": 0.005, "yaw": -53.25, "pitch": 84.61, "roll": -28389.03}
+{"timestamp": "2026-08-26T21:57:40.772671", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.229, "MAR": 0.003, "yaw": 280.59, "pitch": 268.92, "roll": -36543.0}
+{"timestamp": "2026-08-26T21:57:40.944990", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.243, "MAR": 0.005, "yaw": 2615.03, "pitch": 1749.8, "roll": -53179.21}
+{"timestamp": "2026-08-26T21:57:41.145366", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.339, "MAR": 0.005, "yaw": -979.49, "pitch": -609.14, "roll": -23448.33}
+{"timestamp": "2026-08-26T21:57:41.179315", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.349, "MAR": 0.008, "yaw": 900.01, "pitch": 410.43, "roll": -35728.03}
+{"timestamp": "2026-08-26T21:57:41.210670", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.355, "MAR": 0.01, "yaw": -657.64, "pitch": -463.04, "roll": -24925.4}
+{"timestamp": "2026-08-26T21:57:41.245865", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.359, "MAR": 0.007, "yaw": 1143.21, "pitch": 528.39, "roll": -36768.48}
+{"timestamp": "2026-08-26T21:57:41.532338", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.238, "MAR": 0.007, "yaw": 3089.88, "pitch": 1662.63, "roll": -50538.06}
+{"timestamp": "2026-08-26T21:57:41.594388", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.253, "MAR": 0.004, "yaw": 1361.29, "pitch": 770.99, "roll": -38234.16}
+{"timestamp": "2026-08-26T21:57:41.623611", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.268, "MAR": 0.002, "yaw": -238.78, "pitch": -111.87, "roll": -26697.59}
+{"timestamp": "2026-08-26T21:57:41.694034", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.27, "MAR": 0.005, "yaw": 312.47, "pitch": 304.23, "roll": -32423.08}
+{"timestamp": "2026-08-26T21:57:41.806273", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.277, "MAR": 0.005, "yaw": -996.24, "pitch": -302.72, "roll": -20572.84}
+{"timestamp": "2026-08-26T21:57:41.883857", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.297, "MAR": 0.006, "yaw": -193.53, "pitch": 114.88, "roll": -29470.91}
+{"timestamp": "2026-08-26T21:57:41.912417", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.31, "MAR": 0.004, "yaw": -964.8, "pitch": -285.19, "roll": -20613.73}
+{"timestamp": "2026-08-26T21:57:41.943525", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.317, "MAR": 0.007, "yaw": 189.46, "pitch": 298.39, "roll": -33839.12}
+{"timestamp": "2026-08-26T21:57:42.039993", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.337, "MAR": 0.007, "yaw": -814.68, "pitch": -281.57, "roll": -21101.45}
+{"timestamp": "2026-08-26T21:57:42.078603", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.34, "MAR": 0.009, "yaw": 202.14, "pitch": 251.78, "roll": -34188.25}
+{"timestamp": "2026-08-26T21:57:42.112170", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.344, "MAR": 0.01, "yaw": -596.7, "pitch": -181.72, "roll": -23921.58}
+{"timestamp": "2026-08-26T21:57:42.142791", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.34, "MAR": 0.007, "yaw": 352.59, "pitch": 291.84, "roll": -36165.09}
+{"timestamp": "2026-08-26T21:57:42.360606", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.328, "MAR": 0.027, "yaw": -340.15, "pitch": 72.97, "roll": -26905.77}
+{"timestamp": "2026-08-26T21:57:42.563684", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.143, "MAR": 0.116, "yaw": -1032.67, "pitch": -125.53, "roll": -18080.2}
+{"timestamp": "2026-08-26T21:57:42.592254", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.122, "MAR": 0.142, "yaw": 61.04, "pitch": 172.07, "roll": -32073.41}
+{"timestamp": "2026-08-26T21:57:42.736161", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.173, "MAR": 0.212, "yaw": -1516.98, "pitch": -62.19, "roll": -12059.95}
+{"timestamp": "2026-08-26T21:57:42.860995", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.194, "MAR": 0.29, "yaw": -2276.18, "pitch": -134.39, "roll": -2909.23}
+{"timestamp": "2026-08-26T21:57:42.916913", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.194, "MAR": 0.32, "yaw": -850.89, "pitch": 97.85, "roll": -20849.23}
+{"timestamp": "2026-08-26T21:57:42.967880", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.186, "MAR": 0.322, "yaw": -1358.08, "pitch": 30.72, "roll": -14603.72}
+{"timestamp": "2026-08-26T21:57:44.680355", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.119, "MAR": 0.319, "yaw": -321.88, "pitch": -24.48, "roll": -21613.97}
+{"timestamp": "2026-08-26T21:57:44.929050", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.144, "MAR": 0.329, "yaw": -114.15, "pitch": 14.57, "roll": -27343.65}
+{"timestamp": "2026-08-26T21:57:44.962079", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.135, "MAR": 0.306, "yaw": -482.07, "pitch": -133.89, "roll": -19137.79}
+{"timestamp": "2026-08-26T21:57:45.100584", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.163, "MAR": 0.326, "yaw": -269.48, "pitch": -12.26, "roll": -24020.76}
+{"timestamp": "2026-08-26T21:57:45.146793", "event": "CRITICAL", "severity": "CRITICAL", "risk_score": 85.0, "EAR": 0.178, "MAR": 0.312, "yaw": -783.84, "pitch": -107.02, "roll": -16810.59}
+{"timestamp": "2026-08-26T21:57:45.236698", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.194, "MAR": 0.236, "yaw": -1557.93, "pitch": -303.48, "roll": -5762.22}
+{"timestamp": "2026-08-26T21:57:45.263230", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.193, "MAR": 0.169, "yaw": -545.9, "pitch": -14.68, "roll": -23456.25}
+{"timestamp": "2026-08-26T21:57:45.306081", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.197, "MAR": 0.118, "yaw": -824.88, "pitch": -112.46, "roll": -16421.72}
+{"timestamp": "2026-08-26T21:57:45.405782", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.209, "MAR": 0.045, "yaw": -343.27, "pitch": 38.97, "roll": -25063.87}
+{"timestamp": "2026-08-26T21:57:45.444405", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.208, "MAR": 0.031, "yaw": -686.77, "pitch": -73.0, "roll": -17544.56}
+{"timestamp": "2026-08-26T21:57:45.474204", "event": "WARNING", "severity": "WARNING", "risk_score": 55.0, "EAR": 0.208, "MAR": 0.026, "yaw": -13.48, "pitch": 130.54, "roll": -31710.75}
+{"timestamp": "2026-08-26T21:57:45.538421", "event": "POSSIBLE_UNCONSCIOUSNESS", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.188, "MAR": 0.013, "yaw": 942.58, "pitch": 314.5, "roll": -48577.22}
+{"timestamp": "2026-08-26T21:57:45.622170", "event": "YAWNING", "severity": "WARNING", "risk_score": 0.0, "EAR": 0.175, "MAR": 0.01, "yaw": 356.94, "pitch": 193.39, "roll": -36096.29}
+{"timestamp": "2026-08-26T21:57:49.405704", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.251, "MAR": 0.022, "yaw": 28.97, "pitch": 150.87, "roll": -31691.4}
+{"timestamp": "2026-08-26T21:57:49.564105", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.263, "MAR": 0.284, "yaw": -15.19, "pitch": 113.82, "roll": -31394.07}
+{"timestamp": "2026-08-26T21:57:49.662057", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.224, "MAR": 0.124, "yaw": -806.3, "pitch": -247.69, "roll": -20267.91}
+{"timestamp": "2026-08-26T21:57:49.688973", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 65.0, "EAR": 0.185, "MAR": 0.087, "yaw": -1271.91, "pitch": -466.23, "roll": -14175.28}
+{"timestamp": "2026-08-26T21:57:49.739792", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.198, "MAR": 0.08, "yaw": -57.56, "pitch": 135.85, "roll": -29339.04}
+{"timestamp": "2026-08-26T21:57:49.932240", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.253, "MAR": 0.138, "yaw": 954.12, "pitch": 657.64, "roll": -43065.48}
+{"timestamp": "2026-08-26T21:57:50.768225", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.233, "MAR": 0.184, "yaw": -885.6, "pitch": -252.85, "roll": -19377.72}
+{"timestamp": "2026-08-26T21:57:50.878134", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.248, "MAR": 0.084, "yaw": 1595.51, "pitch": 802.02, "roll": -49172.17}
+{"timestamp": "2026-08-26T21:57:51.299474", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.239, "MAR": 0.2, "yaw": 309.27, "pitch": 199.7, "roll": -35519.12}
+{"timestamp": "2026-08-26T21:57:51.360675", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.103, "yaw": -62.71, "pitch": 77.89, "roll": -30993.43}
+{"timestamp": "2026-08-26T21:57:51.783436", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.264, "MAR": 0.466, "yaw": 468.17, "pitch": 184.21, "roll": -37745.26}
+{"timestamp": "2026-08-26T21:57:52.151060", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.26, "MAR": 0.148, "yaw": -668.35, "pitch": -121.52, "roll": -23556.11}
+{"timestamp": "2026-08-26T21:57:52.210911", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.253, "MAR": 0.334, "yaw": -66.21, "pitch": 67.93, "roll": -30957.01}
+{"timestamp": "2026-08-26T21:57:52.241001", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.251, "MAR": 0.392, "yaw": -805.4, "pitch": -146.49, "roll": -21660.22}
+{"timestamp": "2026-08-26T21:57:52.299352", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.244, "MAR": 0.501, "yaw": -115.2, "pitch": 56.15, "roll": -30036.47}
+{"timestamp": "2026-08-26T21:57:52.333800", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.245, "MAR": 0.461, "yaw": -768.74, "pitch": -58.88, "roll": -21020.27}
+{"timestamp": "2026-08-26T21:57:52.415829", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.244, "MAR": 0.242, "yaw": 969.26, "pitch": 316.87, "roll": -43338.67}
+{"timestamp": "2026-08-26T21:57:52.449057", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.239, "MAR": 0.169, "yaw": 1478.63, "pitch": 414.69, "roll": -49771.15}
+{"timestamp": "2026-08-26T21:57:52.509970", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.242, "MAR": 0.086, "yaw": 529.02, "pitch": 224.07, "roll": -37983.11}
+{"timestamp": "2026-08-26T21:57:52.637097", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.261, "MAR": 0.059, "yaw": -559.94, "pitch": -67.19, "roll": -25282.54}
+{"timestamp": "2026-08-26T21:57:52.803036", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.271, "MAR": 0.363, "yaw": 428.58, "pitch": 124.92, "roll": -37265.69}
+{"timestamp": "2026-08-26T21:57:52.872766", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.247, "MAR": 0.38, "yaw": -952.46, "pitch": -51.28, "roll": -18252.72}
+{"timestamp": "2026-08-26T21:57:53.179152", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.241, "MAR": 0.03, "yaw": -125.47, "pitch": 248.89, "roll": -24148.32}
+{"timestamp": "2026-08-26T21:57:53.369678", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.256, "MAR": 0.448, "yaw": -1112.01, "pitch": -76.11, "roll": -15370.95}
+{"timestamp": "2026-08-26T21:57:53.402277", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.256, "MAR": 0.493, "yaw": -13.12, "pitch": 153.98, "roll": -30190.26}
+{"timestamp": "2026-08-26T21:57:53.650670", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.238, "MAR": 0.232, "yaw": -1612.52, "pitch": -24.81, "roll": -7244.31}
+{"timestamp": "2026-08-26T21:57:53.889355", "event": "SAFE", "severity": "INFO", "risk_score": 20.0, "EAR": 0.246, "MAR": 0.243, "yaw": -680.48, "pitch": -95.2, "roll": -21691.74}
+{"timestamp": "2026-08-26T21:57:54.058948", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.239, "MAR": 0.48, "yaw": -871.01, "pitch": -80.96, "roll": -18799.94}
+{"timestamp": "2026-08-26T21:57:54.588344", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.246, "MAR": 0.404, "yaw": 436.04, "pitch": 197.51, "roll": -35580.27}
+{"timestamp": "2026-08-26T21:57:54.667284", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.239, "MAR": 0.511, "yaw": 139.17, "pitch": 185.81, "roll": -31020.76}
+{"timestamp": "2026-08-26T21:57:54.779175", "event": "SAFE", "severity": "INFO", "risk_score": 20.0, "EAR": 0.241, "MAR": 0.414, "yaw": -1183.33, "pitch": -31.96, "roll": -15189.85}
+{"timestamp": "2026-08-26T21:57:54.898254", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.239, "MAR": 0.14, "yaw": -360.84, "pitch": 101.17, "roll": -26760.65}
+{"timestamp": "2026-08-26T21:57:55.164098", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.245, "MAR": 0.347, "yaw": 456.8, "pitch": 210.41, "roll": -34547.35}
+{"timestamp": "2026-08-26T21:57:55.204710", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.246, "MAR": 0.413, "yaw": -665.62, "pitch": -49.27, "roll": -24166.93}
+{"timestamp": "2026-08-26T21:57:55.235794", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.243, "MAR": 0.409, "yaw": 644.54, "pitch": 237.02, "roll": -36341.77}
+{"timestamp": "2026-08-26T21:57:55.278393", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.236, "MAR": 0.427, "yaw": 1451.27, "pitch": 399.87, "roll": -44865.46}
+{"timestamp": "2026-08-26T21:57:55.485595", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.241, "MAR": 0.267, "yaw": 1830.8, "pitch": 492.94, "roll": -52494.6}
+{"timestamp": "2026-08-26T21:57:55.587226", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.216, "MAR": 0.105, "yaw": 1424.23, "pitch": 463.62, "roll": -46949.69}
+{"timestamp": "2026-08-26T21:57:55.920915", "event": "HIGH_RISK", "severity": "CRITICAL", "risk_score": 75.0, "EAR": 0.185, "MAR": 0.363, "yaw": -405.75, "pitch": -22.44, "roll": -28802.98}
+{"timestamp": "2026-08-26T21:57:56.052259", "event": "WARNING", "severity": "WARNING", "risk_score": 45.0, "EAR": 0.191, "MAR": 0.256, "yaw": 1832.56, "pitch": 726.04, "roll": -56115.94}
+{"timestamp": "2026-08-26T21:57:56.434630", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.242, "MAR": 0.012, "yaw": 643.53, "pitch": 472.42, "roll": -38700.37}
+{"timestamp": "2026-08-26T21:57:56.937776", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.239, "MAR": 0.005, "yaw": -1285.59, "pitch": -739.88, "roll": -17166.42}
+{"timestamp": "2026-08-26T21:57:57.002978", "event": "SAFE", "severity": "INFO", "risk_score": 10.0, "EAR": 0.24, "MAR": 0.003, "yaw": -341.53, "pitch": -157.88, "roll": -27799.86}
+{"timestamp": "2026-08-26T21:57:57.539843", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.259, "MAR": 0.003, "yaw": -1048.93, "pitch": -684.25, "roll": -18800.25}
+{"timestamp": "2026-08-26T21:57:58.705584", "event": "WARNING", "severity": "WARNING", "risk_score": 35.0, "EAR": 0.238, "MAR": 0.005, "yaw": 998.1, "pitch": 646.97, "roll": -43603.91}
+{"timestamp": "2026-08-26T21:57:58.809067", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 10.0, "EAR": 0.241, "MAR": 0.002, "yaw": 2263.13, "pitch": 1362.99, "roll": -57466.65}
+{"timestamp": "2026-08-26T21:57:59.390420", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.256, "MAR": 0.004, "yaw": -1524.82, "pitch": -838.99, "roll": -13371.11}
+{"timestamp": "2026-08-26T21:57:59.458850", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.252, "MAR": 0.002, "yaw": 686.35, "pitch": 462.24, "roll": -39556.26}
+{"timestamp": "2026-08-26T21:57:59.509972", "event": "WARNING", "severity": "WARNING", "risk_score": 30.0, "EAR": 0.25, "MAR": 0.005, "yaw": -308.7, "pitch": -128.58, "roll": -27668.33}
+{"timestamp": "2026-08-26T21:57:59.572505", "event": "DISTRACTED", "severity": "WARNING", "risk_score": 20.0, "EAR": 0.25, "MAR": 0.007, "yaw": 132.62, "pitch": 108.67, "roll": -32958.46}
