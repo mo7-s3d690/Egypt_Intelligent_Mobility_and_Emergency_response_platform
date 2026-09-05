@@ -1,0 +1,1516 @@
+﻿LogID,LocationID,CurrentSpeed,NormalSpeed,TrafficStatus,RecordedAt,LocationName,City,Latitude,Longitude,Temperature_C,Humidity_Pct,Wind_Speed_ms,Weather_Condition
+1,1,16,16,Free Flow,2026-08-28 03:13:42.833,Stanley Bridge,Alexandria,31.2291,29.9575,26.79,77,4.29,clear sky
+2,2,25,25,Free Flow,2026-08-28 03:13:43.603,Corniche - San Stefano,Alexandria,31.2465,29.9723,26.79,77,4.29,clear sky
+3,3,22,22,Free Flow,2026-08-28 03:13:44.360,Corniche - Gleem,Alexandria,31.2391,29.9654,26.79,77,4.29,clear sky
+4,4,22,22,Free Flow,2026-08-28 03:13:45.123,Corniche - Roushdy,Alexandria,31.2365,29.9621,26.79,77,4.29,clear sky
+5,5,27,27,Free Flow,2026-08-28 03:13:45.910,Corniche - Sporting,Alexandria,31.2214,29.9482,26.79,77,4.29,clear sky
+6,6,27,27,Free Flow,2026-08-28 03:13:46.670,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,26.79,77,4.29,clear sky
+7,7,38,38,Free Flow,2026-08-28 03:13:47.423,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,26.79,77,4.29,clear sky
+8,8,26,26,Free Flow,2026-08-28 03:13:48.170,Corniche - Chatby,Alexandria,31.2012,29.9284,26.79,77,4.29,clear sky
+9,9,27,27,Free Flow,2026-08-28 03:13:48.943,Corniche - Silsela,Alexandria,31.2054,29.8965,26.79,77,4.29,clear sky
+10,10,17,17,Free Flow,2026-08-28 03:13:49.697,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,26.79,77,4.29,clear sky
+11,11,34,34,Free Flow,2026-08-28 03:13:50.473,Corniche - Miami,Alexandria,31.2825,30.0152,26.79,77,4.29,clear sky
+12,12,34,34,Free Flow,2026-08-28 03:13:51.237,Corniche - Montaza,Alexandria,31.2871,30.0214,26.79,77,4.29,clear sky
+13,13,34,34,Free Flow,2026-08-28 03:13:51.997,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,26.79,77,4.29,clear sky
+14,14,22,22,Free Flow,2026-08-28 03:13:52.837,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,26.79,77,4.29,clear sky
+15,15,18,18,Free Flow,2026-08-28 03:13:53.600,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,26.79,77,4.29,clear sky
+16,16,60,60,Free Flow,2026-08-28 03:13:54.360,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,26.79,77,4.29,clear sky
+17,17,50,50,Free Flow,2026-08-28 03:13:55.110,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,26.79,77,4.29,clear sky
+18,18,48,48,Free Flow,2026-08-28 03:13:55.883,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,26.79,77,4.29,clear sky
+19,19,86,86,Free Flow,2026-08-28 03:13:56.667,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,26.79,77,4.29,clear sky
+20,20,37,37,Free Flow,2026-08-28 03:13:57.437,Kafoury Road,Alexandria,31.0854,29.7541,26.79,77,4.29,clear sky
+21,21,82,82,Free Flow,2026-08-28 03:13:58.207,Borg El Arab Entrance,Alexandria,30.9124,29.5412,26.79,77,4.29,clear sky
+22,22,75,75,Free Flow,2026-08-28 03:13:58.970,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,24.9,87,1.35,clear sky
+23,23,26,26,Free Flow,2026-08-28 03:13:59.770,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,24.9,87,1.35,clear sky
+24,24,26,26,Free Flow,2026-08-28 03:14:00.533,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,25.5,84,1.69,clear sky
+25,25,20,20,Free Flow,2026-08-28 03:14:01.317,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,26.92,67,2.0,clear sky
+26,26,34,34,Free Flow,2026-08-28 03:14:02.073,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,26.92,67,2.0,clear sky
+27,27,42,42,Free Flow,2026-08-28 03:14:02.897,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,26.92,67,2.0,clear sky
+28,28,11,11,Free Flow,2026-08-28 03:14:03.657,Ring Road - Marg,Cairo,30.1524,31.3452,27.42,57,2.06,clear sky
+29,29,79,79,Free Flow,2026-08-28 03:14:04.420,Ring Road - Al Salam City,Cairo,30.1654,31.3854,27.42,57,2.06,clear sky
+30,30,77,77,Free Flow,2026-08-28 03:14:05.187,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,27.42,57,2.06,clear sky
+31,31,66,66,Free Flow,2026-08-28 03:14:05.937,Ring Road - Katameya,Cairo,29.9854,31.3541,27.42,57,2.06,clear sky
+32,32,20,20,Free Flow,2026-08-28 03:14:06.693,Ring Road - Maadi,Cairo,29.9621,31.2754,27.42,57,2.06,clear sky
+33,33,42,42,Free Flow,2026-08-28 03:14:07.483,Ring Road - Mounib,Giza,29.9821,31.2154,26.41,56,3.52,clear sky
+34,34,13,13,Free Flow,2026-08-28 03:14:08.240,Ring Road - Mariouteya,Giza,29.9754,31.1542,26.41,56,3.52,clear sky
+35,35,14,14,Free Flow,2026-08-28 03:14:09.000,Ring Road - El Waraq,Giza,30.0854,31.2014,26.41,56,3.52,clear sky
+36,36,27,27,Free Flow,2026-08-28 03:14:09.770,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,26.41,56,3.52,clear sky
+37,37,16,16,Free Flow,2026-08-28 03:14:10.527,October Bridge - Ramses,Cairo,30.0565,31.2442,27.42,57,2.06,clear sky
+38,38,20,20,Free Flow,2026-08-28 03:14:11.293,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,27.42,57,2.06,clear sky
+39,39,21,21,Free Flow,2026-08-28 03:14:12.057,October Bridge - Zamalek,Cairo,30.0621,31.2215,27.42,57,2.06,clear sky
+40,40,30,30,Free Flow,2026-08-28 03:14:12.930,October Bridge - Doqqi,Giza,30.0454,31.2145,26.41,56,3.52,clear sky
+41,41,18,23,Moderate,2026-08-28 03:14:13.693,October Bridge - Mohandessin End,Giza,30.0541,31.1985,26.41,56,3.52,clear sky
+42,42,37,37,Free Flow,2026-08-28 03:14:14.457,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,27.42,57,2.06,clear sky
+43,43,34,34,Free Flow,2026-08-28 03:14:15.223,October Bridge - Al-Manial,Cairo,30.0312,31.2285,27.42,57,2.06,clear sky
+44,44,42,42,Free Flow,2026-08-28 03:14:15.993,Salah Salem - Airport Road,Cairo,30.1054,31.3854,27.42,57,2.06,clear sky
+45,45,58,58,Free Flow,2026-08-28 03:14:16.770,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,27.42,57,2.06,clear sky
+46,46,49,49,Free Flow,2026-08-28 03:14:17.527,Salah Salem - Citadel,Cairo,30.0285,31.2654,27.42,57,2.06,clear sky
+47,47,46,46,Free Flow,2026-08-28 03:14:18.287,Salah Salem - Panorama,Cairo,30.0721,31.3154,27.42,57,2.06,clear sky
+48,48,20,20,Free Flow,2026-08-28 03:14:19.053,Autostrad - Maadi,Cairo,29.9754,31.2654,27.42,57,2.06,clear sky
+49,49,20,20,Free Flow,2026-08-28 03:14:19.810,Autostrad - Helwan,Cairo,29.8541,31.3154,27.42,57,2.06,clear sky
+50,50,67,67,Free Flow,2026-08-28 03:14:20.580,Autostrad - Nasr City,Cairo,30.0354,31.3354,27.42,57,2.06,clear sky
+51,51,38,38,Free Flow,2026-08-28 03:14:21.343,Corniche - Maspero,Cairo,30.0541,31.2312,27.42,57,2.06,clear sky
+52,52,20,20,Free Flow,2026-08-28 03:14:22.110,Corniche - Garden City,Cairo,30.0354,31.2285,27.42,57,2.06,clear sky
+53,53,41,41,Free Flow,2026-08-28 03:14:22.943,Corniche - Maadi,Cairo,29.9621,31.2454,27.42,57,2.06,clear sky
+54,54,34,34,Free Flow,2026-08-28 03:14:23.703,Qasr El Nil Bridge,Cairo,30.0435,31.2312,27.42,57,2.06,clear sky
+55,55,13,13,Free Flow,2026-08-28 03:14:24.470,Abbas Bridge,Cairo,30.0198,31.2312,27.42,57,2.06,clear sky
+56,56,28,28,Free Flow,2026-08-28 03:14:25.213,El Galaa Bridge,Cairo,30.0512,31.2214,27.42,57,2.06,clear sky
+57,57,37,37,Free Flow,2026-08-28 03:14:25.980,Tahya Masr Bridge,Cairo,30.0954,31.2245,27.42,57,2.06,clear sky
+58,58,34,34,Free Flow,2026-08-28 03:14:26.737,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,26.41,56,3.52,clear sky
+59,59,53,53,Free Flow,2026-08-28 03:14:27.493,Axis 26 July - Hyper One,Giza,30.0714,31.0254,26.41,56,3.52,clear sky
+60,60,21,21,Free Flow,2026-08-28 03:14:28.253,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,26.41,56,3.52,clear sky
+61,61,32,32,Free Flow,2026-08-28 03:14:29.013,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,26.92,67,2.0,clear sky
+62,62,105,105,Free Flow,2026-08-28 03:14:29.770,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,26.41,56,3.52,clear sky
+63,63,39,39,Free Flow,2026-08-28 03:14:30.540,Haram Street - Giza Square,Giza,30.0124,31.2145,26.41,56,3.52,clear sky
+64,64,32,32,Free Flow,2026-08-28 03:14:31.303,Haram Street - Al Arish,Giza,29.9954,31.1754,26.41,56,3.52,clear sky
+65,65,36,36,Free Flow,2026-08-28 03:14:32.063,Haram Street - El Remaya,Giza,29.9821,31.1354,26.41,56,3.52,clear sky
+66,66,39,39,Free Flow,2026-08-28 03:14:32.870,Faisal Street - El Massaha,Giza,30.0254,31.2014,26.41,56,3.52,clear sky
+67,67,32,32,Free Flow,2026-08-28 03:14:33.633,Faisal Street - El Talbeya,Giza,29.9921,31.1654,26.41,56,3.52,clear sky
+68,68,61,61,Free Flow,2026-08-28 03:14:34.397,King Faisal Street End,Giza,29.9854,31.1245,26.41,56,3.52,clear sky
+69,69,83,83,Free Flow,2026-08-28 03:14:35.173,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,26.41,56,3.52,clear sky
+70,70,40,40,Free Flow,2026-08-28 03:14:35.933,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,26.41,56,3.52,clear sky
+71,71,81,81,Free Flow,2026-08-28 03:14:36.690,Wadi El Natrun Road,Beheira,30.4541,30.3541,24.9,87,1.35,clear sky
+72,72,70,70,Free Flow,2026-08-28 03:14:37.440,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,27.42,57,2.06,clear sky
+73,73,48,48,Free Flow,2026-08-28 03:14:38.203,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,27.42,57,2.06,clear sky
+74,74,74,74,Free Flow,2026-08-28 03:14:38.963,New Cairo - American University,Cairo,30.0054,31.5021,27.42,57,2.06,clear sky
+75,75,57,57,Free Flow,2026-08-28 03:14:39.727,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,27.42,57,2.06,clear sky
+76,76,63,63,Free Flow,2026-08-28 03:14:40.500,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,27.42,57,2.06,clear sky
+77,77,39,39,Free Flow,2026-08-28 03:14:41.250,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,27.42,57,2.06,clear sky
+78,78,32,32,Free Flow,2026-08-28 03:14:42.047,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,27.42,57,2.06,clear sky
+79,79,40,40,Free Flow,2026-08-28 03:14:42.950,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,27.42,57,2.06,clear sky
+80,80,31,31,Free Flow,2026-08-28 03:14:43.707,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,27.42,57,2.06,clear sky
+81,81,49,49,Free Flow,2026-08-28 03:14:44.473,Heliopolis - Merghany,Cairo,30.0854,31.3354,27.42,57,2.06,clear sky
+82,82,55,55,Free Flow,2026-08-28 03:14:45.237,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,27.42,57,2.06,clear sky
+83,83,41,41,Free Flow,2026-08-28 03:14:45.990,Maadi - Victoria Square,Cairo,29.9541,31.2541,27.42,57,2.06,clear sky
+84,84,33,33,Free Flow,2026-08-28 03:14:46.763,Maadi - Degla,Cairo,29.9602,31.2565,27.42,57,2.06,clear sky
+85,85,21,21,Free Flow,2026-08-28 03:14:47.523,Zamalek - 26 July St,Cairo,30.0654,31.2214,27.42,57,2.06,clear sky
+86,86,20,20,Free Flow,2026-08-28 03:14:48.297,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,27.42,57,2.06,clear sky
+87,87,16,16,Free Flow,2026-08-28 03:14:49.063,Downtown - Talaat Harb,Cairo,30.0512,31.2412,27.42,57,2.06,clear sky
+88,88,33,33,Free Flow,2026-08-28 03:14:49.827,Dokki - Mesaha Sq,Giza,30.0387,31.2145,26.41,56,3.52,clear sky
+89,89,23,23,Free Flow,2026-08-28 03:14:50.583,Mohandessin - Shehab St,Giza,30.0554,31.2014,26.41,56,3.52,clear sky
+90,90,14,14,Free Flow,2026-08-28 03:14:51.350,Mohandessin - Sudan St,Giza,30.0687,31.2054,26.41,56,3.52,clear sky
+91,91,14,14,Free Flow,2026-08-28 03:14:52.123,Giza - El Omraneya,Giza,29.9954,31.2014,26.41,56,3.52,clear sky
+92,92,23,23,Free Flow,2026-08-28 03:14:52.950,Shubra - Corniche,Cairo,30.0854,31.2454,27.42,57,2.06,clear sky
+93,93,23,23,Free Flow,2026-08-28 03:14:53.713,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,27.42,57,2.06,clear sky
+94,94,19,19,Free Flow,2026-08-28 03:14:54.470,Ain Shams - El Matareya,Cairo,30.1254,31.3154,27.42,57,2.06,clear sky
+95,95,49,49,Free Flow,2026-08-28 03:14:55.230,Ain Shams University Area,Cairo,30.0754,31.2854,27.42,57,2.06,clear sky
+96,96,32,32,Free Flow,2026-08-28 03:14:55.997,Helwan - Corniche,Cairo,29.8454,31.3354,27.42,57,2.06,clear sky
+97,97,24,24,Free Flow,2026-08-28 03:14:56.770,Helwan University Area,Cairo,29.8512,31.3054,27.42,57,2.06,clear sky
+98,98,56,56,Free Flow,2026-08-28 03:14:57.527,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,27.42,57,2.06,clear sky
+99,99,46,46,Free Flow,2026-08-28 03:14:58.327,Cairo International Stadium Area,Cairo,30.0714,31.3154,27.42,57,2.06,clear sky
+100,100,72,72,Free Flow,2026-08-28 03:14:59.083,Cairo Festival City Area,Cairo,30.0312,31.4014,27.42,57,2.06,clear sky
+101,101,38,38,Free Flow,2026-08-28 03:14:59.837,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,27.42,57,2.06,clear sky
+102,1,16,16,Free Flow,2026-08-28 09:21:44.030,Stanley Bridge,Alexandria,31.2291,29.9575,27.86,72,3.83,clear sky
+103,2,25,25,Free Flow,2026-08-28 09:21:44.797,Corniche - San Stefano,Alexandria,31.2465,29.9723,27.86,72,3.83,clear sky
+104,3,22,22,Free Flow,2026-08-28 09:21:45.570,Corniche - Gleem,Alexandria,31.2391,29.9654,27.86,72,3.83,clear sky
+105,4,22,22,Free Flow,2026-08-28 09:21:46.353,Corniche - Roushdy,Alexandria,31.2365,29.9621,27.86,72,3.83,clear sky
+106,5,27,27,Free Flow,2026-08-28 09:21:47.187,Corniche - Sporting,Alexandria,31.2214,29.9482,27.86,72,3.83,clear sky
+107,6,27,27,Free Flow,2026-08-28 09:21:47.973,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,27.86,72,3.83,clear sky
+108,7,38,38,Free Flow,2026-08-28 09:21:48.743,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,27.86,72,3.83,clear sky
+109,8,26,26,Free Flow,2026-08-28 09:21:49.533,Corniche - Chatby,Alexandria,31.2012,29.9284,27.86,72,3.83,clear sky
+110,9,27,27,Free Flow,2026-08-28 09:21:50.347,Corniche - Silsela,Alexandria,31.2054,29.8965,27.86,72,3.83,clear sky
+111,10,17,17,Free Flow,2026-08-28 09:21:51.220,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,27.86,72,3.83,clear sky
+112,11,34,34,Free Flow,2026-08-28 09:21:52.407,Corniche - Miami,Alexandria,31.2825,30.0152,27.86,72,3.83,clear sky
+113,12,34,34,Free Flow,2026-08-28 09:21:53.277,Corniche - Montaza,Alexandria,31.2871,30.0214,27.86,72,3.83,clear sky
+114,13,34,34,Free Flow,2026-08-28 09:21:54.137,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,27.86,72,3.83,clear sky
+115,14,22,22,Free Flow,2026-08-28 09:21:54.943,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,27.86,72,3.83,clear sky
+116,15,18,18,Free Flow,2026-08-28 09:21:55.800,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,27.86,72,3.83,clear sky
+117,16,60,60,Free Flow,2026-08-28 09:21:56.703,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,27.86,72,3.83,clear sky
+118,17,50,50,Free Flow,2026-08-28 09:21:57.553,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,27.86,72,3.83,clear sky
+119,18,48,48,Free Flow,2026-08-28 09:21:58.320,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,27.86,72,3.83,clear sky
+120,19,86,86,Free Flow,2026-08-28 09:21:59.100,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,27.86,72,3.83,clear sky
+121,20,37,37,Free Flow,2026-08-28 09:21:59.930,Kafoury Road,Alexandria,31.0854,29.7541,27.86,72,3.83,clear sky
+122,21,82,82,Free Flow,2026-08-28 09:22:00.697,Borg El Arab Entrance,Alexandria,30.9124,29.5412,27.86,72,3.83,clear sky
+123,22,75,75,Free Flow,2026-08-28 09:22:01.527,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,27.86,64,3.23,clear sky
+124,23,26,26,Free Flow,2026-08-28 09:22:02.350,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,27.86,64,3.23,clear sky
+125,24,26,26,Free Flow,2026-08-28 09:22:03.167,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,28.08,63,2.73,clear sky
+126,25,20,20,Free Flow,2026-08-28 09:22:04.460,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,27.71,66,2.47,clear sky
+127,26,34,34,Free Flow,2026-08-28 09:22:05.267,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,27.71,66,2.47,clear sky
+128,27,42,42,Free Flow,2026-08-28 09:22:06.050,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,27.71,66,2.47,clear sky
+129,28,11,11,Free Flow,2026-08-28 09:22:06.840,Ring Road - Marg,Cairo,30.1524,31.3452,27.42,69,1.54,clear sky
+130,29,79,79,Free Flow,2026-08-28 09:22:07.637,Ring Road - Al Salam City,Cairo,30.1654,31.3854,27.42,69,1.54,clear sky
+131,30,77,77,Free Flow,2026-08-28 09:22:08.477,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,27.42,69,1.54,clear sky
+132,31,66,66,Free Flow,2026-08-28 09:22:09.277,Ring Road - Katameya,Cairo,29.9854,31.3541,27.42,69,1.54,clear sky
+133,32,20,20,Free Flow,2026-08-28 09:22:10.090,Ring Road - Maadi,Cairo,29.9621,31.2754,27.42,69,1.54,clear sky
+134,33,42,42,Free Flow,2026-08-28 09:22:10.870,Ring Road - Mounib,Giza,29.9821,31.2154,27.41,67,3.17,clear sky
+135,34,13,13,Free Flow,2026-08-28 09:22:11.667,Ring Road - Mariouteya,Giza,29.9754,31.1542,27.41,67,3.17,clear sky
+136,35,14,14,Free Flow,2026-08-28 09:22:12.473,Ring Road - El Waraq,Giza,30.0854,31.2014,27.41,67,3.17,clear sky
+137,36,27,27,Free Flow,2026-08-28 09:22:13.310,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,27.41,67,3.17,clear sky
+138,37,16,16,Free Flow,2026-08-28 09:22:15.260,October Bridge - Ramses,Cairo,30.0565,31.2442,27.42,69,1.54,clear sky
+139,38,12,20,Moderate,2026-08-28 09:22:16.170,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,27.42,69,1.54,clear sky
+140,39,21,21,Free Flow,2026-08-28 09:22:17.023,October Bridge - Zamalek,Cairo,30.0621,31.2215,27.42,69,1.54,clear sky
+141,40,30,30,Free Flow,2026-08-28 09:22:17.827,October Bridge - Doqqi,Giza,30.0454,31.2145,27.41,67,3.17,clear sky
+142,41,23,23,Free Flow,2026-08-28 09:22:18.633,October Bridge - Mohandessin End,Giza,30.0541,31.1985,27.41,67,3.17,clear sky
+143,42,37,37,Free Flow,2026-08-28 09:22:19.447,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,27.42,69,1.54,clear sky
+144,43,34,34,Free Flow,2026-08-28 09:22:20.277,October Bridge - Al-Manial,Cairo,30.0312,31.2285,27.42,69,1.54,clear sky
+145,44,17,42,Heavy Congestion,2026-08-28 09:22:21.077,Salah Salem - Airport Road,Cairo,30.1054,31.3854,27.42,69,1.54,clear sky
+146,45,58,58,Free Flow,2026-08-28 09:22:21.900,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,27.42,69,1.54,clear sky
+147,46,49,49,Free Flow,2026-08-28 09:22:22.697,Salah Salem - Citadel,Cairo,30.0285,31.2654,27.42,69,1.54,clear sky
+148,47,46,46,Free Flow,2026-08-28 09:22:23.517,Salah Salem - Panorama,Cairo,30.0721,31.3154,27.42,69,1.54,clear sky
+149,48,20,20,Free Flow,2026-08-28 09:22:24.337,Autostrad - Maadi,Cairo,29.9754,31.2654,27.42,69,1.54,clear sky
+150,49,20,20,Free Flow,2026-08-28 09:22:25.163,Autostrad - Helwan,Cairo,29.8541,31.3154,27.42,69,1.54,clear sky
+151,50,67,67,Free Flow,2026-08-28 09:22:26.040,Autostrad - Nasr City,Cairo,30.0354,31.3354,27.42,69,1.54,clear sky
+152,51,38,38,Free Flow,2026-08-28 09:22:26.860,Corniche - Maspero,Cairo,30.0541,31.2312,27.42,69,1.54,clear sky
+153,52,20,20,Free Flow,2026-08-28 09:22:27.650,Corniche - Garden City,Cairo,30.0354,31.2285,27.42,69,1.54,clear sky
+154,53,41,41,Free Flow,2026-08-28 09:22:28.477,Corniche - Maadi,Cairo,29.9621,31.2454,27.42,69,1.54,clear sky
+155,54,34,34,Free Flow,2026-08-28 09:22:29.277,Qasr El Nil Bridge,Cairo,30.0435,31.2312,27.42,69,1.54,clear sky
+156,55,13,13,Free Flow,2026-08-28 09:22:30.093,Abbas Bridge,Cairo,30.0198,31.2312,27.42,69,1.54,clear sky
+157,56,28,28,Free Flow,2026-08-28 09:22:30.907,El Galaa Bridge,Cairo,30.0512,31.2214,27.42,69,1.54,clear sky
+158,57,37,37,Free Flow,2026-08-28 09:22:31.783,Tahya Masr Bridge,Cairo,30.0954,31.2245,27.42,69,1.54,clear sky
+159,58,34,34,Free Flow,2026-08-28 09:22:32.593,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,27.41,67,3.17,clear sky
+160,59,53,53,Free Flow,2026-08-28 09:22:33.383,Axis 26 July - Hyper One,Giza,30.0714,31.0254,27.41,67,3.17,clear sky
+161,60,21,21,Free Flow,2026-08-28 09:22:34.213,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,27.41,67,3.17,clear sky
+162,61,32,32,Free Flow,2026-08-28 09:22:35.063,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,27.71,66,2.47,clear sky
+163,62,105,105,Free Flow,2026-08-28 09:22:35.887,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,27.41,67,3.17,clear sky
+164,63,39,39,Free Flow,2026-08-28 09:22:36.750,Haram Street - Giza Square,Giza,30.0124,31.2145,27.41,67,3.17,clear sky
+165,64,32,32,Free Flow,2026-08-28 09:22:37.547,Haram Street - Al Arish,Giza,29.9954,31.1754,27.41,67,3.17,clear sky
+166,65,36,36,Free Flow,2026-08-28 09:22:38.427,Haram Street - El Remaya,Giza,29.9821,31.1354,27.41,67,3.17,clear sky
+167,66,39,39,Free Flow,2026-08-28 09:22:39.223,Faisal Street - El Massaha,Giza,30.0254,31.2014,27.41,67,3.17,clear sky
+168,67,32,32,Free Flow,2026-08-28 09:22:40.043,Faisal Street - El Talbeya,Giza,29.9921,31.1654,27.41,67,3.17,clear sky
+169,68,61,61,Free Flow,2026-08-28 09:22:40.843,King Faisal Street End,Giza,29.9854,31.1245,27.41,67,3.17,clear sky
+170,69,83,83,Free Flow,2026-08-28 09:22:41.620,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,27.41,67,3.17,clear sky
+171,70,40,40,Free Flow,2026-08-28 09:22:42.433,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,27.41,67,3.17,clear sky
+172,71,81,81,Free Flow,2026-08-28 09:22:43.283,Wadi El Natrun Road,Beheira,30.4541,30.3541,27.86,64,3.23,clear sky
+173,72,70,70,Free Flow,2026-08-28 09:22:44.087,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,27.42,69,1.54,clear sky
+174,73,48,48,Free Flow,2026-08-28 09:22:44.917,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,27.42,69,1.54,clear sky
+175,74,74,74,Free Flow,2026-08-28 09:22:45.743,New Cairo - American University,Cairo,30.0054,31.5021,27.42,69,1.54,clear sky
+176,75,57,57,Free Flow,2026-08-28 09:22:46.703,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,27.42,69,1.54,clear sky
+177,76,63,63,Free Flow,2026-08-28 09:22:47.517,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,27.42,69,1.54,clear sky
+178,77,39,39,Free Flow,2026-08-28 09:22:48.300,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,27.42,69,1.54,clear sky
+179,78,32,32,Free Flow,2026-08-28 09:22:49.117,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,27.42,69,1.54,clear sky
+180,79,40,40,Free Flow,2026-08-28 09:22:49.983,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,27.42,69,1.54,clear sky
+181,80,31,31,Free Flow,2026-08-28 09:22:50.780,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,27.42,69,1.54,clear sky
+182,81,49,49,Free Flow,2026-08-28 09:22:51.567,Heliopolis - Merghany,Cairo,30.0854,31.3354,27.42,69,1.54,clear sky
+183,82,55,55,Free Flow,2026-08-28 09:22:52.363,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,27.42,69,1.54,clear sky
+184,83,41,41,Free Flow,2026-08-28 09:22:53.173,Maadi - Victoria Square,Cairo,29.9541,31.2541,27.42,69,1.54,clear sky
+185,84,33,33,Free Flow,2026-08-28 09:22:54.033,Maadi - Degla,Cairo,29.9602,31.2565,27.42,69,1.54,clear sky
+186,85,21,21,Free Flow,2026-08-28 09:22:54.840,Zamalek - 26 July St,Cairo,30.0654,31.2214,27.42,69,1.54,clear sky
+187,86,12,19,Moderate,2026-08-28 09:22:55.643,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,27.42,69,1.54,clear sky
+188,87,16,16,Free Flow,2026-08-28 09:22:56.523,Downtown - Talaat Harb,Cairo,30.0512,31.2412,27.42,69,1.54,clear sky
+189,88,33,33,Free Flow,2026-08-28 09:22:57.603,Dokki - Mesaha Sq,Giza,30.0387,31.2145,27.41,67,3.17,clear sky
+190,89,23,23,Free Flow,2026-08-28 09:22:58.433,Mohandessin - Shehab St,Giza,30.0554,31.2014,27.41,67,3.17,clear sky
+191,90,14,14,Free Flow,2026-08-28 09:22:59.263,Mohandessin - Sudan St,Giza,30.0687,31.2054,27.41,67,3.17,clear sky
+192,91,14,14,Free Flow,2026-08-28 09:23:00.087,Giza - El Omraneya,Giza,29.9954,31.2014,27.41,67,3.17,clear sky
+193,92,23,23,Free Flow,2026-08-28 09:23:00.873,Shubra - Corniche,Cairo,30.0854,31.2454,27.42,69,1.54,clear sky
+194,93,23,23,Free Flow,2026-08-28 09:23:01.723,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,27.42,69,1.54,clear sky
+195,94,19,19,Free Flow,2026-08-28 09:23:02.540,Ain Shams - El Matareya,Cairo,30.1254,31.3154,27.42,69,1.54,clear sky
+196,95,36,49,Moderate,2026-08-28 09:23:03.327,Ain Shams University Area,Cairo,30.0754,31.2854,27.42,69,1.54,clear sky
+197,96,32,32,Free Flow,2026-08-28 09:23:04.103,Helwan - Corniche,Cairo,29.8454,31.3354,27.42,69,1.54,clear sky
+198,97,24,24,Free Flow,2026-08-28 09:23:04.877,Helwan University Area,Cairo,29.8512,31.3054,27.42,69,1.54,clear sky
+199,98,56,56,Free Flow,2026-08-28 09:23:05.673,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,27.42,69,1.54,clear sky
+200,99,46,46,Free Flow,2026-08-28 09:23:06.497,Cairo International Stadium Area,Cairo,30.0714,31.3154,27.42,69,1.54,clear sky
+201,100,72,72,Free Flow,2026-08-28 09:23:07.297,Cairo Festival City Area,Cairo,30.0312,31.4014,27.42,69,1.54,clear sky
+202,101,38,38,Free Flow,2026-08-28 09:23:08.083,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,27.42,69,1.54,clear sky
+203,1,16,16,Free Flow,2026-08-28 13:05:05.467,Stanley Bridge,Alexandria,31.2291,29.9575,30.98,66,4.12,clear sky
+204,2,25,25,Free Flow,2026-08-28 13:05:06.253,Corniche - San Stefano,Alexandria,31.2465,29.9723,30.98,66,4.12,clear sky
+205,3,22,22,Free Flow,2026-08-28 13:05:07.027,Corniche - Gleem,Alexandria,31.2391,29.9654,30.98,66,4.12,clear sky
+206,4,22,22,Free Flow,2026-08-28 13:05:07.790,Corniche - Roushdy,Alexandria,31.2365,29.9621,30.98,66,4.12,clear sky
+207,5,27,27,Free Flow,2026-08-28 13:05:08.553,Corniche - Sporting,Alexandria,31.2214,29.9482,30.98,66,4.12,clear sky
+208,6,27,27,Free Flow,2026-08-28 13:05:09.323,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,30.98,66,4.12,clear sky
+209,7,38,38,Free Flow,2026-08-28 13:05:10.093,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,30.98,66,4.12,clear sky
+210,8,26,26,Free Flow,2026-08-28 13:05:12.047,Corniche - Chatby,Alexandria,31.2012,29.9284,30.98,66,4.12,clear sky
+211,9,27,27,Free Flow,2026-08-28 13:05:12.823,Corniche - Silsela,Alexandria,31.2054,29.8965,30.98,66,4.12,clear sky
+212,10,17,17,Free Flow,2026-08-28 13:05:13.583,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,30.98,66,4.12,clear sky
+213,11,34,34,Free Flow,2026-08-28 13:05:14.363,Corniche - Miami,Alexandria,31.2825,30.0152,30.98,66,4.12,clear sky
+214,12,34,34,Free Flow,2026-08-28 13:05:15.157,Corniche - Montaza,Alexandria,31.2871,30.0214,30.98,66,4.12,clear sky
+215,13,34,34,Free Flow,2026-08-28 13:05:15.983,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,30.98,66,4.12,clear sky
+216,14,22,22,Free Flow,2026-08-28 13:05:16.760,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,30.98,66,4.12,clear sky
+217,15,18,18,Free Flow,2026-08-28 13:05:17.537,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,30.98,66,4.12,clear sky
+218,16,60,60,Free Flow,2026-08-28 13:05:18.303,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,30.98,66,4.12,clear sky
+219,17,50,50,Free Flow,2026-08-28 13:05:19.077,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,30.98,66,4.12,clear sky
+220,18,48,48,Free Flow,2026-08-28 13:05:19.847,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,30.98,66,4.12,clear sky
+221,19,86,86,Free Flow,2026-08-28 13:05:20.600,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,30.98,66,4.12,clear sky
+222,20,37,37,Free Flow,2026-08-28 13:05:21.377,Kafoury Road,Alexandria,31.0854,29.7541,30.98,66,4.12,clear sky
+223,21,82,82,Free Flow,2026-08-28 13:05:22.163,Borg El Arab Entrance,Alexandria,30.9124,29.5412,30.98,66,4.12,clear sky
+224,22,75,75,Free Flow,2026-08-28 13:05:22.963,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,35.42,29,5.42,clear sky
+225,23,26,26,Free Flow,2026-08-28 13:05:23.733,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,35.42,29,5.42,clear sky
+226,24,26,26,Free Flow,2026-08-28 13:05:24.503,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,35.46,31,3.42,clear sky
+227,25,20,20,Free Flow,2026-08-28 13:05:25.317,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,34.27,36,3.57,clear sky
+228,26,34,34,Free Flow,2026-08-28 13:05:26.070,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,34.27,36,3.57,clear sky
+229,27,42,42,Free Flow,2026-08-28 13:05:26.840,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,34.27,36,3.57,clear sky
+230,28,11,11,Free Flow,2026-08-28 13:05:27.607,Ring Road - Marg,Cairo,30.1524,31.3452,32.42,58,1.81,clear sky
+231,29,79,79,Free Flow,2026-08-28 13:05:28.397,Ring Road - Al Salam City,Cairo,30.1654,31.3854,32.42,58,1.81,clear sky
+232,30,77,77,Free Flow,2026-08-28 13:05:29.157,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,32.42,58,1.81,clear sky
+233,31,66,66,Free Flow,2026-08-28 13:05:29.953,Ring Road - Katameya,Cairo,29.9854,31.3541,32.42,58,1.81,clear sky
+234,32,20,20,Free Flow,2026-08-28 13:05:30.727,Ring Road - Maadi,Cairo,29.9621,31.2754,32.42,58,1.81,clear sky
+235,33,42,42,Free Flow,2026-08-28 13:05:31.500,Ring Road - Mounib,Giza,29.9821,31.2154,32.41,50,1.88,clear sky
+236,34,13,13,Free Flow,2026-08-28 13:05:32.280,Ring Road - Mariouteya,Giza,29.9754,31.1542,32.41,50,1.88,clear sky
+237,35,14,14,Free Flow,2026-08-28 13:05:33.063,Ring Road - El Waraq,Giza,30.0854,31.2014,32.41,50,1.88,clear sky
+238,36,27,27,Free Flow,2026-08-28 13:05:33.827,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,32.41,50,1.88,clear sky
+239,37,16,16,Free Flow,2026-08-28 13:05:34.587,October Bridge - Ramses,Cairo,30.0565,31.2442,32.42,58,1.81,clear sky
+240,38,20,20,Free Flow,2026-08-28 13:05:35.367,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,32.42,58,1.81,clear sky
+241,39,21,21,Free Flow,2026-08-28 13:05:36.210,October Bridge - Zamalek,Cairo,30.0621,31.2215,32.42,58,1.81,clear sky
+242,40,30,30,Free Flow,2026-08-28 13:05:36.980,October Bridge - Doqqi,Giza,30.0454,31.2145,32.41,50,1.88,clear sky
+243,41,23,23,Free Flow,2026-08-28 13:05:37.733,October Bridge - Mohandessin End,Giza,30.0541,31.1985,32.41,50,1.88,clear sky
+244,42,37,37,Free Flow,2026-08-28 13:05:38.507,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,32.42,58,1.81,clear sky
+245,43,34,34,Free Flow,2026-08-28 13:05:39.287,October Bridge - Al-Manial,Cairo,30.0312,31.2285,32.42,58,1.81,clear sky
+246,44,42,42,Free Flow,2026-08-28 13:05:40.043,Salah Salem - Airport Road,Cairo,30.1054,31.3854,32.42,58,1.81,clear sky
+247,45,58,58,Free Flow,2026-08-28 13:05:40.820,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,32.42,58,1.81,clear sky
+248,46,49,49,Free Flow,2026-08-28 13:05:41.573,Salah Salem - Citadel,Cairo,30.0285,31.2654,32.42,58,1.81,clear sky
+249,47,46,46,Free Flow,2026-08-28 13:05:42.340,Salah Salem - Panorama,Cairo,30.0721,31.3154,32.42,58,1.81,clear sky
+250,48,20,20,Free Flow,2026-08-28 13:05:43.107,Autostrad - Maadi,Cairo,29.9754,31.2654,32.42,58,1.81,clear sky
+251,49,20,20,Free Flow,2026-08-28 13:05:43.880,Autostrad - Helwan,Cairo,29.8541,31.3154,32.42,58,1.81,clear sky
+252,50,67,67,Free Flow,2026-08-28 13:05:44.703,Autostrad - Nasr City,Cairo,30.0354,31.3354,32.42,58,1.81,clear sky
+253,51,38,38,Free Flow,2026-08-28 13:05:45.460,Corniche - Maspero,Cairo,30.0541,31.2312,32.42,58,1.81,clear sky
+254,52,20,20,Free Flow,2026-08-28 13:05:46.257,Corniche - Garden City,Cairo,30.0354,31.2285,32.42,58,1.81,clear sky
+255,53,41,41,Free Flow,2026-08-28 13:05:47.043,Corniche - Maadi,Cairo,29.9621,31.2454,32.42,58,1.81,clear sky
+256,54,34,34,Free Flow,2026-08-28 13:05:47.803,Qasr El Nil Bridge,Cairo,30.0435,31.2312,32.42,58,1.81,clear sky
+257,55,13,13,Free Flow,2026-08-28 13:05:48.577,Abbas Bridge,Cairo,30.0198,31.2312,32.42,58,1.81,clear sky
+258,56,28,28,Free Flow,2026-08-28 13:05:49.367,El Galaa Bridge,Cairo,30.0512,31.2214,32.42,58,1.81,clear sky
+259,57,37,37,Free Flow,2026-08-28 13:05:50.197,Tahya Masr Bridge,Cairo,30.0954,31.2245,32.42,58,1.81,clear sky
+260,58,34,34,Free Flow,2026-08-28 13:05:51.030,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,32.41,50,1.88,clear sky
+261,59,53,53,Free Flow,2026-08-28 13:05:51.827,Axis 26 July - Hyper One,Giza,30.0714,31.0254,32.41,50,1.88,clear sky
+262,60,21,21,Free Flow,2026-08-28 13:05:52.590,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,32.41,50,1.88,clear sky
+263,61,32,32,Free Flow,2026-08-28 13:05:53.363,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,34.27,36,3.57,clear sky
+264,62,105,105,Free Flow,2026-08-28 13:05:54.137,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,32.41,50,1.88,clear sky
+265,63,39,39,Free Flow,2026-08-28 13:05:54.960,Haram Street - Giza Square,Giza,30.0124,31.2145,32.41,50,1.88,clear sky
+266,64,32,32,Free Flow,2026-08-28 13:05:55.730,Haram Street - Al Arish,Giza,29.9954,31.1754,32.41,50,1.88,clear sky
+267,65,36,36,Free Flow,2026-08-28 13:05:56.500,Haram Street - El Remaya,Giza,29.9821,31.1354,32.41,50,1.88,clear sky
+268,66,39,39,Free Flow,2026-08-28 13:05:57.343,Faisal Street - El Massaha,Giza,30.0254,31.2014,32.41,50,1.88,clear sky
+269,67,32,32,Free Flow,2026-08-28 13:05:58.180,Faisal Street - El Talbeya,Giza,29.9921,31.1654,32.41,50,1.88,clear sky
+270,68,61,61,Free Flow,2026-08-28 13:05:59.003,King Faisal Street End,Giza,29.9854,31.1245,32.41,50,1.88,clear sky
+271,69,83,83,Free Flow,2026-08-28 13:05:59.823,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,32.41,50,1.88,clear sky
+272,70,40,40,Free Flow,2026-08-28 13:06:00.660,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,32.41,50,1.88,clear sky
+273,71,81,81,Free Flow,2026-08-28 13:06:01.467,Wadi El Natrun Road,Beheira,30.4541,30.3541,35.42,29,5.42,clear sky
+274,72,70,70,Free Flow,2026-08-28 13:06:02.263,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,32.42,58,1.81,clear sky
+275,73,48,48,Free Flow,2026-08-28 13:06:03.053,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,32.42,58,1.81,clear sky
+276,74,74,74,Free Flow,2026-08-28 13:06:03.837,New Cairo - American University,Cairo,30.0054,31.5021,32.42,58,1.81,clear sky
+277,75,57,57,Free Flow,2026-08-28 13:06:04.730,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,32.42,58,1.81,clear sky
+278,76,63,63,Free Flow,2026-08-28 13:06:05.597,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,32.42,58,1.81,clear sky
+279,77,39,39,Free Flow,2026-08-28 13:06:06.410,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,32.42,58,1.81,clear sky
+280,78,32,32,Free Flow,2026-08-28 13:06:07.220,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,32.42,58,1.81,clear sky
+281,79,40,40,Free Flow,2026-08-28 13:06:08.037,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,32.42,58,1.81,clear sky
+282,80,31,31,Free Flow,2026-08-28 13:06:08.850,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,32.42,58,1.81,clear sky
+283,81,49,49,Free Flow,2026-08-28 13:06:09.660,Heliopolis - Merghany,Cairo,30.0854,31.3354,32.42,58,1.81,clear sky
+284,82,55,55,Free Flow,2026-08-28 13:06:10.487,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,32.42,58,1.81,clear sky
+285,83,41,41,Free Flow,2026-08-28 13:06:11.313,Maadi - Victoria Square,Cairo,29.9541,31.2541,32.42,58,1.81,clear sky
+286,84,33,33,Free Flow,2026-08-28 13:06:12.130,Maadi - Degla,Cairo,29.9602,31.2565,32.42,58,1.81,clear sky
+287,85,21,21,Free Flow,2026-08-28 13:06:12.953,Zamalek - 26 July St,Cairo,30.0654,31.2214,32.42,58,1.81,clear sky
+288,86,20,20,Free Flow,2026-08-28 13:06:13.773,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,32.42,58,1.81,clear sky
+289,87,16,16,Free Flow,2026-08-28 13:06:14.617,Downtown - Talaat Harb,Cairo,30.0512,31.2412,32.42,58,1.81,clear sky
+290,88,33,33,Free Flow,2026-08-28 13:06:15.437,Dokki - Mesaha Sq,Giza,30.0387,31.2145,32.41,50,1.88,clear sky
+291,89,23,23,Free Flow,2026-08-28 13:06:16.250,Mohandessin - Shehab St,Giza,30.0554,31.2014,32.41,50,1.88,clear sky
+292,90,14,14,Free Flow,2026-08-28 13:06:17.060,Mohandessin - Sudan St,Giza,30.0687,31.2054,32.41,50,1.88,clear sky
+293,91,14,14,Free Flow,2026-08-28 13:06:17.903,Giza - El Omraneya,Giza,29.9954,31.2014,32.41,50,1.88,clear sky
+294,92,23,23,Free Flow,2026-08-28 13:06:18.703,Shubra - Corniche,Cairo,30.0854,31.2454,32.42,58,1.81,clear sky
+295,93,23,23,Free Flow,2026-08-28 13:06:19.493,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,32.42,58,1.81,clear sky
+296,94,19,19,Free Flow,2026-08-28 13:06:20.283,Ain Shams - El Matareya,Cairo,30.1254,31.3154,32.42,58,1.81,clear sky
+297,95,49,49,Free Flow,2026-08-28 13:06:22.400,Ain Shams University Area,Cairo,30.0754,31.2854,32.42,58,1.81,clear sky
+298,96,32,32,Free Flow,2026-08-28 13:06:23.227,Helwan - Corniche,Cairo,29.8454,31.3354,32.42,58,1.81,clear sky
+299,97,24,24,Free Flow,2026-08-28 13:06:24.087,Helwan University Area,Cairo,29.8512,31.3054,32.42,58,1.81,clear sky
+300,98,56,56,Free Flow,2026-08-28 13:06:24.903,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,32.42,58,1.81,clear sky
+301,99,46,46,Free Flow,2026-08-28 13:06:25.713,Cairo International Stadium Area,Cairo,30.0714,31.3154,32.42,58,1.81,clear sky
+302,100,72,72,Free Flow,2026-08-28 13:06:26.543,Cairo Festival City Area,Cairo,30.0312,31.4014,32.42,58,1.81,clear sky
+303,101,38,38,Free Flow,2026-08-28 13:06:27.387,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,32.42,58,1.81,clear sky
+304,1,16,16,Free Flow,2026-08-28 14:00:15.913,Stanley Bridge,Alexandria,31.2291,29.9575,30.98,66,4.12,clear sky
+305,2,25,25,Free Flow,2026-08-28 14:00:16.740,Corniche - San Stefano,Alexandria,31.2465,29.9723,30.98,66,4.12,clear sky
+306,3,22,22,Free Flow,2026-08-28 14:00:17.573,Corniche - Gleem,Alexandria,31.2391,29.9654,30.98,66,4.12,clear sky
+307,4,22,22,Free Flow,2026-08-28 14:00:18.373,Corniche - Roushdy,Alexandria,31.2365,29.9621,30.98,66,4.12,clear sky
+308,5,27,27,Free Flow,2026-08-28 14:00:19.210,Corniche - Sporting,Alexandria,31.2214,29.9482,30.98,66,4.12,clear sky
+309,6,27,27,Free Flow,2026-08-28 14:00:20.100,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,30.98,66,4.12,clear sky
+310,7,38,38,Free Flow,2026-08-28 14:00:20.907,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,30.98,66,4.12,clear sky
+311,8,17,26,Moderate,2026-08-28 14:00:21.710,Corniche - Chatby,Alexandria,31.2012,29.9284,30.98,66,4.12,clear sky
+312,9,27,27,Free Flow,2026-08-28 14:00:22.550,Corniche - Silsela,Alexandria,31.2054,29.8965,30.98,66,4.12,clear sky
+313,10,17,17,Free Flow,2026-08-28 14:00:23.343,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,30.98,66,4.12,clear sky
+314,11,34,34,Free Flow,2026-08-28 14:00:24.157,Corniche - Miami,Alexandria,31.2825,30.0152,30.98,66,4.12,clear sky
+315,12,34,34,Free Flow,2026-08-28 14:00:25.133,Corniche - Montaza,Alexandria,31.2871,30.0214,30.98,66,4.12,clear sky
+316,13,34,34,Free Flow,2026-08-28 14:00:26.010,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,30.98,66,4.12,clear sky
+317,14,22,22,Free Flow,2026-08-28 14:00:26.900,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,30.98,66,4.12,clear sky
+318,15,18,18,Free Flow,2026-08-28 14:00:27.707,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,30.98,66,4.12,clear sky
+319,16,60,60,Free Flow,2026-08-28 14:00:28.543,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,30.98,66,4.12,clear sky
+320,17,50,50,Free Flow,2026-08-28 14:00:29.837,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,30.98,66,4.12,clear sky
+321,18,48,48,Free Flow,2026-08-28 14:00:30.857,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,30.98,66,4.12,clear sky
+322,19,86,86,Free Flow,2026-08-28 14:00:31.877,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,30.98,66,4.12,clear sky
+323,20,37,37,Free Flow,2026-08-28 14:00:32.920,Kafoury Road,Alexandria,31.0854,29.7541,30.98,66,4.12,clear sky
+324,21,82,82,Free Flow,2026-08-28 14:00:33.797,Borg El Arab Entrance,Alexandria,30.9124,29.5412,30.98,66,4.12,clear sky
+325,22,75,75,Free Flow,2026-08-28 14:00:34.790,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,36.29,32,6.83,clear sky
+326,23,26,26,Free Flow,2026-08-28 14:00:35.663,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,36.29,32,6.83,clear sky
+327,24,26,26,Free Flow,2026-08-28 14:00:36.590,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,36.75,23,3.48,clear sky
+328,25,20,20,Free Flow,2026-08-28 14:00:37.567,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,35.61,28,4.35,clear sky
+329,26,34,34,Free Flow,2026-08-28 14:00:38.450,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,35.61,28,4.35,clear sky
+330,27,42,42,Free Flow,2026-08-28 14:00:39.257,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,35.61,28,4.35,clear sky
+331,28,11,11,Free Flow,2026-08-28 14:00:40.290,Ring Road - Marg,Cairo,30.1524,31.3452,34.42,40,2.06,clear sky
+332,29,79,79,Free Flow,2026-08-28 14:00:41.340,Ring Road - Al Salam City,Cairo,30.1654,31.3854,34.42,40,2.06,clear sky
+333,30,77,77,Free Flow,2026-08-28 14:00:42.140,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,34.42,40,2.06,clear sky
+334,31,66,66,Free Flow,2026-08-28 14:00:42.927,Ring Road - Katameya,Cairo,29.9854,31.3541,34.42,40,2.06,clear sky
+335,32,20,20,Free Flow,2026-08-28 14:00:43.713,Ring Road - Maadi,Cairo,29.9621,31.2754,34.42,40,2.06,clear sky
+336,33,42,42,Free Flow,2026-08-28 14:00:44.997,Ring Road - Mounib,Giza,29.9821,31.2154,34.41,32,2.14,clear sky
+337,34,13,13,Free Flow,2026-08-28 14:00:45.933,Ring Road - Mariouteya,Giza,29.9754,31.1542,34.41,32,2.14,clear sky
+338,35,14,14,Free Flow,2026-08-28 14:00:47.087,Ring Road - El Waraq,Giza,30.0854,31.2014,34.41,32,2.14,clear sky
+339,36,27,27,Free Flow,2026-08-28 14:00:47.867,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,34.41,32,2.14,clear sky
+340,37,16,16,Free Flow,2026-08-28 14:00:48.663,October Bridge - Ramses,Cairo,30.0565,31.2442,34.42,40,2.06,clear sky
+341,38,20,20,Free Flow,2026-08-28 14:00:52.773,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,34.42,40,2.06,clear sky
+342,39,21,21,Free Flow,2026-08-28 14:00:53.557,October Bridge - Zamalek,Cairo,30.0621,31.2215,34.42,40,2.06,clear sky
+343,40,30,30,Free Flow,2026-08-28 14:00:55.813,October Bridge - Doqqi,Giza,30.0454,31.2145,34.41,32,2.14,clear sky
+344,41,23,23,Free Flow,2026-08-28 14:00:56.703,October Bridge - Mohandessin End,Giza,30.0541,31.1985,34.41,32,2.14,clear sky
+345,42,37,37,Free Flow,2026-08-28 14:00:57.513,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,34.42,40,2.06,clear sky
+346,43,34,34,Free Flow,2026-08-28 14:00:58.340,October Bridge - Al-Manial,Cairo,30.0312,31.2285,34.42,40,2.06,clear sky
+347,44,42,42,Free Flow,2026-08-28 14:00:59.173,Salah Salem - Airport Road,Cairo,30.1054,31.3854,34.42,40,2.06,clear sky
+348,45,58,58,Free Flow,2026-08-28 14:00:59.993,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,34.42,40,2.06,clear sky
+349,46,49,49,Free Flow,2026-08-28 14:01:00.943,Salah Salem - Citadel,Cairo,30.0285,31.2654,34.42,40,2.06,clear sky
+350,47,46,46,Free Flow,2026-08-28 14:01:01.747,Salah Salem - Panorama,Cairo,30.0721,31.3154,34.42,40,2.06,clear sky
+351,48,20,20,Free Flow,2026-08-28 14:01:02.577,Autostrad - Maadi,Cairo,29.9754,31.2654,34.42,40,2.06,clear sky
+352,49,20,20,Free Flow,2026-08-28 14:01:04.690,Autostrad - Helwan,Cairo,29.8541,31.3154,34.42,40,2.06,clear sky
+353,50,67,67,Free Flow,2026-08-28 14:01:05.480,Autostrad - Nasr City,Cairo,30.0354,31.3354,34.42,40,2.06,clear sky
+354,51,38,38,Free Flow,2026-08-28 14:01:08.457,Corniche - Maspero,Cairo,30.0541,31.2312,34.42,40,2.06,clear sky
+355,52,20,20,Free Flow,2026-08-28 14:01:09.257,Corniche - Garden City,Cairo,30.0354,31.2285,34.42,40,2.06,clear sky
+356,53,41,41,Free Flow,2026-08-28 14:01:10.087,Corniche - Maadi,Cairo,29.9621,31.2454,34.42,40,2.06,clear sky
+357,54,34,34,Free Flow,2026-08-28 14:01:11.003,Qasr El Nil Bridge,Cairo,30.0435,31.2312,34.42,40,2.06,clear sky
+358,55,13,13,Free Flow,2026-08-28 14:01:11.827,Abbas Bridge,Cairo,30.0198,31.2312,34.42,40,2.06,clear sky
+359,56,28,28,Free Flow,2026-08-28 14:01:14.293,El Galaa Bridge,Cairo,30.0512,31.2214,34.42,40,2.06,clear sky
+360,57,37,37,Free Flow,2026-08-28 14:01:15.153,Tahya Masr Bridge,Cairo,30.0954,31.2245,34.42,40,2.06,clear sky
+361,58,34,34,Free Flow,2026-08-28 14:01:16.947,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,34.41,32,2.14,clear sky
+362,59,53,53,Free Flow,2026-08-28 14:01:17.917,Axis 26 July - Hyper One,Giza,30.0714,31.0254,34.41,32,2.14,clear sky
+363,60,21,21,Free Flow,2026-08-28 14:01:18.723,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,34.41,32,2.14,clear sky
+364,61,32,32,Free Flow,2026-08-28 14:01:19.563,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,35.61,28,4.35,clear sky
+365,62,105,105,Free Flow,2026-08-28 14:01:21.377,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,34.41,32,2.14,clear sky
+366,63,39,39,Free Flow,2026-08-28 14:01:22.160,Haram Street - Giza Square,Giza,30.0124,31.2145,34.41,32,2.14,clear sky
+367,64,32,32,Free Flow,2026-08-28 14:01:22.943,Haram Street - Al Arish,Giza,29.9954,31.1754,34.41,32,2.14,clear sky
+368,65,36,36,Free Flow,2026-08-28 14:01:25.743,Haram Street - El Remaya,Giza,29.9821,31.1354,34.41,32,2.14,clear sky
+369,66,39,39,Free Flow,2026-08-28 14:01:26.550,Faisal Street - El Massaha,Giza,30.0254,31.2014,34.41,32,2.14,clear sky
+370,67,32,32,Free Flow,2026-08-28 14:01:27.420,Faisal Street - El Talbeya,Giza,29.9921,31.1654,34.41,32,2.14,clear sky
+371,68,61,61,Free Flow,2026-08-28 14:01:28.233,King Faisal Street End,Giza,29.9854,31.1245,34.41,32,2.14,clear sky
+372,69,83,83,Free Flow,2026-08-28 14:01:29.063,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,34.41,32,2.14,clear sky
+373,70,40,40,Free Flow,2026-08-28 14:01:29.857,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,34.41,32,2.14,clear sky
+374,71,81,81,Free Flow,2026-08-28 14:01:30.683,Wadi El Natrun Road,Beheira,30.4541,30.3541,36.29,32,6.83,clear sky
+375,72,70,70,Free Flow,2026-08-28 14:01:31.493,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,34.42,40,2.06,clear sky
+376,73,48,48,Free Flow,2026-08-28 14:01:32.300,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,34.42,40,2.06,clear sky
+377,74,74,74,Free Flow,2026-08-28 14:01:33.140,New Cairo - American University,Cairo,30.0054,31.5021,34.42,40,2.06,clear sky
+378,75,57,57,Free Flow,2026-08-28 14:01:35.007,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,34.42,40,2.06,clear sky
+379,76,63,63,Free Flow,2026-08-28 14:01:35.850,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,34.42,40,2.06,clear sky
+380,77,39,39,Free Flow,2026-08-28 14:01:36.673,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,34.42,40,2.06,clear sky
+381,78,32,32,Free Flow,2026-08-28 14:01:37.560,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,34.42,40,2.06,clear sky
+382,79,40,40,Free Flow,2026-08-28 14:01:38.420,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,34.42,40,2.06,clear sky
+383,80,31,31,Free Flow,2026-08-28 14:01:39.273,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,34.42,40,2.06,clear sky
+384,81,49,49,Free Flow,2026-08-28 14:01:40.303,Heliopolis - Merghany,Cairo,30.0854,31.3354,34.42,40,2.06,clear sky
+385,82,55,55,Free Flow,2026-08-28 14:01:41.130,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,34.42,40,2.06,clear sky
+386,83,41,41,Free Flow,2026-08-28 14:01:41.963,Maadi - Victoria Square,Cairo,29.9541,31.2541,34.42,40,2.06,clear sky
+387,84,33,33,Free Flow,2026-08-28 14:01:42.857,Maadi - Degla,Cairo,29.9602,31.2565,34.42,40,2.06,clear sky
+388,85,21,21,Free Flow,2026-08-28 14:01:43.673,Zamalek - 26 July St,Cairo,30.0654,31.2214,34.42,40,2.06,clear sky
+389,86,20,20,Free Flow,2026-08-28 14:01:44.553,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,34.42,40,2.06,clear sky
+390,87,16,16,Free Flow,2026-08-28 14:01:45.400,Downtown - Talaat Harb,Cairo,30.0512,31.2412,34.42,40,2.06,clear sky
+391,88,33,33,Free Flow,2026-08-28 14:01:46.327,Dokki - Mesaha Sq,Giza,30.0387,31.2145,34.41,32,2.14,clear sky
+392,89,23,23,Free Flow,2026-08-28 14:01:47.130,Mohandessin - Shehab St,Giza,30.0554,31.2014,34.41,32,2.14,clear sky
+393,90,14,14,Free Flow,2026-08-28 14:01:47.947,Mohandessin - Sudan St,Giza,30.0687,31.2054,34.41,32,2.14,clear sky
+394,91,14,14,Free Flow,2026-08-28 14:01:48.760,Giza - El Omraneya,Giza,29.9954,31.2014,34.41,32,2.14,clear sky
+395,92,23,23,Free Flow,2026-08-28 14:01:49.827,Shubra - Corniche,Cairo,30.0854,31.2454,34.42,40,2.06,clear sky
+396,93,23,23,Free Flow,2026-08-28 14:01:50.670,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,34.42,40,2.06,clear sky
+397,94,19,19,Free Flow,2026-08-28 14:01:51.493,Ain Shams - El Matareya,Cairo,30.1254,31.3154,34.42,40,2.06,clear sky
+398,95,49,49,Free Flow,2026-08-28 14:01:52.340,Ain Shams University Area,Cairo,30.0754,31.2854,34.42,40,2.06,clear sky
+399,96,32,32,Free Flow,2026-08-28 14:01:53.307,Helwan - Corniche,Cairo,29.8454,31.3354,34.42,40,2.06,clear sky
+400,97,24,24,Free Flow,2026-08-28 14:01:55.537,Helwan University Area,Cairo,29.8512,31.3054,34.42,40,2.06,clear sky
+401,98,56,56,Free Flow,2026-08-28 14:01:56.423,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,34.42,40,2.06,clear sky
+402,99,46,46,Free Flow,2026-08-28 14:01:57.243,Cairo International Stadium Area,Cairo,30.0714,31.3154,34.42,40,2.06,clear sky
+403,100,72,72,Free Flow,2026-08-28 14:01:58.043,Cairo Festival City Area,Cairo,30.0312,31.4014,34.42,40,2.06,clear sky
+404,101,38,38,Free Flow,2026-08-28 14:01:58.820,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,34.42,40,2.06,clear sky
+405,1,16,16,Free Flow,2026-08-28 17:00:27.707,Stanley Bridge,Alexandria,31.2291,29.9575,30.98,66,6.17,clear sky
+406,2,25,25,Free Flow,2026-08-28 17:00:28.610,Corniche - San Stefano,Alexandria,31.2465,29.9723,30.98,66,6.17,clear sky
+407,3,22,22,Free Flow,2026-08-28 17:00:29.653,Corniche - Gleem,Alexandria,31.2391,29.9654,30.98,66,6.17,clear sky
+408,4,22,22,Free Flow,2026-08-28 17:00:30.470,Corniche - Roushdy,Alexandria,31.2365,29.9621,30.98,66,6.17,clear sky
+409,5,27,27,Free Flow,2026-08-28 17:00:31.307,Corniche - Sporting,Alexandria,31.2214,29.9482,30.98,66,6.17,clear sky
+410,6,27,27,Free Flow,2026-08-28 17:00:32.143,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,30.98,66,6.17,clear sky
+411,7,38,38,Free Flow,2026-08-28 17:00:32.980,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,30.98,66,6.17,clear sky
+412,8,26,26,Free Flow,2026-08-28 17:00:33.843,Corniche - Chatby,Alexandria,31.2012,29.9284,30.98,66,6.17,clear sky
+413,9,27,27,Free Flow,2026-08-28 17:00:34.713,Corniche - Silsela,Alexandria,31.2054,29.8965,30.98,66,6.17,clear sky
+414,10,17,17,Free Flow,2026-08-28 17:00:35.537,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,30.98,66,6.17,clear sky
+415,11,34,34,Free Flow,2026-08-28 17:00:36.353,Corniche - Miami,Alexandria,31.2825,30.0152,30.98,66,6.17,clear sky
+416,12,34,34,Free Flow,2026-08-28 17:00:37.547,Corniche - Montaza,Alexandria,31.2871,30.0214,30.98,66,6.17,clear sky
+417,13,34,34,Free Flow,2026-08-28 17:00:38.637,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,30.98,66,6.17,clear sky
+418,14,22,22,Free Flow,2026-08-28 17:00:39.687,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,30.98,66,6.17,clear sky
+419,15,18,18,Free Flow,2026-08-28 17:00:40.513,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,30.98,66,6.17,clear sky
+420,16,60,60,Free Flow,2026-08-28 17:00:41.340,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,30.98,66,6.17,clear sky
+421,17,50,50,Free Flow,2026-08-28 17:00:42.197,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,30.98,66,6.17,clear sky
+422,18,48,48,Free Flow,2026-08-28 17:00:43.003,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,30.98,66,6.17,clear sky
+423,19,86,86,Free Flow,2026-08-28 17:00:43.820,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,30.98,66,6.17,clear sky
+424,20,37,37,Free Flow,2026-08-28 17:00:44.640,Kafoury Road,Alexandria,31.0854,29.7541,30.98,66,6.17,clear sky
+425,21,82,82,Free Flow,2026-08-28 17:00:45.480,Borg El Arab Entrance,Alexandria,30.9124,29.5412,30.98,66,6.17,clear sky
+426,22,75,75,Free Flow,2026-08-28 17:00:46.307,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,35.88,33,7.61,clear sky
+427,23,26,26,Free Flow,2026-08-28 17:00:47.460,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,35.88,33,7.61,clear sky
+428,24,26,26,Free Flow,2026-08-28 17:00:48.293,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,37.49,22,7.53,clear sky
+429,25,20,20,Free Flow,2026-08-28 17:00:49.113,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,37.15,20,5.55,clear sky
+430,26,34,34,Free Flow,2026-08-28 17:00:49.927,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,37.15,20,5.55,clear sky
+431,27,42,42,Free Flow,2026-08-28 17:00:50.763,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,37.15,20,5.55,clear sky
+432,28,11,11,Free Flow,2026-08-28 17:00:51.593,Ring Road - Marg,Cairo,30.1524,31.3452,37.42,23,4.12,clear sky
+433,29,79,79,Free Flow,2026-08-28 17:00:52.433,Ring Road - Al Salam City,Cairo,30.1654,31.3854,37.42,23,4.12,clear sky
+434,30,77,77,Free Flow,2026-08-28 17:00:53.233,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,37.42,23,4.12,clear sky
+435,31,66,66,Free Flow,2026-08-28 17:00:54.067,Ring Road - Katameya,Cairo,29.9854,31.3541,37.42,23,4.12,clear sky
+436,32,20,20,Free Flow,2026-08-28 17:00:54.887,Ring Road - Maadi,Cairo,29.9621,31.2754,37.42,23,4.12,clear sky
+437,33,42,42,Free Flow,2026-08-28 17:00:55.697,Ring Road - Mounib,Giza,29.9821,31.2154,37.41,20,4.89,clear sky
+438,34,13,13,Free Flow,2026-08-28 17:00:56.540,Ring Road - Mariouteya,Giza,29.9754,31.1542,37.41,20,4.89,clear sky
+439,35,14,14,Free Flow,2026-08-28 17:00:57.407,Ring Road - El Waraq,Giza,30.0854,31.2014,37.41,20,4.89,clear sky
+440,36,27,27,Free Flow,2026-08-28 17:00:58.203,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,37.41,20,4.89,clear sky
+441,37,9,16,Heavy Congestion,2026-08-28 17:00:59.013,October Bridge - Ramses,Cairo,30.0565,31.2442,37.42,23,4.12,clear sky
+442,38,20,20,Free Flow,2026-08-28 17:00:59.850,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,37.42,23,4.12,clear sky
+443,39,21,21,Free Flow,2026-08-28 17:01:00.703,October Bridge - Zamalek,Cairo,30.0621,31.2215,37.42,23,4.12,clear sky
+444,40,30,30,Free Flow,2026-08-28 17:01:01.533,October Bridge - Doqqi,Giza,30.0454,31.2145,37.41,20,4.89,clear sky
+445,41,23,23,Free Flow,2026-08-28 17:01:02.363,October Bridge - Mohandessin End,Giza,30.0541,31.1985,37.41,20,4.89,clear sky
+446,42,37,37,Free Flow,2026-08-28 17:01:03.187,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,37.42,23,4.12,clear sky
+447,43,34,34,Free Flow,2026-08-28 17:01:04.007,October Bridge - Al-Manial,Cairo,30.0312,31.2285,37.42,23,4.12,clear sky
+448,44,42,42,Free Flow,2026-08-28 17:01:04.813,Salah Salem - Airport Road,Cairo,30.1054,31.3854,37.42,23,4.12,clear sky
+449,45,58,58,Free Flow,2026-08-28 17:01:05.630,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,37.42,23,4.12,clear sky
+450,46,49,49,Free Flow,2026-08-28 17:01:06.453,Salah Salem - Citadel,Cairo,30.0285,31.2654,37.42,23,4.12,clear sky
+451,47,46,46,Free Flow,2026-08-28 17:01:07.350,Salah Salem - Panorama,Cairo,30.0721,31.3154,37.42,23,4.12,clear sky
+452,48,20,20,Free Flow,2026-08-28 17:01:08.207,Autostrad - Maadi,Cairo,29.9754,31.2654,37.42,23,4.12,clear sky
+453,49,20,20,Free Flow,2026-08-28 17:01:09.013,Autostrad - Helwan,Cairo,29.8541,31.3154,37.42,23,4.12,clear sky
+454,50,67,67,Free Flow,2026-08-28 17:01:09.870,Autostrad - Nasr City,Cairo,30.0354,31.3354,37.42,23,4.12,clear sky
+455,51,38,38,Free Flow,2026-08-28 17:01:10.697,Corniche - Maspero,Cairo,30.0541,31.2312,37.42,23,4.12,clear sky
+456,52,20,20,Free Flow,2026-08-28 17:01:11.540,Corniche - Garden City,Cairo,30.0354,31.2285,37.42,23,4.12,clear sky
+457,53,41,41,Free Flow,2026-08-28 17:01:12.337,Corniche - Maadi,Cairo,29.9621,31.2454,37.42,23,4.12,clear sky
+458,54,34,34,Free Flow,2026-08-28 17:01:13.150,Qasr El Nil Bridge,Cairo,30.0435,31.2312,37.42,23,4.12,clear sky
+459,55,13,13,Free Flow,2026-08-28 17:01:13.960,Abbas Bridge,Cairo,30.0198,31.2312,37.42,23,4.12,clear sky
+460,56,22,28,Moderate,2026-08-28 17:01:14.777,El Galaa Bridge,Cairo,30.0512,31.2214,37.42,23,4.12,clear sky
+461,57,37,37,Free Flow,2026-08-28 17:01:15.590,Tahya Masr Bridge,Cairo,30.0954,31.2245,37.42,23,4.12,clear sky
+462,58,34,34,Free Flow,2026-08-28 17:01:16.420,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,37.41,20,4.89,clear sky
+463,59,53,53,Free Flow,2026-08-28 17:01:17.310,Axis 26 July - Hyper One,Giza,30.0714,31.0254,37.41,20,4.89,clear sky
+464,60,21,21,Free Flow,2026-08-28 17:01:18.133,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,37.41,20,4.89,clear sky
+465,61,32,32,Free Flow,2026-08-28 17:01:18.963,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,37.15,20,5.55,clear sky
+466,62,105,105,Free Flow,2026-08-28 17:01:19.787,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,37.41,20,4.89,clear sky
+467,63,39,39,Free Flow,2026-08-28 17:01:20.600,Haram Street - Giza Square,Giza,30.0124,31.2145,37.41,20,4.89,clear sky
+468,64,32,32,Free Flow,2026-08-28 17:01:21.443,Haram Street - Al Arish,Giza,29.9954,31.1754,37.41,20,4.89,clear sky
+469,65,36,36,Free Flow,2026-08-28 17:01:22.270,Haram Street - El Remaya,Giza,29.9821,31.1354,37.41,20,4.89,clear sky
+470,66,39,39,Free Flow,2026-08-28 17:01:23.110,Faisal Street - El Massaha,Giza,30.0254,31.2014,37.41,20,4.89,clear sky
+471,67,32,32,Free Flow,2026-08-28 17:01:23.960,Faisal Street - El Talbeya,Giza,29.9921,31.1654,37.41,20,4.89,clear sky
+472,68,61,61,Free Flow,2026-08-28 17:01:24.823,King Faisal Street End,Giza,29.9854,31.1245,37.41,20,4.89,clear sky
+473,69,78,83,Moderate,2026-08-28 17:01:25.637,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,37.41,20,4.89,clear sky
+474,70,40,40,Free Flow,2026-08-28 17:01:26.483,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,37.41,20,4.89,clear sky
+475,71,81,81,Free Flow,2026-08-28 17:01:27.443,Wadi El Natrun Road,Beheira,30.4541,30.3541,35.88,33,7.61,clear sky
+476,72,70,70,Free Flow,2026-08-28 17:01:28.257,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,37.42,23,4.12,clear sky
+477,73,48,48,Free Flow,2026-08-28 17:01:29.113,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,37.42,23,4.12,clear sky
+478,74,74,74,Free Flow,2026-08-28 17:01:29.930,New Cairo - American University,Cairo,30.0054,31.5021,37.42,23,4.12,clear sky
+479,75,57,57,Free Flow,2026-08-28 17:01:30.723,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,37.42,23,4.12,clear sky
+480,76,63,63,Free Flow,2026-08-28 17:01:31.543,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,37.42,23,4.12,clear sky
+481,77,39,39,Free Flow,2026-08-28 17:01:32.397,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,37.42,23,4.12,clear sky
+482,78,32,32,Free Flow,2026-08-28 17:01:33.227,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,37.42,23,4.12,clear sky
+483,79,40,40,Free Flow,2026-08-28 17:01:35.037,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,37.42,23,4.12,clear sky
+484,80,31,31,Free Flow,2026-08-28 17:01:35.867,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,37.42,23,4.12,clear sky
+485,81,49,49,Free Flow,2026-08-28 17:01:36.713,Heliopolis - Merghany,Cairo,30.0854,31.3354,37.42,23,4.12,clear sky
+486,82,55,55,Free Flow,2026-08-28 17:01:37.607,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,37.42,23,4.12,clear sky
+487,83,41,41,Free Flow,2026-08-28 17:01:38.563,Maadi - Victoria Square,Cairo,29.9541,31.2541,37.42,23,4.12,clear sky
+488,84,33,33,Free Flow,2026-08-28 17:01:39.400,Maadi - Degla,Cairo,29.9602,31.2565,37.42,23,4.12,clear sky
+489,85,21,21,Free Flow,2026-08-28 17:01:40.230,Zamalek - 26 July St,Cairo,30.0654,31.2214,37.42,23,4.12,clear sky
+490,86,20,20,Free Flow,2026-08-28 17:01:41.067,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,37.42,23,4.12,clear sky
+491,87,16,16,Free Flow,2026-08-28 17:01:41.903,Downtown - Talaat Harb,Cairo,30.0512,31.2412,37.42,23,4.12,clear sky
+492,88,33,33,Free Flow,2026-08-28 17:01:42.717,Dokki - Mesaha Sq,Giza,30.0387,31.2145,37.41,20,4.89,clear sky
+493,89,10,23,Heavy Congestion,2026-08-28 17:01:43.513,Mohandessin - Shehab St,Giza,30.0554,31.2014,37.41,20,4.89,clear sky
+494,90,14,14,Free Flow,2026-08-28 17:01:45.347,Mohandessin - Sudan St,Giza,30.0687,31.2054,37.41,20,4.89,clear sky
+495,91,14,14,Free Flow,2026-08-28 17:01:46.150,Giza - El Omraneya,Giza,29.9954,31.2014,37.41,20,4.89,clear sky
+496,92,23,23,Free Flow,2026-08-28 17:01:46.957,Shubra - Corniche,Cairo,30.0854,31.2454,37.42,23,4.12,clear sky
+497,93,23,23,Free Flow,2026-08-28 17:01:47.827,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,37.42,23,4.12,clear sky
+498,94,19,19,Free Flow,2026-08-28 17:01:48.660,Ain Shams - El Matareya,Cairo,30.1254,31.3154,37.42,23,4.12,clear sky
+499,95,49,49,Free Flow,2026-08-28 17:01:49.480,Ain Shams University Area,Cairo,30.0754,31.2854,37.42,23,4.12,clear sky
+500,96,32,32,Free Flow,2026-08-28 17:01:50.307,Helwan - Corniche,Cairo,29.8454,31.3354,37.42,23,4.12,clear sky
+501,97,24,24,Free Flow,2026-08-28 17:01:51.137,Helwan University Area,Cairo,29.8512,31.3054,37.42,23,4.12,clear sky
+502,98,56,56,Free Flow,2026-08-28 17:01:51.970,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,37.42,23,4.12,clear sky
+503,99,46,46,Free Flow,2026-08-28 17:01:52.797,Cairo International Stadium Area,Cairo,30.0714,31.3154,37.42,23,4.12,clear sky
+504,100,72,72,Free Flow,2026-08-28 17:01:53.623,Cairo Festival City Area,Cairo,30.0312,31.4014,37.42,23,4.12,clear sky
+505,101,38,38,Free Flow,2026-08-28 17:01:54.437,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,37.42,23,4.12,clear sky
+506,1,14,17,Moderate,2026-08-28 22:43:18.647,Stanley Bridge,Alexandria,31.2291,29.9575,26.98,78,4.12,clear sky
+507,2,25,25,Free Flow,2026-08-28 22:43:19.423,Corniche - San Stefano,Alexandria,31.2465,29.9723,26.98,78,4.12,clear sky
+508,3,22,22,Free Flow,2026-08-28 22:43:20.183,Corniche - Gleem,Alexandria,31.2391,29.9654,26.98,78,4.12,clear sky
+509,4,22,22,Free Flow,2026-08-28 22:43:20.953,Corniche - Roushdy,Alexandria,31.2365,29.9621,26.98,78,4.12,clear sky
+510,5,27,27,Free Flow,2026-08-28 22:43:21.713,Corniche - Sporting,Alexandria,31.2214,29.9482,26.98,78,4.12,clear sky
+511,6,27,27,Free Flow,2026-08-28 22:43:22.483,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,26.98,78,4.12,clear sky
+512,7,38,38,Free Flow,2026-08-28 22:43:23.240,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,26.98,78,4.12,clear sky
+513,8,26,26,Free Flow,2026-08-28 22:43:24.057,Corniche - Chatby,Alexandria,31.2012,29.9284,26.98,78,4.12,clear sky
+514,9,19,27,Moderate,2026-08-28 22:43:24.817,Corniche - Silsela,Alexandria,31.2054,29.8965,26.98,78,4.12,clear sky
+515,10,15,18,Moderate,2026-08-28 22:43:25.583,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,26.98,78,4.12,clear sky
+516,11,28,34,Moderate,2026-08-28 22:43:26.383,Corniche - Miami,Alexandria,31.2825,30.0152,26.98,78,4.12,clear sky
+517,12,34,34,Free Flow,2026-08-28 22:43:27.153,Corniche - Montaza,Alexandria,31.2871,30.0214,26.98,78,4.12,clear sky
+518,13,34,34,Free Flow,2026-08-28 22:43:27.950,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,26.98,78,4.12,clear sky
+519,14,22,22,Free Flow,2026-08-28 22:43:28.850,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,26.98,78,4.12,clear sky
+520,15,14,17,Moderate,2026-08-28 22:43:29.637,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,26.98,78,4.12,clear sky
+521,16,60,60,Free Flow,2026-08-28 22:43:30.400,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,26.98,78,4.12,clear sky
+522,17,50,50,Free Flow,2026-08-28 22:43:31.163,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,26.98,78,4.12,clear sky
+523,18,48,48,Free Flow,2026-08-28 22:43:32.067,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,26.98,78,4.12,clear sky
+524,19,86,86,Free Flow,2026-08-28 22:43:32.857,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,26.98,78,4.12,clear sky
+525,20,33,37,Moderate,2026-08-28 22:43:33.733,Kafoury Road,Alexandria,31.0854,29.7541,26.98,78,4.12,clear sky
+526,21,82,82,Free Flow,2026-08-28 22:43:34.637,Borg El Arab Entrance,Alexandria,30.9124,29.5412,26.98,78,4.12,clear sky
+527,22,75,75,Free Flow,2026-08-28 22:43:35.547,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,26.97,80,4.44,clear sky
+528,23,26,26,Free Flow,2026-08-28 22:43:36.943,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,26.97,80,4.44,clear sky
+529,24,22,25,Moderate,2026-08-28 22:43:40.910,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,27.96,79,2.14,clear sky
+530,25,20,20,Free Flow,2026-08-28 22:43:41.750,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,29.78,58,2.77,clear sky
+531,26,34,34,Free Flow,2026-08-28 22:43:42.517,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,29.78,58,2.77,clear sky
+532,27,42,42,Free Flow,2026-08-28 22:43:43.270,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,29.78,58,2.77,clear sky
+533,28,11,11,Free Flow,2026-08-28 22:43:44.090,Ring Road - Marg,Cairo,30.1524,31.3452,33.42,43,4.63,clear sky
+534,29,79,79,Free Flow,2026-08-28 22:43:44.870,Ring Road - Al Salam City,Cairo,30.1654,31.3854,33.42,43,4.63,clear sky
+535,30,77,77,Free Flow,2026-08-28 22:43:45.650,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,33.42,43,4.63,clear sky
+536,31,66,66,Free Flow,2026-08-28 22:43:46.423,Ring Road - Katameya,Cairo,29.9854,31.3541,33.42,43,4.63,clear sky
+537,32,18,20,Moderate,2026-08-28 22:43:47.177,Ring Road - Maadi,Cairo,29.9621,31.2754,33.42,43,4.63,clear sky
+538,33,42,42,Free Flow,2026-08-28 22:43:47.960,Ring Road - Mounib,Giza,29.9821,31.2154,33.41,46,6.72,clear sky
+539,34,13,13,Free Flow,2026-08-28 22:43:48.723,Ring Road - Mariouteya,Giza,29.9754,31.1542,33.41,46,6.72,clear sky
+540,35,14,14,Free Flow,2026-08-28 22:43:49.477,Ring Road - El Waraq,Giza,30.0854,31.2014,33.41,46,6.72,clear sky
+541,36,27,27,Free Flow,2026-08-28 22:43:50.257,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,33.41,46,6.72,clear sky
+542,37,14,16,Moderate,2026-08-28 22:43:51.020,October Bridge - Ramses,Cairo,30.0565,31.2442,33.42,43,4.63,clear sky
+543,38,20,20,Free Flow,2026-08-28 22:43:51.807,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,33.42,43,4.63,clear sky
+544,39,21,21,Free Flow,2026-08-28 22:43:52.677,October Bridge - Zamalek,Cairo,30.0621,31.2215,33.42,43,4.63,clear sky
+545,40,30,30,Free Flow,2026-08-28 22:43:53.447,October Bridge - Doqqi,Giza,30.0454,31.2145,33.41,46,6.72,clear sky
+546,41,23,23,Free Flow,2026-08-28 22:43:54.257,October Bridge - Mohandessin End,Giza,30.0541,31.1985,33.41,46,6.72,clear sky
+547,42,37,37,Free Flow,2026-08-28 22:43:55.053,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,33.42,43,4.63,clear sky
+548,43,34,34,Free Flow,2026-08-28 22:43:55.827,October Bridge - Al-Manial,Cairo,30.0312,31.2285,33.42,43,4.63,clear sky
+549,44,42,42,Free Flow,2026-08-28 22:43:56.590,Salah Salem - Airport Road,Cairo,30.1054,31.3854,33.42,43,4.63,clear sky
+550,45,58,58,Free Flow,2026-08-28 22:43:57.353,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,33.42,43,4.63,clear sky
+551,46,49,49,Free Flow,2026-08-28 22:43:58.127,Salah Salem - Citadel,Cairo,30.0285,31.2654,33.42,43,4.63,clear sky
+552,47,46,46,Free Flow,2026-08-28 22:43:58.887,Salah Salem - Panorama,Cairo,30.0721,31.3154,33.42,43,4.63,clear sky
+553,48,18,20,Moderate,2026-08-28 22:43:59.663,Autostrad - Maadi,Cairo,29.9754,31.2654,33.42,43,4.63,clear sky
+554,49,20,20,Free Flow,2026-08-28 22:44:00.507,Autostrad - Helwan,Cairo,29.8541,31.3154,33.42,43,4.63,clear sky
+555,50,67,67,Free Flow,2026-08-28 22:44:01.283,Autostrad - Nasr City,Cairo,30.0354,31.3354,33.42,43,4.63,clear sky
+556,51,30,38,Moderate,2026-08-28 22:44:02.047,Corniche - Maspero,Cairo,30.0541,31.2312,33.42,43,4.63,clear sky
+557,52,18,22,Moderate,2026-08-28 22:44:02.803,Corniche - Garden City,Cairo,30.0354,31.2285,33.42,43,4.63,clear sky
+558,53,41,41,Free Flow,2026-08-28 22:44:03.627,Corniche - Maadi,Cairo,29.9621,31.2454,33.42,43,4.63,clear sky
+559,54,34,34,Free Flow,2026-08-28 22:44:04.390,Qasr El Nil Bridge,Cairo,30.0435,31.2312,33.42,43,4.63,clear sky
+560,55,13,13,Free Flow,2026-08-28 22:44:05.160,Abbas Bridge,Cairo,30.0198,31.2312,33.42,43,4.63,clear sky
+561,56,28,28,Free Flow,2026-08-28 22:44:05.947,El Galaa Bridge,Cairo,30.0512,31.2214,33.42,43,4.63,clear sky
+562,57,31,36,Moderate,2026-08-28 22:44:06.730,Tahya Masr Bridge,Cairo,30.0954,31.2245,33.42,43,4.63,clear sky
+563,58,28,34,Moderate,2026-08-28 22:44:07.490,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,33.41,46,6.72,clear sky
+564,59,53,53,Free Flow,2026-08-28 22:44:08.307,Axis 26 July - Hyper One,Giza,30.0714,31.0254,33.41,46,6.72,clear sky
+565,60,21,21,Free Flow,2026-08-28 22:44:09.070,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,33.41,46,6.72,clear sky
+566,61,26,32,Moderate,2026-08-28 22:44:09.860,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,29.78,58,2.77,clear sky
+567,62,105,105,Free Flow,2026-08-28 22:44:10.627,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,33.41,46,6.72,clear sky
+568,63,31,39,Moderate,2026-08-28 22:44:11.390,Haram Street - Giza Square,Giza,30.0124,31.2145,33.41,46,6.72,clear sky
+569,64,32,32,Free Flow,2026-08-28 22:44:12.173,Haram Street - Al Arish,Giza,29.9954,31.1754,33.41,46,6.72,clear sky
+570,65,36,36,Free Flow,2026-08-28 22:44:12.937,Haram Street - El Remaya,Giza,29.9821,31.1354,33.41,46,6.72,clear sky
+571,66,39,39,Free Flow,2026-08-28 22:44:13.697,Faisal Street - El Massaha,Giza,30.0254,31.2014,33.41,46,6.72,clear sky
+572,67,32,32,Free Flow,2026-08-28 22:44:14.510,Faisal Street - El Talbeya,Giza,29.9921,31.1654,33.41,46,6.72,clear sky
+573,68,61,61,Free Flow,2026-08-28 22:44:15.353,King Faisal Street End,Giza,29.9854,31.1245,33.41,46,6.72,clear sky
+574,69,83,83,Free Flow,2026-08-28 22:44:16.217,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,33.41,46,6.72,clear sky
+575,70,40,40,Free Flow,2026-08-28 22:44:16.987,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,33.41,46,6.72,clear sky
+576,71,81,81,Free Flow,2026-08-28 22:44:17.750,Wadi El Natrun Road,Beheira,30.4541,30.3541,26.97,80,4.44,clear sky
+577,72,70,70,Free Flow,2026-08-28 22:44:18.517,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,33.42,43,4.63,clear sky
+578,73,48,48,Free Flow,2026-08-28 22:44:19.283,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,33.42,43,4.63,clear sky
+579,74,74,74,Free Flow,2026-08-28 22:44:20.043,New Cairo - American University,Cairo,30.0054,31.5021,33.42,43,4.63,clear sky
+580,75,57,57,Free Flow,2026-08-28 22:44:20.807,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,33.42,43,4.63,clear sky
+581,76,63,63,Free Flow,2026-08-28 22:44:21.570,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,33.42,43,4.63,clear sky
+582,77,39,39,Free Flow,2026-08-28 22:44:22.373,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,33.42,43,4.63,clear sky
+583,78,32,32,Free Flow,2026-08-28 22:44:23.143,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,33.42,43,4.63,clear sky
+584,79,40,40,Free Flow,2026-08-28 22:44:23.933,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,33.42,43,4.63,clear sky
+585,80,31,31,Free Flow,2026-08-28 22:44:24.803,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,33.42,43,4.63,clear sky
+586,81,49,49,Free Flow,2026-08-28 22:44:25.587,Heliopolis - Merghany,Cairo,30.0854,31.3354,33.42,43,4.63,clear sky
+587,82,55,55,Free Flow,2026-08-28 22:44:26.357,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,33.42,43,4.63,clear sky
+588,83,41,41,Free Flow,2026-08-28 22:44:27.120,Maadi - Victoria Square,Cairo,29.9541,31.2541,33.42,43,4.63,clear sky
+589,84,33,33,Free Flow,2026-08-28 22:44:27.873,Maadi - Degla,Cairo,29.9602,31.2565,33.42,43,4.63,clear sky
+590,85,21,21,Free Flow,2026-08-28 22:44:28.643,Zamalek - 26 July St,Cairo,30.0654,31.2214,33.42,43,4.63,clear sky
+591,86,20,20,Free Flow,2026-08-28 22:44:29.407,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,33.42,43,4.63,clear sky
+592,87,16,16,Free Flow,2026-08-28 22:44:30.163,Downtown - Talaat Harb,Cairo,30.0512,31.2412,33.42,43,4.63,clear sky
+593,88,33,33,Free Flow,2026-08-28 22:44:30.923,Dokki - Mesaha Sq,Giza,30.0387,31.2145,33.41,46,6.72,clear sky
+594,89,23,23,Free Flow,2026-08-28 22:44:31.693,Mohandessin - Shehab St,Giza,30.0554,31.2014,33.41,46,6.72,clear sky
+595,90,14,14,Free Flow,2026-08-28 22:44:32.480,Mohandessin - Sudan St,Giza,30.0687,31.2054,33.41,46,6.72,clear sky
+596,91,14,14,Free Flow,2026-08-28 22:44:33.237,Giza - El Omraneya,Giza,29.9954,31.2014,33.41,46,6.72,clear sky
+597,92,19,22,Moderate,2026-08-28 22:44:33.997,Shubra - Corniche,Cairo,30.0854,31.2454,33.42,43,4.63,clear sky
+598,93,17,22,Moderate,2026-08-28 22:44:34.770,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,33.42,43,4.63,clear sky
+599,94,16,19,Moderate,2026-08-28 22:44:35.593,Ain Shams - El Matareya,Cairo,30.1254,31.3154,33.42,43,4.63,clear sky
+600,95,38,49,Moderate,2026-08-28 22:44:36.367,Ain Shams University Area,Cairo,30.0754,31.2854,33.42,43,4.63,clear sky
+601,96,29,32,Moderate,2026-08-28 22:44:37.130,Helwan - Corniche,Cairo,29.8454,31.3354,33.42,43,4.63,clear sky
+602,97,24,24,Free Flow,2026-08-28 22:44:37.903,Helwan University Area,Cairo,29.8512,31.3054,33.42,43,4.63,clear sky
+603,98,56,56,Free Flow,2026-08-28 22:44:38.663,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,33.42,43,4.63,clear sky
+604,99,46,46,Free Flow,2026-08-28 22:44:39.427,Cairo International Stadium Area,Cairo,30.0714,31.3154,33.42,43,4.63,clear sky
+605,100,72,72,Free Flow,2026-08-28 22:44:40.203,Cairo Festival City Area,Cairo,30.0312,31.4014,33.42,43,4.63,clear sky
+606,101,38,38,Free Flow,2026-08-28 22:44:40.973,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,33.42,43,4.63,clear sky
+607,1,10,17,Heavy Congestion,2026-08-29 22:12:46.170,Stanley Bridge,Alexandria,31.2291,29.9575,26.93,56,6.82,clear sky
+607,1,10,17,Heavy Congestion,2026-08-29 22:12:46.170,Stanley Bridge,Alexandria,31.2291,29.9575,25.98,65,7.2,clear sky
+608,2,22,26,Moderate,2026-08-29 22:12:46.957,Corniche - San Stefano,Alexandria,31.2465,29.9723,26.93,56,6.82,clear sky
+608,2,22,26,Moderate,2026-08-29 22:12:46.957,Corniche - San Stefano,Alexandria,31.2465,29.9723,25.98,65,7.2,clear sky
+609,3,18,23,Moderate,2026-08-29 22:12:47.733,Corniche - Gleem,Alexandria,31.2391,29.9654,26.93,56,6.82,clear sky
+609,3,18,23,Moderate,2026-08-29 22:12:47.733,Corniche - Gleem,Alexandria,31.2391,29.9654,25.98,65,7.2,clear sky
+610,4,18,23,Moderate,2026-08-29 22:12:48.513,Corniche - Roushdy,Alexandria,31.2365,29.9621,26.93,56,6.82,clear sky
+610,4,18,23,Moderate,2026-08-29 22:12:48.513,Corniche - Roushdy,Alexandria,31.2365,29.9621,25.98,65,7.2,clear sky
+611,5,20,26,Moderate,2026-08-29 22:12:49.293,Corniche - Sporting,Alexandria,31.2214,29.9482,26.93,56,6.82,clear sky
+611,5,20,26,Moderate,2026-08-29 22:12:49.293,Corniche - Sporting,Alexandria,31.2214,29.9482,25.98,65,7.2,clear sky
+612,6,20,26,Moderate,2026-08-29 22:12:50.070,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,26.93,56,6.82,clear sky
+612,6,20,26,Moderate,2026-08-29 22:12:50.070,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,25.98,65,7.2,clear sky
+613,7,35,38,Moderate,2026-08-29 22:12:50.877,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,26.93,56,6.82,clear sky
+613,7,35,38,Moderate,2026-08-29 22:12:50.877,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,25.98,65,7.2,clear sky
+614,8,22,26,Moderate,2026-08-29 22:12:51.683,Corniche - Chatby,Alexandria,31.2012,29.9284,26.93,56,6.82,clear sky
+614,8,22,26,Moderate,2026-08-29 22:12:51.683,Corniche - Chatby,Alexandria,31.2012,29.9284,25.98,65,7.2,clear sky
+615,9,19,26,Moderate,2026-08-29 22:12:52.450,Corniche - Silsela,Alexandria,31.2054,29.8965,26.93,56,6.82,clear sky
+615,9,19,26,Moderate,2026-08-29 22:12:52.450,Corniche - Silsela,Alexandria,31.2054,29.8965,25.98,65,7.2,clear sky
+616,10,17,17,Free Flow,2026-08-29 22:12:53.203,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,26.93,56,6.82,clear sky
+616,10,17,17,Free Flow,2026-08-29 22:12:53.203,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,25.98,65,7.2,clear sky
+617,11,30,34,Moderate,2026-08-29 22:12:53.957,Corniche - Miami,Alexandria,31.2825,30.0152,26.93,56,6.82,clear sky
+617,11,30,34,Moderate,2026-08-29 22:12:53.957,Corniche - Miami,Alexandria,31.2825,30.0152,25.98,65,7.2,clear sky
+618,12,34,34,Free Flow,2026-08-29 22:12:54.740,Corniche - Montaza,Alexandria,31.2871,30.0214,26.93,56,6.82,clear sky
+618,12,34,34,Free Flow,2026-08-29 22:12:54.740,Corniche - Montaza,Alexandria,31.2871,30.0214,25.98,65,7.2,clear sky
+619,13,28,33,Moderate,2026-08-29 22:12:55.523,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,26.93,56,6.82,clear sky
+619,13,28,33,Moderate,2026-08-29 22:12:55.523,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,25.98,65,7.2,clear sky
+620,14,22,22,Free Flow,2026-08-29 22:12:56.357,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,26.93,56,6.82,clear sky
+620,14,22,22,Free Flow,2026-08-29 22:12:56.357,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,25.98,65,7.2,clear sky
+621,15,13,17,Moderate,2026-08-29 22:12:57.110,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,26.93,56,6.82,clear sky
+621,15,13,17,Moderate,2026-08-29 22:12:57.110,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,25.98,65,7.2,clear sky
+622,16,60,60,Free Flow,2026-08-29 22:12:57.870,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,26.93,56,6.82,clear sky
+622,16,60,60,Free Flow,2026-08-29 22:12:57.870,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,25.98,65,7.2,clear sky
+623,17,50,50,Free Flow,2026-08-29 22:12:58.650,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,26.93,56,6.82,clear sky
+623,17,50,50,Free Flow,2026-08-29 22:12:58.650,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,25.98,65,7.2,clear sky
+624,18,48,48,Free Flow,2026-08-29 22:12:59.420,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,26.93,56,6.82,clear sky
+624,18,48,48,Free Flow,2026-08-29 22:12:59.420,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,25.98,65,7.2,clear sky
+625,19,86,86,Free Flow,2026-08-29 22:13:00.220,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,26.93,56,6.82,clear sky
+625,19,86,86,Free Flow,2026-08-29 22:13:00.220,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,25.98,65,7.2,clear sky
+626,20,30,37,Moderate,2026-08-29 22:13:01.003,Kafoury Road,Alexandria,31.0854,29.7541,26.93,56,6.82,clear sky
+626,20,30,37,Moderate,2026-08-29 22:13:01.003,Kafoury Road,Alexandria,31.0854,29.7541,25.98,65,7.2,clear sky
+627,21,82,82,Free Flow,2026-08-29 22:13:01.760,Borg El Arab Entrance,Alexandria,30.9124,29.5412,26.93,56,6.82,clear sky
+627,21,82,82,Free Flow,2026-08-29 22:13:01.760,Borg El Arab Entrance,Alexandria,30.9124,29.5412,25.98,65,7.2,clear sky
+628,22,75,75,Free Flow,2026-08-29 22:13:02.573,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,25.57,56,5.29,clear sky
+628,22,75,75,Free Flow,2026-08-29 22:13:02.573,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,25.27,58,4.51,clear sky
+629,23,26,26,Free Flow,2026-08-29 22:13:03.343,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,25.57,56,5.29,clear sky
+629,23,26,26,Free Flow,2026-08-29 22:13:03.343,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,25.27,58,4.51,clear sky
+630,24,26,26,Free Flow,2026-08-29 22:13:04.123,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,25.01,57,3.28,clear sky
+630,24,26,26,Free Flow,2026-08-29 22:13:04.123,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,23.91,61,3.33,clear sky
+631,25,20,20,Free Flow,2026-08-29 22:13:04.907,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,26.36,54,4.39,clear sky
+631,25,20,20,Free Flow,2026-08-29 22:13:04.907,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,24.31,56,3.2,clear sky
+632,26,34,34,Free Flow,2026-08-29 22:13:05.673,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,26.36,54,4.39,clear sky
+632,26,34,34,Free Flow,2026-08-29 22:13:05.673,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,24.31,56,3.2,clear sky
+633,27,36,42,Moderate,2026-08-29 22:13:06.487,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,26.36,54,4.39,clear sky
+633,27,36,42,Moderate,2026-08-29 22:13:06.487,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,24.31,56,3.2,clear sky
+634,28,11,11,Free Flow,2026-08-29 22:13:07.257,Ring Road - Marg,Cairo,30.1524,31.3452,27.42,54,7.72,clear sky
+634,28,11,11,Free Flow,2026-08-29 22:13:07.257,Ring Road - Marg,Cairo,30.1524,31.3452,26.42,53,7.72,clear sky
+635,29,79,79,Free Flow,2026-08-29 22:13:08.023,Ring Road - Al Salam City,Cairo,30.1654,31.3854,27.42,54,7.72,clear sky
+635,29,79,79,Free Flow,2026-08-29 22:13:08.023,Ring Road - Al Salam City,Cairo,30.1654,31.3854,26.42,53,7.72,clear sky
+636,30,77,77,Free Flow,2026-08-29 22:13:08.783,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,27.42,54,7.72,clear sky
+636,30,77,77,Free Flow,2026-08-29 22:13:08.783,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,26.42,53,7.72,clear sky
+637,31,66,66,Free Flow,2026-08-29 22:13:09.553,Ring Road - Katameya,Cairo,29.9854,31.3541,27.42,54,7.72,clear sky
+637,31,66,66,Free Flow,2026-08-29 22:13:09.553,Ring Road - Katameya,Cairo,29.9854,31.3541,26.42,53,7.72,clear sky
+638,32,17,20,Moderate,2026-08-29 22:13:10.353,Ring Road - Maadi,Cairo,29.9621,31.2754,27.42,54,7.72,clear sky
+638,32,17,20,Moderate,2026-08-29 22:13:10.353,Ring Road - Maadi,Cairo,29.9621,31.2754,26.42,53,7.72,clear sky
+639,33,42,42,Free Flow,2026-08-29 22:13:11.113,Ring Road - Mounib,Giza,29.9821,31.2154,27.41,50,7.94,clear sky
+639,33,42,42,Free Flow,2026-08-29 22:13:11.113,Ring Road - Mounib,Giza,29.9821,31.2154,26.41,53,6.96,clear sky
+640,34,13,13,Free Flow,2026-08-29 22:13:11.870,Ring Road - Mariouteya,Giza,29.9754,31.1542,27.41,50,7.94,clear sky
+640,34,13,13,Free Flow,2026-08-29 22:13:11.870,Ring Road - Mariouteya,Giza,29.9754,31.1542,26.41,53,6.96,clear sky
+641,35,9,13,Moderate,2026-08-29 22:13:12.633,Ring Road - El Waraq,Giza,30.0854,31.2014,27.41,50,7.94,clear sky
+641,35,9,13,Moderate,2026-08-29 22:13:12.633,Ring Road - El Waraq,Giza,30.0854,31.2014,26.41,53,6.96,clear sky
+642,36,21,27,Moderate,2026-08-29 22:13:13.390,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,27.41,50,7.94,clear sky
+642,36,21,27,Moderate,2026-08-29 22:13:13.390,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,26.41,53,6.96,clear sky
+643,37,13,16,Moderate,2026-08-29 22:13:14.150,October Bridge - Ramses,Cairo,30.0565,31.2442,27.42,54,7.72,clear sky
+643,37,13,16,Moderate,2026-08-29 22:13:14.150,October Bridge - Ramses,Cairo,30.0565,31.2442,26.42,53,7.72,clear sky
+644,38,20,20,Free Flow,2026-08-29 22:13:14.920,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,27.42,54,7.72,clear sky
+644,38,20,20,Free Flow,2026-08-29 22:13:14.920,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,26.42,53,7.72,clear sky
+645,39,21,21,Free Flow,2026-08-29 22:13:15.687,October Bridge - Zamalek,Cairo,30.0621,31.2215,27.42,54,7.72,clear sky
+645,39,21,21,Free Flow,2026-08-29 22:13:15.687,October Bridge - Zamalek,Cairo,30.0621,31.2215,26.42,53,7.72,clear sky
+646,40,25,30,Moderate,2026-08-29 22:13:16.557,October Bridge - Doqqi,Giza,30.0454,31.2145,27.41,50,7.94,clear sky
+646,40,25,30,Moderate,2026-08-29 22:13:16.557,October Bridge - Doqqi,Giza,30.0454,31.2145,26.41,53,6.96,clear sky
+647,41,18,23,Moderate,2026-08-29 22:13:17.313,October Bridge - Mohandessin End,Giza,30.0541,31.1985,27.41,50,7.94,clear sky
+647,41,18,23,Moderate,2026-08-29 22:13:17.313,October Bridge - Mohandessin End,Giza,30.0541,31.1985,26.41,53,6.96,clear sky
+648,42,37,37,Free Flow,2026-08-29 22:13:18.077,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,27.42,54,7.72,clear sky
+648,42,37,37,Free Flow,2026-08-29 22:13:18.077,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,26.42,53,7.72,clear sky
+649,43,27,34,Moderate,2026-08-29 22:13:18.857,October Bridge - Al-Manial,Cairo,30.0312,31.2285,27.42,54,7.72,clear sky
+649,43,27,34,Moderate,2026-08-29 22:13:18.857,October Bridge - Al-Manial,Cairo,30.0312,31.2285,26.42,53,7.72,clear sky
+650,44,42,42,Free Flow,2026-08-29 22:13:19.627,Salah Salem - Airport Road,Cairo,30.1054,31.3854,27.42,54,7.72,clear sky
+650,44,42,42,Free Flow,2026-08-29 22:13:19.627,Salah Salem - Airport Road,Cairo,30.1054,31.3854,26.42,53,7.72,clear sky
+651,45,58,58,Free Flow,2026-08-29 22:13:20.437,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,27.42,54,7.72,clear sky
+651,45,58,58,Free Flow,2026-08-29 22:13:20.437,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,26.42,53,7.72,clear sky
+652,46,49,49,Free Flow,2026-08-29 22:13:21.483,Salah Salem - Citadel,Cairo,30.0285,31.2654,27.42,54,7.72,clear sky
+652,46,49,49,Free Flow,2026-08-29 22:13:21.483,Salah Salem - Citadel,Cairo,30.0285,31.2654,26.42,53,7.72,clear sky
+653,47,46,46,Free Flow,2026-08-29 22:13:22.247,Salah Salem - Panorama,Cairo,30.0721,31.3154,27.42,54,7.72,clear sky
+653,47,46,46,Free Flow,2026-08-29 22:13:22.247,Salah Salem - Panorama,Cairo,30.0721,31.3154,26.42,53,7.72,clear sky
+654,48,17,20,Moderate,2026-08-29 22:13:23.020,Autostrad - Maadi,Cairo,29.9754,31.2654,27.42,54,7.72,clear sky
+654,48,17,20,Moderate,2026-08-29 22:13:23.020,Autostrad - Maadi,Cairo,29.9754,31.2654,26.42,53,7.72,clear sky
+655,49,20,20,Free Flow,2026-08-29 22:13:23.777,Autostrad - Helwan,Cairo,29.8541,31.3154,27.42,54,7.72,clear sky
+655,49,20,20,Free Flow,2026-08-29 22:13:23.777,Autostrad - Helwan,Cairo,29.8541,31.3154,26.42,53,7.72,clear sky
+656,50,67,67,Free Flow,2026-08-29 22:13:24.530,Autostrad - Nasr City,Cairo,30.0354,31.3354,27.42,54,7.72,clear sky
+656,50,67,67,Free Flow,2026-08-29 22:13:24.530,Autostrad - Nasr City,Cairo,30.0354,31.3354,26.42,53,7.72,clear sky
+657,51,38,38,Free Flow,2026-08-29 22:13:25.360,Corniche - Maspero,Cairo,30.0541,31.2312,27.42,54,7.72,clear sky
+657,51,38,38,Free Flow,2026-08-29 22:13:25.360,Corniche - Maspero,Cairo,30.0541,31.2312,26.42,53,7.72,clear sky
+658,52,17,20,Moderate,2026-08-29 22:13:26.173,Corniche - Garden City,Cairo,30.0354,31.2285,27.42,54,7.72,clear sky
+658,52,17,20,Moderate,2026-08-29 22:13:26.173,Corniche - Garden City,Cairo,30.0354,31.2285,26.42,53,7.72,clear sky
+659,53,41,41,Free Flow,2026-08-29 22:13:26.953,Corniche - Maadi,Cairo,29.9621,31.2454,27.42,54,7.72,clear sky
+659,53,41,41,Free Flow,2026-08-29 22:13:26.953,Corniche - Maadi,Cairo,29.9621,31.2454,26.42,53,7.72,clear sky
+660,54,27,34,Moderate,2026-08-29 22:13:27.720,Qasr El Nil Bridge,Cairo,30.0435,31.2312,27.42,54,7.72,clear sky
+660,54,27,34,Moderate,2026-08-29 22:13:27.720,Qasr El Nil Bridge,Cairo,30.0435,31.2312,26.42,53,7.72,clear sky
+661,55,13,13,Free Flow,2026-08-29 22:13:28.487,Abbas Bridge,Cairo,30.0198,31.2312,27.42,54,7.72,clear sky
+661,55,13,13,Free Flow,2026-08-29 22:13:28.487,Abbas Bridge,Cairo,30.0198,31.2312,26.42,53,7.72,clear sky
+662,56,28,28,Free Flow,2026-08-29 22:13:29.253,El Galaa Bridge,Cairo,30.0512,31.2214,27.42,54,7.72,clear sky
+662,56,28,28,Free Flow,2026-08-29 22:13:29.253,El Galaa Bridge,Cairo,30.0512,31.2214,26.42,53,7.72,clear sky
+663,57,31,37,Moderate,2026-08-29 22:13:30.047,Tahya Masr Bridge,Cairo,30.0954,31.2245,27.42,54,7.72,clear sky
+663,57,31,37,Moderate,2026-08-29 22:13:30.047,Tahya Masr Bridge,Cairo,30.0954,31.2245,26.42,53,7.72,clear sky
+664,58,25,34,Moderate,2026-08-29 22:13:30.810,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,27.41,50,7.94,clear sky
+664,58,25,34,Moderate,2026-08-29 22:13:30.810,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,26.41,53,6.96,clear sky
+665,59,53,53,Free Flow,2026-08-29 22:13:31.570,Axis 26 July - Hyper One,Giza,30.0714,31.0254,27.41,50,7.94,clear sky
+665,59,53,53,Free Flow,2026-08-29 22:13:31.570,Axis 26 July - Hyper One,Giza,30.0714,31.0254,26.41,53,6.96,clear sky
+666,60,14,20,Moderate,2026-08-29 22:13:32.343,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,27.41,50,7.94,clear sky
+666,60,14,20,Moderate,2026-08-29 22:13:32.343,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,26.41,53,6.96,clear sky
+667,61,25,32,Moderate,2026-08-29 22:13:33.120,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,26.36,54,4.39,clear sky
+667,61,25,32,Moderate,2026-08-29 22:13:33.120,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,24.31,56,3.2,clear sky
+668,62,105,105,Free Flow,2026-08-29 22:13:34.803,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,27.41,50,7.94,clear sky
+668,62,105,105,Free Flow,2026-08-29 22:13:34.803,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,26.41,53,6.96,clear sky
+669,63,39,39,Free Flow,2026-08-29 22:13:35.623,Haram Street - Giza Square,Giza,30.0124,31.2145,27.41,50,7.94,clear sky
+669,63,39,39,Free Flow,2026-08-29 22:13:35.623,Haram Street - Giza Square,Giza,30.0124,31.2145,26.41,53,6.96,clear sky
+670,64,25,32,Moderate,2026-08-29 22:13:36.443,Haram Street - Al Arish,Giza,29.9954,31.1754,27.41,50,7.94,clear sky
+670,64,25,32,Moderate,2026-08-29 22:13:36.443,Haram Street - Al Arish,Giza,29.9954,31.1754,26.41,53,6.96,clear sky
+671,65,36,36,Free Flow,2026-08-29 22:13:37.260,Haram Street - El Remaya,Giza,29.9821,31.1354,27.41,50,7.94,clear sky
+671,65,36,36,Free Flow,2026-08-29 22:13:37.260,Haram Street - El Remaya,Giza,29.9821,31.1354,26.41,53,6.96,clear sky
+672,66,39,39,Free Flow,2026-08-29 22:13:38.017,Faisal Street - El Massaha,Giza,30.0254,31.2014,27.41,50,7.94,clear sky
+672,66,39,39,Free Flow,2026-08-29 22:13:38.017,Faisal Street - El Massaha,Giza,30.0254,31.2014,26.41,53,6.96,clear sky
+673,67,25,32,Moderate,2026-08-29 22:13:38.783,Faisal Street - El Talbeya,Giza,29.9921,31.1654,27.41,50,7.94,clear sky
+673,67,25,32,Moderate,2026-08-29 22:13:38.783,Faisal Street - El Talbeya,Giza,29.9921,31.1654,26.41,53,6.96,clear sky
+674,68,61,61,Free Flow,2026-08-29 22:13:39.553,King Faisal Street End,Giza,29.9854,31.1245,27.41,50,7.94,clear sky
+674,68,61,61,Free Flow,2026-08-29 22:13:39.553,King Faisal Street End,Giza,29.9854,31.1245,26.41,53,6.96,clear sky
+675,69,83,83,Free Flow,2026-08-29 22:13:40.340,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,27.41,50,7.94,clear sky
+675,69,83,83,Free Flow,2026-08-29 22:13:40.340,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,26.41,53,6.96,clear sky
+676,70,40,40,Free Flow,2026-08-29 22:13:41.120,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,27.41,50,7.94,clear sky
+676,70,40,40,Free Flow,2026-08-29 22:13:41.120,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,26.41,53,6.96,clear sky
+677,71,81,81,Free Flow,2026-08-29 22:13:41.883,Wadi El Natrun Road,Beheira,30.4541,30.3541,25.57,56,5.29,clear sky
+677,71,81,81,Free Flow,2026-08-29 22:13:41.883,Wadi El Natrun Road,Beheira,30.4541,30.3541,25.27,58,4.51,clear sky
+678,72,70,70,Free Flow,2026-08-29 22:13:42.640,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,27.42,54,7.72,clear sky
+678,72,70,70,Free Flow,2026-08-29 22:13:42.640,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,26.42,53,7.72,clear sky
+679,73,48,48,Free Flow,2026-08-29 22:13:43.403,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,27.42,54,7.72,clear sky
+679,73,48,48,Free Flow,2026-08-29 22:13:43.403,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,26.42,53,7.72,clear sky
+680,74,74,74,Free Flow,2026-08-29 22:13:44.177,New Cairo - American University,Cairo,30.0054,31.5021,27.42,54,7.72,clear sky
+680,74,74,74,Free Flow,2026-08-29 22:13:44.177,New Cairo - American University,Cairo,30.0054,31.5021,26.42,53,7.72,clear sky
+681,75,57,57,Free Flow,2026-08-29 22:13:44.953,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,27.42,54,7.72,clear sky
+681,75,57,57,Free Flow,2026-08-29 22:13:44.953,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,26.42,53,7.72,clear sky
+682,76,63,63,Free Flow,2026-08-29 22:13:45.720,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,27.42,54,7.72,clear sky
+682,76,63,63,Free Flow,2026-08-29 22:13:45.720,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,26.42,53,7.72,clear sky
+683,77,39,39,Free Flow,2026-08-29 22:13:46.913,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,27.42,54,7.72,clear sky
+683,77,39,39,Free Flow,2026-08-29 22:13:46.913,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,26.42,53,7.72,clear sky
+684,78,24,32,Moderate,2026-08-29 22:13:47.690,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,27.42,54,7.72,clear sky
+684,78,24,32,Moderate,2026-08-29 22:13:47.690,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,26.42,53,7.72,clear sky
+685,79,40,40,Free Flow,2026-08-29 22:13:48.467,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,27.42,54,7.72,clear sky
+685,79,40,40,Free Flow,2026-08-29 22:13:48.467,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,26.42,53,7.72,clear sky
+686,80,31,31,Free Flow,2026-08-29 22:13:49.233,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,27.42,54,7.72,clear sky
+686,80,31,31,Free Flow,2026-08-29 22:13:49.233,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,26.42,53,7.72,clear sky
+687,81,49,49,Free Flow,2026-08-29 22:13:50.013,Heliopolis - Merghany,Cairo,30.0854,31.3354,27.42,54,7.72,clear sky
+687,81,49,49,Free Flow,2026-08-29 22:13:50.013,Heliopolis - Merghany,Cairo,30.0854,31.3354,26.42,53,7.72,clear sky
+688,82,55,55,Free Flow,2026-08-29 22:13:50.770,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,27.42,54,7.72,clear sky
+688,82,55,55,Free Flow,2026-08-29 22:13:50.770,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,26.42,53,7.72,clear sky
+689,83,41,41,Free Flow,2026-08-29 22:13:51.530,Maadi - Victoria Square,Cairo,29.9541,31.2541,27.42,54,7.72,clear sky
+689,83,41,41,Free Flow,2026-08-29 22:13:51.530,Maadi - Victoria Square,Cairo,29.9541,31.2541,26.42,53,7.72,clear sky
+690,84,33,33,Free Flow,2026-08-29 22:13:52.320,Maadi - Degla,Cairo,29.9602,31.2565,27.42,54,7.72,clear sky
+690,84,33,33,Free Flow,2026-08-29 22:13:52.320,Maadi - Degla,Cairo,29.9602,31.2565,26.42,53,7.72,clear sky
+691,85,21,21,Free Flow,2026-08-29 22:13:53.080,Zamalek - 26 July St,Cairo,30.0654,31.2214,27.42,54,7.72,clear sky
+691,85,21,21,Free Flow,2026-08-29 22:13:53.080,Zamalek - 26 July St,Cairo,30.0654,31.2214,26.42,53,7.72,clear sky
+692,86,20,20,Free Flow,2026-08-29 22:13:53.837,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,27.42,54,7.72,clear sky
+692,86,20,20,Free Flow,2026-08-29 22:13:53.837,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,26.42,53,7.72,clear sky
+693,87,8,15,Heavy Congestion,2026-08-29 22:13:54.593,Downtown - Talaat Harb,Cairo,30.0512,31.2412,27.42,54,7.72,clear sky
+693,87,8,15,Heavy Congestion,2026-08-29 22:13:54.593,Downtown - Talaat Harb,Cairo,30.0512,31.2412,26.42,53,7.72,clear sky
+694,88,33,33,Free Flow,2026-08-29 22:13:55.373,Dokki - Mesaha Sq,Giza,30.0387,31.2145,27.41,50,7.94,clear sky
+694,88,33,33,Free Flow,2026-08-29 22:13:55.373,Dokki - Mesaha Sq,Giza,30.0387,31.2145,26.41,53,6.96,clear sky
+695,89,23,23,Free Flow,2026-08-29 22:13:56.130,Mohandessin - Shehab St,Giza,30.0554,31.2014,27.41,50,7.94,clear sky
+695,89,23,23,Free Flow,2026-08-29 22:13:56.130,Mohandessin - Shehab St,Giza,30.0554,31.2014,26.41,53,6.96,clear sky
+696,90,14,14,Free Flow,2026-08-29 22:13:56.893,Mohandessin - Sudan St,Giza,30.0687,31.2054,27.41,50,7.94,clear sky
+696,90,14,14,Free Flow,2026-08-29 22:13:56.893,Mohandessin - Sudan St,Giza,30.0687,31.2054,26.41,53,6.96,clear sky
+697,91,14,14,Free Flow,2026-08-29 22:13:57.743,Giza - El Omraneya,Giza,29.9954,31.2014,27.41,50,7.94,clear sky
+697,91,14,14,Free Flow,2026-08-29 22:13:57.743,Giza - El Omraneya,Giza,29.9954,31.2014,26.41,53,6.96,clear sky
+698,92,16,23,Moderate,2026-08-29 22:13:58.523,Shubra - Corniche,Cairo,30.0854,31.2454,27.42,54,7.72,clear sky
+698,92,16,23,Moderate,2026-08-29 22:13:58.523,Shubra - Corniche,Cairo,30.0854,31.2454,26.42,53,7.72,clear sky
+699,93,23,23,Free Flow,2026-08-29 22:13:59.283,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,27.42,54,7.72,clear sky
+699,93,23,23,Free Flow,2026-08-29 22:13:59.283,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,26.42,53,7.72,clear sky
+700,94,17,19,Moderate,2026-08-29 22:14:00.030,Ain Shams - El Matareya,Cairo,30.1254,31.3154,27.42,54,7.72,clear sky
+700,94,17,19,Moderate,2026-08-29 22:14:00.030,Ain Shams - El Matareya,Cairo,30.1254,31.3154,26.42,53,7.72,clear sky
+701,95,49,49,Free Flow,2026-08-29 22:14:00.807,Ain Shams University Area,Cairo,30.0754,31.2854,27.42,54,7.72,clear sky
+701,95,49,49,Free Flow,2026-08-29 22:14:00.807,Ain Shams University Area,Cairo,30.0754,31.2854,26.42,53,7.72,clear sky
+702,96,26,31,Moderate,2026-08-29 22:14:01.580,Helwan - Corniche,Cairo,29.8454,31.3354,27.42,54,7.72,clear sky
+702,96,26,31,Moderate,2026-08-29 22:14:01.580,Helwan - Corniche,Cairo,29.8454,31.3354,26.42,53,7.72,clear sky
+703,97,20,24,Moderate,2026-08-29 22:14:02.357,Helwan University Area,Cairo,29.8512,31.3054,27.42,54,7.72,clear sky
+703,97,20,24,Moderate,2026-08-29 22:14:02.357,Helwan University Area,Cairo,29.8512,31.3054,26.42,53,7.72,clear sky
+704,98,56,56,Free Flow,2026-08-29 22:14:03.123,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,27.42,54,7.72,clear sky
+704,98,56,56,Free Flow,2026-08-29 22:14:03.123,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,26.42,53,7.72,clear sky
+705,99,46,46,Free Flow,2026-08-29 22:14:03.890,Cairo International Stadium Area,Cairo,30.0714,31.3154,27.42,54,7.72,clear sky
+705,99,46,46,Free Flow,2026-08-29 22:14:03.890,Cairo International Stadium Area,Cairo,30.0714,31.3154,26.42,53,7.72,clear sky
+706,100,72,72,Free Flow,2026-08-29 22:14:04.650,Cairo Festival City Area,Cairo,30.0312,31.4014,27.42,54,7.72,clear sky
+706,100,72,72,Free Flow,2026-08-29 22:14:04.650,Cairo Festival City Area,Cairo,30.0312,31.4014,26.42,53,7.72,clear sky
+707,101,38,38,Free Flow,2026-08-29 22:14:05.407,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,27.42,54,7.72,clear sky
+707,101,38,38,Free Flow,2026-08-29 22:14:05.407,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,26.42,53,7.72,clear sky
+708,1,16,16,Free Flow,2026-08-29 22:52:18.237,Stanley Bridge,Alexandria,31.2291,29.9575,26.93,56,6.82,clear sky
+708,1,16,16,Free Flow,2026-08-29 22:52:18.237,Stanley Bridge,Alexandria,31.2291,29.9575,25.98,65,7.2,clear sky
+709,2,25,25,Free Flow,2026-08-29 22:52:19.003,Corniche - San Stefano,Alexandria,31.2465,29.9723,26.93,56,6.82,clear sky
+709,2,25,25,Free Flow,2026-08-29 22:52:19.003,Corniche - San Stefano,Alexandria,31.2465,29.9723,25.98,65,7.2,clear sky
+710,3,18,23,Moderate,2026-08-29 22:52:19.780,Corniche - Gleem,Alexandria,31.2391,29.9654,26.93,56,6.82,clear sky
+710,3,18,23,Moderate,2026-08-29 22:52:19.780,Corniche - Gleem,Alexandria,31.2391,29.9654,25.98,65,7.2,clear sky
+711,4,18,23,Moderate,2026-08-29 22:52:20.560,Corniche - Roushdy,Alexandria,31.2365,29.9621,26.93,56,6.82,clear sky
+711,4,18,23,Moderate,2026-08-29 22:52:20.560,Corniche - Roushdy,Alexandria,31.2365,29.9621,25.98,65,7.2,clear sky
+712,5,27,27,Free Flow,2026-08-29 22:52:21.320,Corniche - Sporting,Alexandria,31.2214,29.9482,26.93,56,6.82,clear sky
+712,5,27,27,Free Flow,2026-08-29 22:52:21.320,Corniche - Sporting,Alexandria,31.2214,29.9482,25.98,65,7.2,clear sky
+713,6,27,27,Free Flow,2026-08-29 22:52:22.080,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,26.93,56,6.82,clear sky
+713,6,27,27,Free Flow,2026-08-29 22:52:22.080,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,25.98,65,7.2,clear sky
+714,7,38,38,Free Flow,2026-08-29 22:52:22.843,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,26.93,56,6.82,clear sky
+714,7,38,38,Free Flow,2026-08-29 22:52:22.843,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,25.98,65,7.2,clear sky
+715,8,26,26,Free Flow,2026-08-29 22:52:23.593,Corniche - Chatby,Alexandria,31.2012,29.9284,26.93,56,6.82,clear sky
+715,8,26,26,Free Flow,2026-08-29 22:52:23.593,Corniche - Chatby,Alexandria,31.2012,29.9284,25.98,65,7.2,clear sky
+716,9,22,26,Moderate,2026-08-29 22:52:24.357,Corniche - Silsela,Alexandria,31.2054,29.8965,26.93,56,6.82,clear sky
+716,9,22,26,Moderate,2026-08-29 22:52:24.357,Corniche - Silsela,Alexandria,31.2054,29.8965,25.98,65,7.2,clear sky
+717,10,17,17,Free Flow,2026-08-29 22:52:25.123,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,26.93,56,6.82,clear sky
+717,10,17,17,Free Flow,2026-08-29 22:52:25.123,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,25.98,65,7.2,clear sky
+718,11,30,33,Moderate,2026-08-29 22:52:25.890,Corniche - Miami,Alexandria,31.2825,30.0152,26.93,56,6.82,clear sky
+718,11,30,33,Moderate,2026-08-29 22:52:25.890,Corniche - Miami,Alexandria,31.2825,30.0152,25.98,65,7.2,clear sky
+719,12,34,34,Free Flow,2026-08-29 22:52:26.640,Corniche - Montaza,Alexandria,31.2871,30.0214,26.93,56,6.82,clear sky
+719,12,34,34,Free Flow,2026-08-29 22:52:26.640,Corniche - Montaza,Alexandria,31.2871,30.0214,25.98,65,7.2,clear sky
+720,13,34,34,Free Flow,2026-08-29 22:52:27.403,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,26.93,56,6.82,clear sky
+720,13,34,34,Free Flow,2026-08-29 22:52:27.403,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,25.98,65,7.2,clear sky
+721,14,22,22,Free Flow,2026-08-29 22:52:28.230,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,26.93,56,6.82,clear sky
+721,14,22,22,Free Flow,2026-08-29 22:52:28.230,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,25.98,65,7.2,clear sky
+722,15,18,18,Free Flow,2026-08-29 22:52:28.993,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,26.93,56,6.82,clear sky
+722,15,18,18,Free Flow,2026-08-29 22:52:28.993,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,25.98,65,7.2,clear sky
+723,16,60,60,Free Flow,2026-08-29 22:52:29.763,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,26.93,56,6.82,clear sky
+723,16,60,60,Free Flow,2026-08-29 22:52:29.763,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,25.98,65,7.2,clear sky
+724,17,50,50,Free Flow,2026-08-29 22:52:30.530,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,26.93,56,6.82,clear sky
+724,17,50,50,Free Flow,2026-08-29 22:52:30.530,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,25.98,65,7.2,clear sky
+725,18,48,48,Free Flow,2026-08-29 22:52:31.367,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,26.93,56,6.82,clear sky
+725,18,48,48,Free Flow,2026-08-29 22:52:31.367,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,25.98,65,7.2,clear sky
+726,19,86,86,Free Flow,2026-08-29 22:52:32.140,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,26.93,56,6.82,clear sky
+726,19,86,86,Free Flow,2026-08-29 22:52:32.140,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,25.98,65,7.2,clear sky
+727,20,32,37,Moderate,2026-08-29 22:52:32.903,Kafoury Road,Alexandria,31.0854,29.7541,26.93,56,6.82,clear sky
+727,20,32,37,Moderate,2026-08-29 22:52:32.903,Kafoury Road,Alexandria,31.0854,29.7541,25.98,65,7.2,clear sky
+728,21,82,82,Free Flow,2026-08-29 22:52:33.690,Borg El Arab Entrance,Alexandria,30.9124,29.5412,26.93,56,6.82,clear sky
+728,21,82,82,Free Flow,2026-08-29 22:52:33.690,Borg El Arab Entrance,Alexandria,30.9124,29.5412,25.98,65,7.2,clear sky
+729,22,75,75,Free Flow,2026-08-29 22:52:34.450,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,25.57,56,5.29,clear sky
+729,22,75,75,Free Flow,2026-08-29 22:52:34.450,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,25.27,58,4.51,clear sky
+730,23,26,26,Free Flow,2026-08-29 22:52:35.213,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,25.57,56,5.29,clear sky
+730,23,26,26,Free Flow,2026-08-29 22:52:35.213,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,25.27,58,4.51,clear sky
+731,24,21,26,Moderate,2026-08-29 22:52:35.997,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,25.01,57,3.28,clear sky
+731,24,21,26,Moderate,2026-08-29 22:52:35.997,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,23.91,61,3.33,clear sky
+732,25,20,20,Free Flow,2026-08-29 22:52:36.763,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,26.36,54,4.39,clear sky
+732,25,20,20,Free Flow,2026-08-29 22:52:36.763,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,24.31,56,3.2,clear sky
+733,26,34,34,Free Flow,2026-08-29 22:52:37.530,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,26.36,54,4.39,clear sky
+733,26,34,34,Free Flow,2026-08-29 22:52:37.530,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,24.31,56,3.2,clear sky
+734,27,42,42,Free Flow,2026-08-29 22:52:38.347,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,26.36,54,4.39,clear sky
+734,27,42,42,Free Flow,2026-08-29 22:52:38.347,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,24.31,56,3.2,clear sky
+735,28,11,11,Free Flow,2026-08-29 22:52:39.133,Ring Road - Marg,Cairo,30.1524,31.3452,27.42,54,7.72,clear sky
+735,28,11,11,Free Flow,2026-08-29 22:52:39.133,Ring Road - Marg,Cairo,30.1524,31.3452,26.42,53,7.72,clear sky
+736,29,79,79,Free Flow,2026-08-29 22:52:39.900,Ring Road - Al Salam City,Cairo,30.1654,31.3854,27.42,54,7.72,clear sky
+736,29,79,79,Free Flow,2026-08-29 22:52:39.900,Ring Road - Al Salam City,Cairo,30.1654,31.3854,26.42,53,7.72,clear sky
+737,30,77,77,Free Flow,2026-08-29 22:52:40.677,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,27.42,54,7.72,clear sky
+737,30,77,77,Free Flow,2026-08-29 22:52:40.677,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,26.42,53,7.72,clear sky
+738,31,66,66,Free Flow,2026-08-29 22:52:41.460,Ring Road - Katameya,Cairo,29.9854,31.3541,27.42,54,7.72,clear sky
+738,31,66,66,Free Flow,2026-08-29 22:52:41.460,Ring Road - Katameya,Cairo,29.9854,31.3541,26.42,53,7.72,clear sky
+739,32,20,20,Free Flow,2026-08-29 22:52:42.220,Ring Road - Maadi,Cairo,29.9621,31.2754,27.42,54,7.72,clear sky
+739,32,20,20,Free Flow,2026-08-29 22:52:42.220,Ring Road - Maadi,Cairo,29.9621,31.2754,26.42,53,7.72,clear sky
+740,33,42,42,Free Flow,2026-08-29 22:52:42.997,Ring Road - Mounib,Giza,29.9821,31.2154,27.41,50,7.94,clear sky
+740,33,42,42,Free Flow,2026-08-29 22:52:42.997,Ring Road - Mounib,Giza,29.9821,31.2154,26.41,53,6.96,clear sky
+741,34,13,13,Free Flow,2026-08-29 22:52:43.760,Ring Road - Mariouteya,Giza,29.9754,31.1542,27.41,50,7.94,clear sky
+741,34,13,13,Free Flow,2026-08-29 22:52:43.760,Ring Road - Mariouteya,Giza,29.9754,31.1542,26.41,53,6.96,clear sky
+742,35,11,14,Moderate,2026-08-29 22:52:44.563,Ring Road - El Waraq,Giza,30.0854,31.2014,27.41,50,7.94,clear sky
+742,35,11,14,Moderate,2026-08-29 22:52:44.563,Ring Road - El Waraq,Giza,30.0854,31.2014,26.41,53,6.96,clear sky
+743,36,21,26,Moderate,2026-08-29 22:52:45.310,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,27.41,50,7.94,clear sky
+743,36,21,26,Moderate,2026-08-29 22:52:45.310,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,26.41,53,6.96,clear sky
+744,37,12,15,Moderate,2026-08-29 22:52:46.067,October Bridge - Ramses,Cairo,30.0565,31.2442,27.42,54,7.72,clear sky
+744,37,12,15,Moderate,2026-08-29 22:52:46.067,October Bridge - Ramses,Cairo,30.0565,31.2442,26.42,53,7.72,clear sky
+745,38,20,20,Free Flow,2026-08-29 22:52:46.843,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,27.42,54,7.72,clear sky
+745,38,20,20,Free Flow,2026-08-29 22:52:46.843,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,26.42,53,7.72,clear sky
+746,39,21,21,Free Flow,2026-08-29 22:52:47.613,October Bridge - Zamalek,Cairo,30.0621,31.2215,27.42,54,7.72,clear sky
+746,39,21,21,Free Flow,2026-08-29 22:52:47.613,October Bridge - Zamalek,Cairo,30.0621,31.2215,26.42,53,7.72,clear sky
+747,40,30,30,Free Flow,2026-08-29 22:52:48.483,October Bridge - Doqqi,Giza,30.0454,31.2145,27.41,50,7.94,clear sky
+747,40,30,30,Free Flow,2026-08-29 22:52:48.483,October Bridge - Doqqi,Giza,30.0454,31.2145,26.41,53,6.96,clear sky
+748,41,23,23,Free Flow,2026-08-29 22:52:49.243,October Bridge - Mohandessin End,Giza,30.0541,31.1985,27.41,50,7.94,clear sky
+748,41,23,23,Free Flow,2026-08-29 22:52:49.243,October Bridge - Mohandessin End,Giza,30.0541,31.1985,26.41,53,6.96,clear sky
+749,42,33,36,Moderate,2026-08-29 22:52:49.997,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,27.42,54,7.72,clear sky
+749,42,33,36,Moderate,2026-08-29 22:52:49.997,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,26.42,53,7.72,clear sky
+750,43,34,34,Free Flow,2026-08-29 22:52:50.763,October Bridge - Al-Manial,Cairo,30.0312,31.2285,27.42,54,7.72,clear sky
+750,43,34,34,Free Flow,2026-08-29 22:52:50.763,October Bridge - Al-Manial,Cairo,30.0312,31.2285,26.42,53,7.72,clear sky
+751,44,42,42,Free Flow,2026-08-29 22:52:51.513,Salah Salem - Airport Road,Cairo,30.1054,31.3854,27.42,54,7.72,clear sky
+751,44,42,42,Free Flow,2026-08-29 22:52:51.513,Salah Salem - Airport Road,Cairo,30.1054,31.3854,26.42,53,7.72,clear sky
+752,45,58,58,Free Flow,2026-08-29 22:52:52.283,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,27.42,54,7.72,clear sky
+752,45,58,58,Free Flow,2026-08-29 22:52:52.283,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,26.42,53,7.72,clear sky
+753,46,49,49,Free Flow,2026-08-29 22:52:53.080,Salah Salem - Citadel,Cairo,30.0285,31.2654,27.42,54,7.72,clear sky
+753,46,49,49,Free Flow,2026-08-29 22:52:53.080,Salah Salem - Citadel,Cairo,30.0285,31.2654,26.42,53,7.72,clear sky
+754,47,46,46,Free Flow,2026-08-29 22:52:53.847,Salah Salem - Panorama,Cairo,30.0721,31.3154,27.42,54,7.72,clear sky
+754,47,46,46,Free Flow,2026-08-29 22:52:53.847,Salah Salem - Panorama,Cairo,30.0721,31.3154,26.42,53,7.72,clear sky
+755,48,20,20,Free Flow,2026-08-29 22:52:54.617,Autostrad - Maadi,Cairo,29.9754,31.2654,27.42,54,7.72,clear sky
+755,48,20,20,Free Flow,2026-08-29 22:52:54.617,Autostrad - Maadi,Cairo,29.9754,31.2654,26.42,53,7.72,clear sky
+756,49,20,20,Free Flow,2026-08-29 22:52:55.390,Autostrad - Helwan,Cairo,29.8541,31.3154,27.42,54,7.72,clear sky
+756,49,20,20,Free Flow,2026-08-29 22:52:55.390,Autostrad - Helwan,Cairo,29.8541,31.3154,26.42,53,7.72,clear sky
+757,50,67,67,Free Flow,2026-08-29 22:52:56.170,Autostrad - Nasr City,Cairo,30.0354,31.3354,27.42,54,7.72,clear sky
+757,50,67,67,Free Flow,2026-08-29 22:52:56.170,Autostrad - Nasr City,Cairo,30.0354,31.3354,26.42,53,7.72,clear sky
+758,51,30,38,Moderate,2026-08-29 22:52:56.937,Corniche - Maspero,Cairo,30.0541,31.2312,27.42,54,7.72,clear sky
+758,51,30,38,Moderate,2026-08-29 22:52:56.937,Corniche - Maspero,Cairo,30.0541,31.2312,26.42,53,7.72,clear sky
+759,52,20,20,Free Flow,2026-08-29 22:52:57.697,Corniche - Garden City,Cairo,30.0354,31.2285,27.42,54,7.72,clear sky
+759,52,20,20,Free Flow,2026-08-29 22:52:57.697,Corniche - Garden City,Cairo,30.0354,31.2285,26.42,53,7.72,clear sky
+760,53,41,41,Free Flow,2026-08-29 22:52:58.517,Corniche - Maadi,Cairo,29.9621,31.2454,27.42,54,7.72,clear sky
+760,53,41,41,Free Flow,2026-08-29 22:52:58.517,Corniche - Maadi,Cairo,29.9621,31.2454,26.42,53,7.72,clear sky
+761,54,34,34,Free Flow,2026-08-29 22:52:59.280,Qasr El Nil Bridge,Cairo,30.0435,31.2312,27.42,54,7.72,clear sky
+761,54,34,34,Free Flow,2026-08-29 22:52:59.280,Qasr El Nil Bridge,Cairo,30.0435,31.2312,26.42,53,7.72,clear sky
+762,55,13,13,Free Flow,2026-08-29 22:53:00.060,Abbas Bridge,Cairo,30.0198,31.2312,27.42,54,7.72,clear sky
+762,55,13,13,Free Flow,2026-08-29 22:53:00.060,Abbas Bridge,Cairo,30.0198,31.2312,26.42,53,7.72,clear sky
+763,56,28,28,Free Flow,2026-08-29 22:53:00.827,El Galaa Bridge,Cairo,30.0512,31.2214,27.42,54,7.72,clear sky
+763,56,28,28,Free Flow,2026-08-29 22:53:00.827,El Galaa Bridge,Cairo,30.0512,31.2214,26.42,53,7.72,clear sky
+764,57,32,36,Moderate,2026-08-29 22:53:01.590,Tahya Masr Bridge,Cairo,30.0954,31.2245,27.42,54,7.72,clear sky
+764,57,32,36,Moderate,2026-08-29 22:53:01.590,Tahya Masr Bridge,Cairo,30.0954,31.2245,26.42,53,7.72,clear sky
+765,58,27,34,Moderate,2026-08-29 22:53:02.363,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,27.41,50,7.94,clear sky
+765,58,27,34,Moderate,2026-08-29 22:53:02.363,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,26.41,53,6.96,clear sky
+766,59,53,53,Free Flow,2026-08-29 22:53:03.130,Axis 26 July - Hyper One,Giza,30.0714,31.0254,27.41,50,7.94,clear sky
+766,59,53,53,Free Flow,2026-08-29 22:53:03.130,Axis 26 July - Hyper One,Giza,30.0714,31.0254,26.41,53,6.96,clear sky
+767,60,17,21,Moderate,2026-08-29 22:53:03.877,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,27.41,50,7.94,clear sky
+767,60,17,21,Moderate,2026-08-29 22:53:03.877,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,26.41,53,6.96,clear sky
+768,61,32,32,Free Flow,2026-08-29 22:53:04.640,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,26.36,54,4.39,clear sky
+768,61,32,32,Free Flow,2026-08-29 22:53:04.640,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,24.31,56,3.2,clear sky
+769,62,105,105,Free Flow,2026-08-29 22:53:05.403,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,27.41,50,7.94,clear sky
+769,62,105,105,Free Flow,2026-08-29 22:53:05.403,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,26.41,53,6.96,clear sky
+770,63,39,39,Free Flow,2026-08-29 22:53:06.173,Haram Street - Giza Square,Giza,30.0124,31.2145,27.41,50,7.94,clear sky
+770,63,39,39,Free Flow,2026-08-29 22:53:06.173,Haram Street - Giza Square,Giza,30.0124,31.2145,26.41,53,6.96,clear sky
+771,64,32,32,Free Flow,2026-08-29 22:53:06.933,Haram Street - Al Arish,Giza,29.9954,31.1754,27.41,50,7.94,clear sky
+771,64,32,32,Free Flow,2026-08-29 22:53:06.933,Haram Street - Al Arish,Giza,29.9954,31.1754,26.41,53,6.96,clear sky
+772,65,36,36,Free Flow,2026-08-29 22:53:07.723,Haram Street - El Remaya,Giza,29.9821,31.1354,27.41,50,7.94,clear sky
+772,65,36,36,Free Flow,2026-08-29 22:53:07.723,Haram Street - El Remaya,Giza,29.9821,31.1354,26.41,53,6.96,clear sky
+773,66,39,39,Free Flow,2026-08-29 22:53:08.530,Faisal Street - El Massaha,Giza,30.0254,31.2014,27.41,50,7.94,clear sky
+773,66,39,39,Free Flow,2026-08-29 22:53:08.530,Faisal Street - El Massaha,Giza,30.0254,31.2014,26.41,53,6.96,clear sky
+774,67,32,32,Free Flow,2026-08-29 22:53:09.303,Faisal Street - El Talbeya,Giza,29.9921,31.1654,27.41,50,7.94,clear sky
+774,67,32,32,Free Flow,2026-08-29 22:53:09.303,Faisal Street - El Talbeya,Giza,29.9921,31.1654,26.41,53,6.96,clear sky
+775,68,61,61,Free Flow,2026-08-29 22:53:10.077,King Faisal Street End,Giza,29.9854,31.1245,27.41,50,7.94,clear sky
+775,68,61,61,Free Flow,2026-08-29 22:53:10.077,King Faisal Street End,Giza,29.9854,31.1245,26.41,53,6.96,clear sky
+776,69,83,83,Free Flow,2026-08-29 22:53:10.840,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,27.41,50,7.94,clear sky
+776,69,83,83,Free Flow,2026-08-29 22:53:10.840,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,26.41,53,6.96,clear sky
+777,70,40,40,Free Flow,2026-08-29 22:53:11.613,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,27.41,50,7.94,clear sky
+777,70,40,40,Free Flow,2026-08-29 22:53:11.613,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,26.41,53,6.96,clear sky
+778,71,81,81,Free Flow,2026-08-29 22:53:12.377,Wadi El Natrun Road,Beheira,30.4541,30.3541,25.57,56,5.29,clear sky
+778,71,81,81,Free Flow,2026-08-29 22:53:12.377,Wadi El Natrun Road,Beheira,30.4541,30.3541,25.27,58,4.51,clear sky
+779,72,70,70,Free Flow,2026-08-29 22:53:13.160,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,27.42,54,7.72,clear sky
+779,72,70,70,Free Flow,2026-08-29 22:53:13.160,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,26.42,53,7.72,clear sky
+780,73,48,48,Free Flow,2026-08-29 22:53:13.930,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,27.42,54,7.72,clear sky
+780,73,48,48,Free Flow,2026-08-29 22:53:13.930,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,26.42,53,7.72,clear sky
+781,74,74,74,Free Flow,2026-08-29 22:53:14.707,New Cairo - American University,Cairo,30.0054,31.5021,27.42,54,7.72,clear sky
+781,74,74,74,Free Flow,2026-08-29 22:53:14.707,New Cairo - American University,Cairo,30.0054,31.5021,26.42,53,7.72,clear sky
+782,75,57,57,Free Flow,2026-08-29 22:53:15.483,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,27.42,54,7.72,clear sky
+782,75,57,57,Free Flow,2026-08-29 22:53:15.483,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,26.42,53,7.72,clear sky
+783,76,63,63,Free Flow,2026-08-29 22:53:16.263,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,27.42,54,7.72,clear sky
+783,76,63,63,Free Flow,2026-08-29 22:53:16.263,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,26.42,53,7.72,clear sky
+784,77,39,39,Free Flow,2026-08-29 22:53:17.060,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,27.42,54,7.72,clear sky
+784,77,39,39,Free Flow,2026-08-29 22:53:17.060,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,26.42,53,7.72,clear sky
+785,78,32,32,Free Flow,2026-08-29 22:53:17.837,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,27.42,54,7.72,clear sky
+785,78,32,32,Free Flow,2026-08-29 22:53:17.837,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,26.42,53,7.72,clear sky
+786,79,30,40,Moderate,2026-08-29 22:53:18.767,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,27.42,54,7.72,clear sky
+786,79,30,40,Moderate,2026-08-29 22:53:18.767,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,26.42,53,7.72,clear sky
+787,80,31,31,Free Flow,2026-08-29 22:53:19.540,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,27.42,54,7.72,clear sky
+787,80,31,31,Free Flow,2026-08-29 22:53:19.540,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,26.42,53,7.72,clear sky
+788,81,49,49,Free Flow,2026-08-29 22:53:20.307,Heliopolis - Merghany,Cairo,30.0854,31.3354,27.42,54,7.72,clear sky
+788,81,49,49,Free Flow,2026-08-29 22:53:20.307,Heliopolis - Merghany,Cairo,30.0854,31.3354,26.42,53,7.72,clear sky
+789,82,55,55,Free Flow,2026-08-29 22:53:21.063,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,27.42,54,7.72,clear sky
+789,82,55,55,Free Flow,2026-08-29 22:53:21.063,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,26.42,53,7.72,clear sky
+790,83,41,41,Free Flow,2026-08-29 22:53:21.830,Maadi - Victoria Square,Cairo,29.9541,31.2541,27.42,54,7.72,clear sky
+790,83,41,41,Free Flow,2026-08-29 22:53:21.830,Maadi - Victoria Square,Cairo,29.9541,31.2541,26.42,53,7.72,clear sky
+791,84,33,33,Free Flow,2026-08-29 22:53:22.597,Maadi - Degla,Cairo,29.9602,31.2565,27.42,54,7.72,clear sky
+791,84,33,33,Free Flow,2026-08-29 22:53:22.597,Maadi - Degla,Cairo,29.9602,31.2565,26.42,53,7.72,clear sky
+792,85,21,21,Free Flow,2026-08-29 22:53:23.377,Zamalek - 26 July St,Cairo,30.0654,31.2214,27.42,54,7.72,clear sky
+792,85,21,21,Free Flow,2026-08-29 22:53:23.377,Zamalek - 26 July St,Cairo,30.0654,31.2214,26.42,53,7.72,clear sky
+793,86,20,20,Free Flow,2026-08-29 22:53:24.140,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,27.42,54,7.72,clear sky
+793,86,20,20,Free Flow,2026-08-29 22:53:24.140,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,26.42,53,7.72,clear sky
+794,87,16,16,Free Flow,2026-08-29 22:53:24.893,Downtown - Talaat Harb,Cairo,30.0512,31.2412,27.42,54,7.72,clear sky
+794,87,16,16,Free Flow,2026-08-29 22:53:24.893,Downtown - Talaat Harb,Cairo,30.0512,31.2412,26.42,53,7.72,clear sky
+795,88,33,33,Free Flow,2026-08-29 22:53:25.653,Dokki - Mesaha Sq,Giza,30.0387,31.2145,27.41,50,7.94,clear sky
+795,88,33,33,Free Flow,2026-08-29 22:53:25.653,Dokki - Mesaha Sq,Giza,30.0387,31.2145,26.41,53,6.96,clear sky
+796,89,23,23,Free Flow,2026-08-29 22:53:26.413,Mohandessin - Shehab St,Giza,30.0554,31.2014,27.41,50,7.94,clear sky
+796,89,23,23,Free Flow,2026-08-29 22:53:26.413,Mohandessin - Shehab St,Giza,30.0554,31.2014,26.41,53,6.96,clear sky
+797,90,14,14,Free Flow,2026-08-29 22:53:27.170,Mohandessin - Sudan St,Giza,30.0687,31.2054,27.41,50,7.94,clear sky
+797,90,14,14,Free Flow,2026-08-29 22:53:27.170,Mohandessin - Sudan St,Giza,30.0687,31.2054,26.41,53,6.96,clear sky
+798,91,14,14,Free Flow,2026-08-29 22:53:27.930,Giza - El Omraneya,Giza,29.9954,31.2014,27.41,50,7.94,clear sky
+798,91,14,14,Free Flow,2026-08-29 22:53:27.930,Giza - El Omraneya,Giza,29.9954,31.2014,26.41,53,6.96,clear sky
+799,92,17,22,Moderate,2026-08-29 22:53:28.697,Shubra - Corniche,Cairo,30.0854,31.2454,27.42,54,7.72,clear sky
+799,92,17,22,Moderate,2026-08-29 22:53:28.697,Shubra - Corniche,Cairo,30.0854,31.2454,26.42,53,7.72,clear sky
+800,93,23,23,Free Flow,2026-08-29 22:53:29.457,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,27.42,54,7.72,clear sky
+800,93,23,23,Free Flow,2026-08-29 22:53:29.457,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,26.42,53,7.72,clear sky
+801,94,16,19,Moderate,2026-08-29 22:53:30.227,Ain Shams - El Matareya,Cairo,30.1254,31.3154,27.42,54,7.72,clear sky
+801,94,16,19,Moderate,2026-08-29 22:53:30.227,Ain Shams - El Matareya,Cairo,30.1254,31.3154,26.42,53,7.72,clear sky
+802,95,49,49,Free Flow,2026-08-29 22:53:30.993,Ain Shams University Area,Cairo,30.0754,31.2854,27.42,54,7.72,clear sky
+802,95,49,49,Free Flow,2026-08-29 22:53:30.993,Ain Shams University Area,Cairo,30.0754,31.2854,26.42,53,7.72,clear sky
+803,96,27,32,Moderate,2026-08-29 22:53:31.753,Helwan - Corniche,Cairo,29.8454,31.3354,27.42,54,7.72,clear sky
+803,96,27,32,Moderate,2026-08-29 22:53:31.753,Helwan - Corniche,Cairo,29.8454,31.3354,26.42,53,7.72,clear sky
+804,97,24,24,Free Flow,2026-08-29 22:53:32.513,Helwan University Area,Cairo,29.8512,31.3054,27.42,54,7.72,clear sky
+804,97,24,24,Free Flow,2026-08-29 22:53:32.513,Helwan University Area,Cairo,29.8512,31.3054,26.42,53,7.72,clear sky
+805,98,56,56,Free Flow,2026-08-29 22:53:33.260,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,27.42,54,7.72,clear sky
+805,98,56,56,Free Flow,2026-08-29 22:53:33.260,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,26.42,53,7.72,clear sky
+806,99,46,46,Free Flow,2026-08-29 22:53:34.030,Cairo International Stadium Area,Cairo,30.0714,31.3154,27.42,54,7.72,clear sky
+806,99,46,46,Free Flow,2026-08-29 22:53:34.030,Cairo International Stadium Area,Cairo,30.0714,31.3154,26.42,53,7.72,clear sky
+807,100,72,72,Free Flow,2026-08-29 22:53:34.797,Cairo Festival City Area,Cairo,30.0312,31.4014,27.42,54,7.72,clear sky
+807,100,72,72,Free Flow,2026-08-29 22:53:34.797,Cairo Festival City Area,Cairo,30.0312,31.4014,26.42,53,7.72,clear sky
+808,101,38,38,Free Flow,2026-08-29 22:53:35.557,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,27.42,54,7.72,clear sky
+808,101,38,38,Free Flow,2026-08-29 22:53:35.557,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,26.42,53,7.72,clear sky
+809,1,16,16,Free Flow,2026-08-30 16:24:41.733,Stanley Bridge,Alexandria,31.2291,29.9575,29.98,66,7.2,clear sky
+810,2,21,26,Moderate,2026-08-30 16:24:42.573,Corniche - San Stefano,Alexandria,31.2465,29.9723,29.98,66,7.2,clear sky
+811,3,19,23,Moderate,2026-08-30 16:24:43.413,Corniche - Gleem,Alexandria,31.2391,29.9654,29.98,66,7.2,clear sky
+812,4,19,23,Moderate,2026-08-30 16:24:44.227,Corniche - Roushdy,Alexandria,31.2365,29.9621,29.98,66,7.2,clear sky
+813,5,21,27,Moderate,2026-08-30 16:24:45.087,Corniche - Sporting,Alexandria,31.2214,29.9482,29.98,66,7.2,clear sky
+814,6,21,27,Moderate,2026-08-30 16:24:45.900,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,29.98,66,7.2,clear sky
+815,7,35,38,Moderate,2026-08-30 16:24:46.703,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,29.98,66,7.2,clear sky
+816,8,26,26,Free Flow,2026-08-30 16:24:47.570,Corniche - Chatby,Alexandria,31.2012,29.9284,29.98,66,7.2,clear sky
+817,9,27,27,Free Flow,2026-08-30 16:24:48.403,Corniche - Silsela,Alexandria,31.2054,29.8965,29.98,66,7.2,clear sky
+818,10,17,17,Free Flow,2026-08-30 16:24:49.217,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,29.98,66,7.2,clear sky
+819,11,32,34,Moderate,2026-08-30 16:24:50.030,Corniche - Miami,Alexandria,31.2825,30.0152,29.98,66,7.2,clear sky
+820,12,34,34,Free Flow,2026-08-30 16:24:50.893,Corniche - Montaza,Alexandria,31.2871,30.0214,29.98,66,7.2,clear sky
+821,13,34,34,Free Flow,2026-08-30 16:24:51.823,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,29.98,66,7.2,clear sky
+822,14,22,22,Free Flow,2026-08-30 16:24:52.617,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,29.98,66,7.2,clear sky
+823,15,14,18,Moderate,2026-08-30 16:24:53.423,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,29.98,66,7.2,clear sky
+824,16,60,60,Free Flow,2026-08-30 16:24:54.327,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,29.98,66,7.2,clear sky
+825,17,50,50,Free Flow,2026-08-30 16:24:55.160,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,29.98,66,7.2,clear sky
+826,18,48,48,Free Flow,2026-08-30 16:24:55.970,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,29.98,66,7.2,clear sky
+827,19,86,86,Free Flow,2026-08-30 16:24:56.863,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,29.98,66,7.2,clear sky
+828,20,37,37,Free Flow,2026-08-30 16:24:57.710,Kafoury Road,Alexandria,31.0854,29.7541,29.98,66,7.2,clear sky
+829,21,82,82,Free Flow,2026-08-30 16:24:58.537,Borg El Arab Entrance,Alexandria,30.9124,29.5412,29.98,66,7.2,clear sky
+830,22,75,75,Free Flow,2026-08-30 16:24:59.417,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,32.44,39,8.35,clear sky
+831,23,26,26,Free Flow,2026-08-30 16:25:00.263,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,32.44,39,8.35,clear sky
+832,24,26,26,Free Flow,2026-08-30 16:25:01.097,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,34.57,28,7.6,clear sky
+833,25,20,20,Free Flow,2026-08-30 16:25:02.007,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,35.59,26,6.95,clear sky
+834,26,34,34,Free Flow,2026-08-30 16:25:02.813,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,35.59,26,6.95,clear sky
+835,27,42,42,Free Flow,2026-08-30 16:25:03.667,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,35.59,26,6.95,clear sky
+836,28,11,11,Free Flow,2026-08-30 16:25:04.500,Ring Road - Marg,Cairo,30.1524,31.3452,33.42,27,4.12,clear sky
+837,29,79,79,Free Flow,2026-08-30 16:25:05.310,Ring Road - Al Salam City,Cairo,30.1654,31.3854,33.42,27,4.12,clear sky
+838,30,77,77,Free Flow,2026-08-30 16:25:06.133,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,33.42,27,4.12,clear sky
+839,31,66,66,Free Flow,2026-08-30 16:25:06.943,Ring Road - Katameya,Cairo,29.9854,31.3541,33.42,27,4.12,clear sky
+840,32,19,21,Moderate,2026-08-30 16:25:07.747,Ring Road - Maadi,Cairo,29.9621,31.2754,33.42,27,4.12,clear sky
+841,33,42,42,Free Flow,2026-08-30 16:25:08.567,Ring Road - Mounib,Giza,29.9821,31.2154,33.41,26,4.95,clear sky
+842,34,13,13,Free Flow,2026-08-30 16:25:09.430,Ring Road - Mariouteya,Giza,29.9754,31.1542,33.41,26,4.95,clear sky
+843,35,14,14,Free Flow,2026-08-30 16:25:10.353,Ring Road - El Waraq,Giza,30.0854,31.2014,33.41,26,4.95,clear sky
+844,36,22,26,Moderate,2026-08-30 16:25:11.147,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,33.41,26,4.95,clear sky
+845,37,16,16,Free Flow,2026-08-30 16:25:12.123,October Bridge - Ramses,Cairo,30.0565,31.2442,33.42,27,4.12,clear sky
+846,38,15,20,Moderate,2026-08-30 16:25:12.970,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,33.42,27,4.12,clear sky
+847,39,21,21,Free Flow,2026-08-30 16:25:13.800,October Bridge - Zamalek,Cairo,30.0621,31.2215,33.42,27,4.12,clear sky
+848,40,25,30,Moderate,2026-08-30 16:25:14.623,October Bridge - Doqqi,Giza,30.0454,31.2145,33.41,26,4.95,clear sky
+849,41,19,23,Moderate,2026-08-30 16:25:15.560,October Bridge - Mohandessin End,Giza,30.0541,31.1985,33.41,26,4.95,clear sky
+850,42,37,37,Free Flow,2026-08-30 16:25:16.383,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,33.42,27,4.12,clear sky
+851,43,27,34,Moderate,2026-08-30 16:25:17.243,October Bridge - Al-Manial,Cairo,30.0312,31.2285,33.42,27,4.12,clear sky
+852,44,22,42,Heavy Congestion,2026-08-30 16:25:18.060,Salah Salem - Airport Road,Cairo,30.1054,31.3854,33.42,27,4.12,clear sky
+853,45,58,58,Free Flow,2026-08-30 16:25:18.887,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,33.42,27,4.12,clear sky
+854,46,49,49,Free Flow,2026-08-30 16:25:19.707,Salah Salem - Citadel,Cairo,30.0285,31.2654,33.42,27,4.12,clear sky
+855,47,46,46,Free Flow,2026-08-30 16:25:20.513,Salah Salem - Panorama,Cairo,30.0721,31.3154,33.42,27,4.12,clear sky
+856,48,19,20,Moderate,2026-08-30 16:25:21.313,Autostrad - Maadi,Cairo,29.9754,31.2654,33.42,27,4.12,clear sky
+857,49,20,20,Free Flow,2026-08-30 16:25:22.170,Autostrad - Helwan,Cairo,29.8541,31.3154,33.42,27,4.12,clear sky
+858,50,67,67,Free Flow,2026-08-30 16:25:23.007,Autostrad - Nasr City,Cairo,30.0354,31.3354,33.42,27,4.12,clear sky
+859,51,38,38,Free Flow,2026-08-30 16:25:23.850,Corniche - Maspero,Cairo,30.0541,31.2312,33.42,27,4.12,clear sky
+860,52,20,20,Free Flow,2026-08-30 16:25:24.690,Corniche - Garden City,Cairo,30.0354,31.2285,33.42,27,4.12,clear sky
+861,53,41,41,Free Flow,2026-08-30 16:25:25.573,Corniche - Maadi,Cairo,29.9621,31.2454,33.42,27,4.12,clear sky
+862,54,27,34,Moderate,2026-08-30 16:25:26.420,Qasr El Nil Bridge,Cairo,30.0435,31.2312,33.42,27,4.12,clear sky
+863,55,13,13,Free Flow,2026-08-30 16:25:27.263,Abbas Bridge,Cairo,30.0198,31.2312,33.42,27,4.12,clear sky
+864,56,28,28,Free Flow,2026-08-30 16:25:28.107,El Galaa Bridge,Cairo,30.0512,31.2214,33.42,27,4.12,clear sky
+865,57,37,37,Free Flow,2026-08-30 16:25:28.980,Tahya Masr Bridge,Cairo,30.0954,31.2245,33.42,27,4.12,clear sky
+866,58,25,35,Moderate,2026-08-30 16:25:29.803,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,33.41,26,4.95,clear sky
+867,59,50,55,Moderate,2026-08-30 16:25:30.667,Axis 26 July - Hyper One,Giza,30.0714,31.0254,33.41,26,4.95,clear sky
+868,60,21,21,Free Flow,2026-08-30 16:25:31.490,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,33.41,26,4.95,clear sky
+869,61,32,32,Free Flow,2026-08-30 16:25:32.397,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,35.59,26,6.95,clear sky
+870,62,105,105,Free Flow,2026-08-30 16:25:33.230,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,33.41,26,4.95,clear sky
+871,63,34,39,Moderate,2026-08-30 16:25:34.073,Haram Street - Giza Square,Giza,30.0124,31.2145,33.41,26,4.95,clear sky
+872,64,32,32,Free Flow,2026-08-30 16:25:34.897,Haram Street - Al Arish,Giza,29.9954,31.1754,33.41,26,4.95,clear sky
+873,65,36,36,Free Flow,2026-08-30 16:25:35.750,Haram Street - El Remaya,Giza,29.9821,31.1354,33.41,26,4.95,clear sky
+874,66,39,39,Free Flow,2026-08-30 16:25:36.617,Faisal Street - El Massaha,Giza,30.0254,31.2014,33.41,26,4.95,clear sky
+875,67,32,32,Free Flow,2026-08-30 16:25:37.440,Faisal Street - El Talbeya,Giza,29.9921,31.1654,33.41,26,4.95,clear sky
+876,68,61,61,Free Flow,2026-08-30 16:25:38.247,King Faisal Street End,Giza,29.9854,31.1245,33.41,26,4.95,clear sky
+877,69,83,83,Free Flow,2026-08-30 16:25:39.080,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,33.41,26,4.95,clear sky
+878,70,40,40,Free Flow,2026-08-30 16:25:39.950,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,33.41,26,4.95,clear sky
+879,71,81,81,Free Flow,2026-08-30 16:25:40.800,Wadi El Natrun Road,Beheira,30.4541,30.3541,32.44,39,8.35,clear sky
+880,72,70,70,Free Flow,2026-08-30 16:25:41.640,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,33.42,27,4.12,clear sky
+881,73,48,48,Free Flow,2026-08-30 16:25:42.477,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,33.42,27,4.12,clear sky
+882,74,74,74,Free Flow,2026-08-30 16:25:43.503,New Cairo - American University,Cairo,30.0054,31.5021,33.42,27,4.12,clear sky
+883,75,57,57,Free Flow,2026-08-30 16:25:44.350,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,33.42,27,4.12,clear sky
+884,76,63,63,Free Flow,2026-08-30 16:25:45.277,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,33.42,27,4.12,clear sky
+885,77,39,39,Free Flow,2026-08-30 16:25:46.177,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,33.42,27,4.12,clear sky
+886,78,24,32,Moderate,2026-08-30 16:25:47.057,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,33.42,27,4.12,clear sky
+887,79,40,40,Free Flow,2026-08-30 16:25:48.010,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,33.42,27,4.12,clear sky
+888,80,31,31,Free Flow,2026-08-30 16:25:48.997,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,33.42,27,4.12,clear sky
+889,81,49,49,Free Flow,2026-08-30 16:25:49.877,Heliopolis - Merghany,Cairo,30.0854,31.3354,33.42,27,4.12,clear sky
+890,82,55,55,Free Flow,2026-08-30 16:25:50.750,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,33.42,27,4.12,clear sky
+891,83,41,41,Free Flow,2026-08-30 16:25:51.627,Maadi - Victoria Square,Cairo,29.9541,31.2541,33.42,27,4.12,clear sky
+892,84,26,33,Moderate,2026-08-30 16:25:52.500,Maadi - Degla,Cairo,29.9602,31.2565,33.42,27,4.12,clear sky
+893,85,21,21,Free Flow,2026-08-30 16:25:53.403,Zamalek - 26 July St,Cairo,30.0654,31.2214,33.42,27,4.12,clear sky
+894,86,20,20,Free Flow,2026-08-30 16:25:54.283,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,33.42,27,4.12,clear sky
+895,87,16,16,Free Flow,2026-08-30 16:25:55.107,Downtown - Talaat Harb,Cairo,30.0512,31.2412,33.42,27,4.12,clear sky
+896,88,24,33,Moderate,2026-08-30 16:25:55.897,Dokki - Mesaha Sq,Giza,30.0387,31.2145,33.41,26,4.95,clear sky
+897,89,23,23,Free Flow,2026-08-30 16:25:56.713,Mohandessin - Shehab St,Giza,30.0554,31.2014,33.41,26,4.95,clear sky
+898,90,14,14,Free Flow,2026-08-30 16:25:57.507,Mohandessin - Sudan St,Giza,30.0687,31.2054,33.41,26,4.95,clear sky
+899,91,14,14,Free Flow,2026-08-30 16:25:58.317,Giza - El Omraneya,Giza,29.9954,31.2014,33.41,26,4.95,clear sky
+900,92,23,23,Free Flow,2026-08-30 16:25:59.197,Shubra - Corniche,Cairo,30.0854,31.2454,33.42,27,4.12,clear sky
+901,93,23,23,Free Flow,2026-08-30 16:26:00.953,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,33.42,27,4.12,clear sky
+902,94,19,19,Free Flow,2026-08-30 16:26:01.790,Ain Shams - El Matareya,Cairo,30.1254,31.3154,33.42,27,4.12,clear sky
+903,95,49,49,Free Flow,2026-08-30 16:26:02.640,Ain Shams University Area,Cairo,30.0754,31.2854,33.42,27,4.12,clear sky
+904,96,32,32,Free Flow,2026-08-30 16:26:03.513,Helwan - Corniche,Cairo,29.8454,31.3354,33.42,27,4.12,clear sky
+905,97,24,24,Free Flow,2026-08-30 16:26:04.487,Helwan University Area,Cairo,29.8512,31.3054,33.42,27,4.12,clear sky
+906,98,56,56,Free Flow,2026-08-30 16:26:05.310,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,33.42,27,4.12,clear sky
+907,99,46,46,Free Flow,2026-08-30 16:26:06.143,Cairo International Stadium Area,Cairo,30.0714,31.3154,33.42,27,4.12,clear sky
+908,100,72,72,Free Flow,2026-08-30 16:26:06.990,Cairo Festival City Area,Cairo,30.0312,31.4014,33.42,27,4.12,clear sky
+909,101,38,38,Free Flow,2026-08-30 16:26:07.840,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,33.42,27,4.12,clear sky
+910,1,12,16,Moderate,2026-08-30 17:11:42.440,Stanley Bridge,Alexandria,31.2291,29.9575,28.35,61,6.06,clear sky
+911,2,20,25,Moderate,2026-08-30 17:11:43.237,Corniche - San Stefano,Alexandria,31.2465,29.9723,28.35,61,6.06,clear sky
+912,3,19,23,Moderate,2026-08-30 17:11:44.027,Corniche - Gleem,Alexandria,31.2391,29.9654,28.35,61,6.06,clear sky
+913,4,19,23,Moderate,2026-08-30 17:11:44.820,Corniche - Roushdy,Alexandria,31.2365,29.9621,28.35,61,6.06,clear sky
+914,5,20,27,Moderate,2026-08-30 17:11:45.590,Corniche - Sporting,Alexandria,31.2214,29.9482,28.35,61,6.06,clear sky
+915,6,20,27,Moderate,2026-08-30 17:11:46.390,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,28.35,61,6.06,clear sky
+916,7,35,38,Moderate,2026-08-30 17:11:47.163,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,28.35,61,6.06,clear sky
+917,8,26,26,Free Flow,2026-08-30 17:11:47.977,Corniche - Chatby,Alexandria,31.2012,29.9284,28.35,61,6.06,clear sky
+918,9,27,27,Free Flow,2026-08-30 17:11:48.760,Corniche - Silsela,Alexandria,31.2054,29.8965,28.35,61,6.06,clear sky
+919,10,17,17,Free Flow,2026-08-30 17:11:49.537,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,28.35,61,6.06,clear sky
+920,11,34,34,Free Flow,2026-08-30 17:11:50.307,Corniche - Miami,Alexandria,31.2825,30.0152,28.35,61,6.06,clear sky
+921,12,34,34,Free Flow,2026-08-30 17:11:51.087,Corniche - Montaza,Alexandria,31.2871,30.0214,28.35,61,6.06,clear sky
+922,13,34,34,Free Flow,2026-08-30 17:11:51.863,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,28.35,61,6.06,clear sky
+923,14,22,22,Free Flow,2026-08-30 17:11:52.697,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,28.35,61,6.06,clear sky
+924,15,15,18,Moderate,2026-08-30 17:11:53.510,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,28.35,61,6.06,clear sky
+925,16,60,60,Free Flow,2026-08-30 17:11:54.290,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,28.35,61,6.06,clear sky
+926,17,50,50,Free Flow,2026-08-30 17:11:55.067,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,28.35,61,6.06,clear sky
+927,18,48,48,Free Flow,2026-08-30 17:11:55.837,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,28.35,61,6.06,clear sky
+928,19,86,86,Free Flow,2026-08-30 17:11:56.603,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,28.35,61,6.06,clear sky
+929,20,37,37,Free Flow,2026-08-30 17:11:57.400,Kafoury Road,Alexandria,31.0854,29.7541,28.35,61,6.06,clear sky
+930,21,82,82,Free Flow,2026-08-30 17:11:58.163,Borg El Arab Entrance,Alexandria,30.9124,29.5412,28.35,61,6.06,clear sky
+931,22,75,75,Free Flow,2026-08-30 17:11:58.937,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,32.21,32,8.21,clear sky
+932,23,26,26,Free Flow,2026-08-30 17:11:59.710,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,32.21,32,8.21,clear sky
+933,24,26,26,Free Flow,2026-08-30 17:12:00.510,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,34.37,27,7.52,clear sky
+934,25,20,20,Free Flow,2026-08-30 17:12:01.300,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,35.4,25,8.0,clear sky
+935,26,34,34,Free Flow,2026-08-30 17:12:02.123,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,35.4,25,8.0,clear sky
+936,27,42,42,Free Flow,2026-08-30 17:12:02.903,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,35.4,25,8.0,clear sky
+937,28,11,11,Free Flow,2026-08-30 17:12:03.757,Ring Road - Marg,Cairo,30.1524,31.3452,34.42,26,6.17,clear sky
+938,29,79,79,Free Flow,2026-08-30 17:12:04.530,Ring Road - Al Salam City,Cairo,30.1654,31.3854,34.42,26,6.17,clear sky
+939,30,77,77,Free Flow,2026-08-30 17:12:05.310,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,34.42,26,6.17,clear sky
+940,31,66,66,Free Flow,2026-08-30 17:12:06.083,Ring Road - Katameya,Cairo,29.9854,31.3541,34.42,26,6.17,clear sky
+941,32,20,20,Free Flow,2026-08-30 17:12:06.867,Ring Road - Maadi,Cairo,29.9621,31.2754,34.42,26,6.17,clear sky
+942,33,42,42,Free Flow,2026-08-30 17:12:07.657,Ring Road - Mounib,Giza,29.9821,31.2154,34.41,25,6.99,clear sky
+943,34,13,13,Free Flow,2026-08-30 17:12:08.427,Ring Road - Mariouteya,Giza,29.9754,31.1542,34.41,25,6.99,clear sky
+944,35,14,14,Free Flow,2026-08-30 17:12:09.487,Ring Road - El Waraq,Giza,30.0854,31.2014,34.41,25,6.99,clear sky
+945,36,27,27,Free Flow,2026-08-30 17:12:10.280,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,34.41,25,6.99,clear sky
+946,37,16,16,Free Flow,2026-08-30 17:12:11.060,October Bridge - Ramses,Cairo,30.0565,31.2442,34.42,26,6.17,clear sky
+947,38,14,20,Moderate,2026-08-30 17:12:11.853,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,34.42,26,6.17,clear sky
+948,39,21,21,Free Flow,2026-08-30 17:12:12.627,October Bridge - Zamalek,Cairo,30.0621,31.2215,34.42,26,6.17,clear sky
+949,40,22,30,Moderate,2026-08-30 17:12:13.523,October Bridge - Doqqi,Giza,30.0454,31.2145,34.41,25,6.99,clear sky
+950,41,23,23,Free Flow,2026-08-30 17:12:14.290,October Bridge - Mohandessin End,Giza,30.0541,31.1985,34.41,25,6.99,clear sky
+951,42,30,36,Moderate,2026-08-30 17:12:15.057,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,34.42,26,6.17,clear sky
+952,43,34,34,Free Flow,2026-08-30 17:12:15.827,October Bridge - Al-Manial,Cairo,30.0312,31.2285,34.42,26,6.17,clear sky
+953,44,42,42,Free Flow,2026-08-30 17:12:16.603,Salah Salem - Airport Road,Cairo,30.1054,31.3854,34.42,26,6.17,clear sky
+954,45,32,58,Heavy Congestion,2026-08-30 17:12:17.403,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,34.42,26,6.17,clear sky
+955,46,49,49,Free Flow,2026-08-30 17:12:18.170,Salah Salem - Citadel,Cairo,30.0285,31.2654,34.42,26,6.17,clear sky
+956,47,46,46,Free Flow,2026-08-30 17:12:18.957,Salah Salem - Panorama,Cairo,30.0721,31.3154,34.42,26,6.17,clear sky
+957,48,20,20,Free Flow,2026-08-30 17:12:19.727,Autostrad - Maadi,Cairo,29.9754,31.2654,34.42,26,6.17,clear sky
+958,49,20,20,Free Flow,2026-08-30 17:12:20.527,Autostrad - Helwan,Cairo,29.8541,31.3154,34.42,26,6.17,clear sky
+959,50,67,67,Free Flow,2026-08-30 17:12:21.330,Autostrad - Nasr City,Cairo,30.0354,31.3354,34.42,26,6.17,clear sky
+960,51,38,38,Free Flow,2026-08-30 17:12:22.120,Corniche - Maspero,Cairo,30.0541,31.2312,34.42,26,6.17,clear sky
+961,52,20,20,Free Flow,2026-08-30 17:12:22.903,Corniche - Garden City,Cairo,30.0354,31.2285,34.42,26,6.17,clear sky
+962,53,41,41,Free Flow,2026-08-30 17:12:23.780,Corniche - Maadi,Cairo,29.9621,31.2454,34.42,26,6.17,clear sky
+963,54,34,34,Free Flow,2026-08-30 17:12:24.550,Qasr El Nil Bridge,Cairo,30.0435,31.2312,34.42,26,6.17,clear sky
+964,55,13,13,Free Flow,2026-08-30 17:12:25.330,Abbas Bridge,Cairo,30.0198,31.2312,34.42,26,6.17,clear sky
+965,56,28,28,Free Flow,2026-08-30 17:12:26.097,El Galaa Bridge,Cairo,30.0512,31.2214,34.42,26,6.17,clear sky
+966,57,37,37,Free Flow,2026-08-30 17:12:26.893,Tahya Masr Bridge,Cairo,30.0954,31.2245,34.42,26,6.17,clear sky
+967,58,26,34,Moderate,2026-08-30 17:12:27.677,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,34.41,25,6.99,clear sky
+968,59,53,53,Free Flow,2026-08-30 17:12:28.490,Axis 26 July - Hyper One,Giza,30.0714,31.0254,34.41,25,6.99,clear sky
+969,60,17,21,Moderate,2026-08-30 17:12:29.250,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,34.41,25,6.99,clear sky
+970,61,32,32,Free Flow,2026-08-30 17:12:30.017,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,35.4,25,8.0,clear sky
+971,62,105,105,Free Flow,2026-08-30 17:12:30.800,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,34.41,25,6.99,clear sky
+972,63,39,39,Free Flow,2026-08-30 17:12:31.563,Haram Street - Giza Square,Giza,30.0124,31.2145,34.41,25,6.99,clear sky
+973,64,32,32,Free Flow,2026-08-30 17:12:32.357,Haram Street - Al Arish,Giza,29.9954,31.1754,34.41,25,6.99,clear sky
+974,65,36,36,Free Flow,2026-08-30 17:12:33.137,Haram Street - El Remaya,Giza,29.9821,31.1354,34.41,25,6.99,clear sky
+975,66,39,39,Free Flow,2026-08-30 17:12:33.933,Faisal Street - El Massaha,Giza,30.0254,31.2014,34.41,25,6.99,clear sky
+976,67,32,32,Free Flow,2026-08-30 17:12:34.830,Faisal Street - El Talbeya,Giza,29.9921,31.1654,34.41,25,6.99,clear sky
+977,68,61,61,Free Flow,2026-08-30 17:12:35.610,King Faisal Street End,Giza,29.9854,31.1245,34.41,25,6.99,clear sky
+978,69,83,83,Free Flow,2026-08-30 17:12:36.483,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,34.41,25,6.99,clear sky
+979,70,40,40,Free Flow,2026-08-30 17:12:37.257,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,34.41,25,6.99,clear sky
+980,71,81,81,Free Flow,2026-08-30 17:12:38.033,Wadi El Natrun Road,Beheira,30.4541,30.3541,32.21,32,8.21,clear sky
+981,72,70,70,Free Flow,2026-08-30 17:12:38.820,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,34.42,26,6.17,clear sky
+982,73,48,48,Free Flow,2026-08-30 17:12:39.620,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,34.42,26,6.17,clear sky
+983,74,74,74,Free Flow,2026-08-30 17:12:40.400,New Cairo - American University,Cairo,30.0054,31.5021,34.42,26,6.17,clear sky
+984,75,49,57,Moderate,2026-08-30 17:12:41.197,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,34.42,26,6.17,clear sky
+985,76,63,63,Free Flow,2026-08-30 17:12:41.977,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,34.42,26,6.17,clear sky
+986,77,30,39,Moderate,2026-08-30 17:12:42.797,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,34.42,26,6.17,clear sky
+987,78,26,32,Moderate,2026-08-30 17:12:43.603,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,34.42,26,6.17,clear sky
+988,79,38,40,Moderate,2026-08-30 17:12:44.443,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,34.42,26,6.17,clear sky
+989,80,31,31,Free Flow,2026-08-30 17:12:45.233,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,34.42,26,6.17,clear sky
+990,81,49,49,Free Flow,2026-08-30 17:12:46.003,Heliopolis - Merghany,Cairo,30.0854,31.3354,34.42,26,6.17,clear sky
+991,82,55,55,Free Flow,2026-08-30 17:12:46.790,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,34.42,26,6.17,clear sky
+992,83,41,41,Free Flow,2026-08-30 17:12:47.580,Maadi - Victoria Square,Cairo,29.9541,31.2541,34.42,26,6.17,clear sky
+993,84,33,33,Free Flow,2026-08-30 17:12:48.377,Maadi - Degla,Cairo,29.9602,31.2565,34.42,26,6.17,clear sky
+994,85,21,21,Free Flow,2026-08-30 17:12:49.173,Zamalek - 26 July St,Cairo,30.0654,31.2214,34.42,26,6.17,clear sky
+995,86,12,20,Moderate,2026-08-30 17:12:49.980,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,34.42,26,6.17,clear sky
+996,87,16,16,Free Flow,2026-08-30 17:12:50.767,Downtown - Talaat Harb,Cairo,30.0512,31.2412,34.42,26,6.17,clear sky
+997,88,24,33,Moderate,2026-08-30 17:12:51.577,Dokki - Mesaha Sq,Giza,30.0387,31.2145,34.41,25,6.99,clear sky
+998,89,14,23,Moderate,2026-08-30 17:12:52.383,Mohandessin - Shehab St,Giza,30.0554,31.2014,34.41,25,6.99,clear sky
+999,90,14,14,Free Flow,2026-08-30 17:12:53.157,Mohandessin - Sudan St,Giza,30.0687,31.2054,34.41,25,6.99,clear sky
+1000,91,14,14,Free Flow,2026-08-30 17:12:53.930,Giza - El Omraneya,Giza,29.9954,31.2014,34.41,25,6.99,clear sky
+1001,92,23,23,Free Flow,2026-08-30 17:12:54.763,Shubra - Corniche,Cairo,30.0854,31.2454,34.42,26,6.17,clear sky
+1002,93,23,23,Free Flow,2026-08-30 17:12:55.540,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,34.42,26,6.17,clear sky
+1003,94,19,19,Free Flow,2026-08-30 17:12:56.307,Ain Shams - El Matareya,Cairo,30.1254,31.3154,34.42,26,6.17,clear sky
+1004,95,41,49,Moderate,2026-08-30 17:12:57.103,Ain Shams University Area,Cairo,30.0754,31.2854,34.42,26,6.17,clear sky
+1005,96,30,32,Moderate,2026-08-30 17:12:57.883,Helwan - Corniche,Cairo,29.8454,31.3354,34.42,26,6.17,clear sky
+1006,97,24,24,Free Flow,2026-08-30 17:12:58.667,Helwan University Area,Cairo,29.8512,31.3054,34.42,26,6.17,clear sky
+1007,98,56,56,Free Flow,2026-08-30 17:12:59.463,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,34.42,26,6.17,clear sky
+1008,99,46,46,Free Flow,2026-08-30 17:13:00.250,Cairo International Stadium Area,Cairo,30.0714,31.3154,34.42,26,6.17,clear sky
+1009,100,72,72,Free Flow,2026-08-30 17:13:01.010,Cairo Festival City Area,Cairo,30.0312,31.4014,34.42,26,6.17,clear sky
+1010,101,38,38,Free Flow,2026-08-30 17:13:02.057,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,34.42,26,6.17,clear sky
+1011,1,11,16,Moderate,2026-08-30 20:23:22.470,Stanley Bridge,Alexandria,31.2291,29.9575,27.98,74,4.12,clear sky
+1012,2,18,25,Moderate,2026-08-30 20:23:23.267,Corniche - San Stefano,Alexandria,31.2465,29.9723,27.98,74,4.12,clear sky
+1013,3,16,22,Moderate,2026-08-30 20:23:24.033,Corniche - Gleem,Alexandria,31.2391,29.9654,27.98,74,4.12,clear sky
+1014,4,16,22,Moderate,2026-08-30 20:23:24.800,Corniche - Roushdy,Alexandria,31.2365,29.9621,27.98,74,4.12,clear sky
+1015,5,17,27,Moderate,2026-08-30 20:23:25.577,Corniche - Sporting,Alexandria,31.2214,29.9482,27.98,74,4.12,clear sky
+1016,6,17,27,Moderate,2026-08-30 20:23:26.343,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,27.98,74,4.12,clear sky
+1017,7,34,38,Moderate,2026-08-30 20:23:27.113,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,27.98,74,4.12,clear sky
+1018,8,20,26,Moderate,2026-08-30 20:23:27.887,Corniche - Chatby,Alexandria,31.2012,29.9284,27.98,74,4.12,clear sky
+1019,9,21,26,Moderate,2026-08-30 20:23:28.673,Corniche - Silsela,Alexandria,31.2054,29.8965,27.98,74,4.12,clear sky
+1020,10,17,17,Free Flow,2026-08-30 20:23:29.460,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,27.98,74,4.12,clear sky
+1021,11,30,34,Moderate,2026-08-30 20:23:30.237,Corniche - Miami,Alexandria,31.2825,30.0152,27.98,74,4.12,clear sky
+1022,12,34,34,Free Flow,2026-08-30 20:23:31.020,Corniche - Montaza,Alexandria,31.2871,30.0214,27.98,74,4.12,clear sky
+1023,13,34,34,Free Flow,2026-08-30 20:23:31.790,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,27.98,74,4.12,clear sky
+1024,14,22,22,Free Flow,2026-08-30 20:23:32.570,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,27.98,74,4.12,clear sky
+1025,15,13,17,Moderate,2026-08-30 20:23:33.357,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,27.98,74,4.12,clear sky
+1026,16,60,60,Free Flow,2026-08-30 20:23:34.147,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,27.98,74,4.12,clear sky
+1027,17,50,50,Free Flow,2026-08-30 20:23:34.910,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,27.98,74,4.12,clear sky
+1028,18,48,48,Free Flow,2026-08-30 20:23:35.673,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,27.98,74,4.12,clear sky
+1029,19,86,86,Free Flow,2026-08-30 20:23:36.440,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,27.98,74,4.12,clear sky
+1030,20,32,37,Moderate,2026-08-30 20:23:37.217,Kafoury Road,Alexandria,31.0854,29.7541,27.98,74,4.12,clear sky
+1031,21,82,82,Free Flow,2026-08-30 20:23:37.977,Borg El Arab Entrance,Alexandria,30.9124,29.5412,27.98,74,4.12,clear sky
+1032,22,75,75,Free Flow,2026-08-30 20:23:38.750,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,27.52,59,5.82,clear sky
+1033,23,26,26,Free Flow,2026-08-30 20:23:39.523,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,27.52,59,5.82,clear sky
+1034,24,20,25,Moderate,2026-08-30 20:23:40.283,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,28.91,51,5.29,clear sky
+1035,25,20,20,Free Flow,2026-08-30 20:23:41.050,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,30.61,41,6.8,clear sky
+1036,26,34,34,Free Flow,2026-08-30 20:23:41.903,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,30.61,41,6.8,clear sky
+1037,27,42,42,Free Flow,2026-08-30 20:23:42.673,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,30.61,41,6.8,clear sky
+1038,28,11,11,Free Flow,2026-08-30 20:23:43.450,Ring Road - Marg,Cairo,30.1524,31.3452,31.42,40,7.2,clear sky
+1039,29,79,79,Free Flow,2026-08-30 20:23:44.220,Ring Road - Al Salam City,Cairo,30.1654,31.3854,31.42,40,7.2,clear sky
+1040,30,77,77,Free Flow,2026-08-30 20:23:45.020,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,31.42,40,7.2,clear sky
+1041,31,66,66,Free Flow,2026-08-30 20:23:47.133,Ring Road - Katameya,Cairo,29.9854,31.3541,31.42,40,7.2,clear sky
+1042,32,16,20,Moderate,2026-08-30 20:23:47.960,Ring Road - Maadi,Cairo,29.9621,31.2754,31.42,40,7.2,clear sky
+1043,33,42,42,Free Flow,2026-08-30 20:23:50.003,Ring Road - Mounib,Giza,29.9821,31.2154,31.41,39,8.88,clear sky
+1044,34,13,13,Free Flow,2026-08-30 20:23:50.807,Ring Road - Mariouteya,Giza,29.9754,31.1542,31.41,39,8.88,clear sky
+1045,35,14,14,Free Flow,2026-08-30 20:23:52.490,Ring Road - El Waraq,Giza,30.0854,31.2014,31.41,39,8.88,clear sky
+1046,36,19,27,Moderate,2026-08-30 20:23:53.277,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,31.41,39,8.88,clear sky
+1047,37,16,16,Free Flow,2026-08-30 20:23:55.910,October Bridge - Ramses,Cairo,30.0565,31.2442,31.42,40,7.2,clear sky
+1048,38,20,20,Free Flow,2026-08-30 20:23:56.690,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,31.42,40,7.2,clear sky
+1049,39,16,20,Moderate,2026-08-30 20:23:57.483,October Bridge - Zamalek,Cairo,30.0621,31.2215,31.42,40,7.2,clear sky
+1050,40,23,31,Moderate,2026-08-30 20:23:59.817,October Bridge - Doqqi,Giza,30.0454,31.2145,31.41,39,8.88,clear sky
+1051,41,15,23,Moderate,2026-08-30 20:24:01.670,October Bridge - Mohandessin End,Giza,30.0541,31.1985,31.41,39,8.88,clear sky
+1052,42,28,36,Moderate,2026-08-30 20:24:02.463,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,31.42,40,7.2,clear sky
+1053,43,27,33,Moderate,2026-08-30 20:24:03.267,October Bridge - Al-Manial,Cairo,30.0312,31.2285,31.42,40,7.2,clear sky
+1054,44,25,41,Moderate,2026-08-30 20:24:04.057,Salah Salem - Airport Road,Cairo,30.1054,31.3854,31.42,40,7.2,clear sky
+1055,45,58,58,Free Flow,2026-08-30 20:24:04.883,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,31.42,40,7.2,clear sky
+1056,46,49,49,Free Flow,2026-08-30 20:24:05.670,Salah Salem - Citadel,Cairo,30.0285,31.2654,31.42,40,7.2,clear sky
+1057,47,46,46,Free Flow,2026-08-30 20:24:06.450,Salah Salem - Panorama,Cairo,30.0721,31.3154,31.42,40,7.2,clear sky
+1058,48,16,20,Moderate,2026-08-30 20:24:07.227,Autostrad - Maadi,Cairo,29.9754,31.2654,31.42,40,7.2,clear sky
+1059,49,17,20,Moderate,2026-08-30 20:24:08.000,Autostrad - Helwan,Cairo,29.8541,31.3154,31.42,40,7.2,clear sky
+1060,50,67,67,Free Flow,2026-08-30 20:24:08.763,Autostrad - Nasr City,Cairo,30.0354,31.3354,31.42,40,7.2,clear sky
+1061,51,38,38,Free Flow,2026-08-30 20:24:09.553,Corniche - Maspero,Cairo,30.0541,31.2312,31.42,40,7.2,clear sky
+1062,52,19,21,Moderate,2026-08-30 20:24:10.323,Corniche - Garden City,Cairo,30.0354,31.2285,31.42,40,7.2,clear sky
+1063,53,41,41,Free Flow,2026-08-30 20:24:11.100,Corniche - Maadi,Cairo,29.9621,31.2454,31.42,40,7.2,clear sky
+1064,54,27,33,Moderate,2026-08-30 20:24:11.943,Qasr El Nil Bridge,Cairo,30.0435,31.2312,31.42,40,7.2,clear sky
+1065,55,13,13,Free Flow,2026-08-30 20:24:12.707,Abbas Bridge,Cairo,30.0198,31.2312,31.42,40,7.2,clear sky
+1066,56,21,27,Moderate,2026-08-30 20:24:13.487,El Galaa Bridge,Cairo,30.0512,31.2214,31.42,40,7.2,clear sky
+1067,57,31,37,Moderate,2026-08-30 20:24:14.277,Tahya Masr Bridge,Cairo,30.0954,31.2245,31.42,40,7.2,clear sky
+1068,58,23,34,Moderate,2026-08-30 20:24:15.040,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,31.41,39,8.88,clear sky
+1069,59,53,53,Free Flow,2026-08-30 20:24:15.803,Axis 26 July - Hyper One,Giza,30.0714,31.0254,31.41,39,8.88,clear sky
+1070,60,14,21,Moderate,2026-08-30 20:24:16.570,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,31.41,39,8.88,clear sky
+1071,61,25,32,Moderate,2026-08-30 20:24:17.377,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,30.61,41,6.8,clear sky
+1072,62,105,105,Free Flow,2026-08-30 20:24:18.173,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,31.41,39,8.88,clear sky
+1073,63,32,38,Moderate,2026-08-30 20:24:18.953,Haram Street - Giza Square,Giza,30.0124,31.2145,31.41,39,8.88,clear sky
+1074,64,32,32,Free Flow,2026-08-30 20:24:19.720,Haram Street - Al Arish,Giza,29.9954,31.1754,31.41,39,8.88,clear sky
+1075,65,36,36,Free Flow,2026-08-30 20:24:20.500,Haram Street - El Remaya,Giza,29.9821,31.1354,31.41,39,8.88,clear sky
+1076,66,39,39,Free Flow,2026-08-30 20:24:21.270,Faisal Street - El Massaha,Giza,30.0254,31.2014,31.41,39,8.88,clear sky
+1077,67,32,32,Free Flow,2026-08-30 20:24:22.190,Faisal Street - El Talbeya,Giza,29.9921,31.1654,31.41,39,8.88,clear sky
+1078,68,61,61,Free Flow,2026-08-30 20:24:22.963,King Faisal Street End,Giza,29.9854,31.1245,31.41,39,8.88,clear sky
+1079,69,83,83,Free Flow,2026-08-30 20:24:23.747,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,31.41,39,8.88,clear sky
+1080,70,40,40,Free Flow,2026-08-30 20:24:24.527,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,31.41,39,8.88,clear sky
+1081,71,81,81,Free Flow,2026-08-30 20:24:25.303,Wadi El Natrun Road,Beheira,30.4541,30.3541,27.52,59,5.82,clear sky
+1082,72,70,70,Free Flow,2026-08-30 20:24:26.107,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,31.42,40,7.2,clear sky
+1083,73,48,48,Free Flow,2026-08-30 20:24:26.907,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,31.42,40,7.2,clear sky
+1084,74,74,74,Free Flow,2026-08-30 20:24:27.667,New Cairo - American University,Cairo,30.0054,31.5021,31.42,40,7.2,clear sky
+1085,75,57,57,Free Flow,2026-08-30 20:24:28.447,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,31.42,40,7.2,clear sky
+1086,76,63,63,Free Flow,2026-08-30 20:24:29.227,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,31.42,40,7.2,clear sky
+1087,77,39,39,Free Flow,2026-08-30 20:24:30.000,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,31.42,40,7.2,clear sky
+1088,78,23,32,Moderate,2026-08-30 20:24:30.770,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,31.42,40,7.2,clear sky
+1089,79,34,39,Moderate,2026-08-30 20:24:31.597,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,31.42,40,7.2,clear sky
+1090,80,31,31,Free Flow,2026-08-30 20:24:32.377,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,31.42,40,7.2,clear sky
+1091,81,49,49,Free Flow,2026-08-30 20:24:33.153,Heliopolis - Merghany,Cairo,30.0854,31.3354,31.42,40,7.2,clear sky
+1092,82,55,55,Free Flow,2026-08-30 20:24:33.953,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,31.42,40,7.2,clear sky
+1093,83,41,41,Free Flow,2026-08-30 20:24:34.773,Maadi - Victoria Square,Cairo,29.9541,31.2541,31.42,40,7.2,clear sky
+1094,84,25,33,Moderate,2026-08-30 20:24:35.537,Maadi - Degla,Cairo,29.9602,31.2565,31.42,40,7.2,clear sky
+1095,85,17,21,Moderate,2026-08-30 20:24:36.297,Zamalek - 26 July St,Cairo,30.0654,31.2214,31.42,40,7.2,clear sky
+1096,86,20,20,Free Flow,2026-08-30 20:24:37.060,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,31.42,40,7.2,clear sky
+1097,87,16,16,Free Flow,2026-08-30 20:24:37.837,Downtown - Talaat Harb,Cairo,30.0512,31.2412,31.42,40,7.2,clear sky
+1098,88,22,32,Moderate,2026-08-30 20:24:38.620,Dokki - Mesaha Sq,Giza,30.0387,31.2145,31.41,39,8.88,clear sky
+1099,89,7,24,Heavy Congestion,2026-08-30 20:24:39.437,Mohandessin - Shehab St,Giza,30.0554,31.2014,31.41,39,8.88,clear sky
+1100,90,5,14,Heavy Congestion,2026-08-30 20:24:40.230,Mohandessin - Sudan St,Giza,30.0687,31.2054,31.41,39,8.88,clear sky
+1101,91,11,14,Moderate,2026-08-30 20:24:41.023,Giza - El Omraneya,Giza,29.9954,31.2014,31.41,39,8.88,clear sky
+1102,92,18,23,Moderate,2026-08-30 20:24:41.910,Shubra - Corniche,Cairo,30.0854,31.2454,31.42,40,7.2,clear sky
+1103,93,23,23,Free Flow,2026-08-30 20:24:42.713,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,31.42,40,7.2,clear sky
+1104,94,19,19,Free Flow,2026-08-30 20:24:43.513,Ain Shams - El Matareya,Cairo,30.1254,31.3154,31.42,40,7.2,clear sky
+1105,95,39,48,Moderate,2026-08-30 20:24:44.290,Ain Shams University Area,Cairo,30.0754,31.2854,31.42,40,7.2,clear sky
+1106,96,32,32,Free Flow,2026-08-30 20:24:45.080,Helwan - Corniche,Cairo,29.8454,31.3354,31.42,40,7.2,clear sky
+1107,97,24,24,Free Flow,2026-08-30 20:24:45.870,Helwan University Area,Cairo,29.8512,31.3054,31.42,40,7.2,clear sky
+1108,98,56,56,Free Flow,2026-08-30 20:24:46.653,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,31.42,40,7.2,clear sky
+1109,99,46,46,Free Flow,2026-08-30 20:24:47.447,Cairo International Stadium Area,Cairo,30.0714,31.3154,31.42,40,7.2,clear sky
+1110,100,72,72,Free Flow,2026-08-30 20:24:48.250,Cairo Festival City Area,Cairo,30.0312,31.4014,31.42,40,7.2,clear sky
+1111,101,38,38,Free Flow,2026-08-30 20:24:49.053,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,31.42,40,7.2,clear sky
+1112,1,13,17,Moderate,2026-08-31 17:26:33.510,Stanley Bridge,Alexandria,31.2291,29.9575,29.98,66,4.63,clear sky
+1113,2,18,25,Moderate,2026-08-31 17:26:34.307,Corniche - San Stefano,Alexandria,31.2465,29.9723,29.98,66,4.63,clear sky
+1114,3,17,23,Moderate,2026-08-31 17:26:35.080,Corniche - Gleem,Alexandria,31.2391,29.9654,29.98,66,4.63,clear sky
+1115,4,17,23,Moderate,2026-08-31 17:26:35.850,Corniche - Roushdy,Alexandria,31.2365,29.9621,29.98,66,4.63,clear sky
+1116,5,19,28,Moderate,2026-08-31 17:26:36.637,Corniche - Sporting,Alexandria,31.2214,29.9482,29.98,66,4.63,clear sky
+1117,6,19,28,Moderate,2026-08-31 17:26:37.420,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,29.98,66,4.63,clear sky
+1118,7,33,38,Moderate,2026-08-31 17:26:38.203,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,29.98,66,4.63,clear sky
+1119,8,15,26,Heavy Congestion,2026-08-31 17:26:38.970,Corniche - Chatby,Alexandria,31.2012,29.9284,29.98,66,4.63,clear sky
+1120,9,27,27,Free Flow,2026-08-31 17:26:39.770,Corniche - Silsela,Alexandria,31.2054,29.8965,29.98,66,4.63,clear sky
+1121,10,15,18,Moderate,2026-08-31 17:26:40.553,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,29.98,66,4.63,clear sky
+1122,11,30,34,Moderate,2026-08-31 17:26:41.337,Corniche - Miami,Alexandria,31.2825,30.0152,29.98,66,4.63,clear sky
+1123,12,34,34,Free Flow,2026-08-31 17:26:42.120,Corniche - Montaza,Alexandria,31.2871,30.0214,29.98,66,4.63,clear sky
+1124,13,34,34,Free Flow,2026-08-31 17:26:42.903,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,29.98,66,4.63,clear sky
+1125,14,19,21,Moderate,2026-08-31 17:26:43.737,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,29.98,66,4.63,clear sky
+1126,15,14,18,Moderate,2026-08-31 17:26:44.517,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,29.98,66,4.63,clear sky
+1127,16,60,60,Free Flow,2026-08-31 17:26:45.287,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,29.98,66,4.63,clear sky
+1128,17,50,50,Free Flow,2026-08-31 17:26:46.083,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,29.98,66,4.63,clear sky
+1129,18,48,48,Free Flow,2026-08-31 17:26:46.857,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,29.98,66,4.63,clear sky
+1130,19,86,86,Free Flow,2026-08-31 17:26:47.670,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,29.98,66,4.63,clear sky
+1131,20,33,37,Moderate,2026-08-31 17:26:48.473,Kafoury Road,Alexandria,31.0854,29.7541,29.98,66,4.63,clear sky
+1132,21,82,82,Free Flow,2026-08-31 17:26:49.253,Borg El Arab Entrance,Alexandria,30.9124,29.5412,29.98,66,4.63,clear sky
+1133,22,75,75,Free Flow,2026-08-31 17:26:50.033,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,32.38,31,7.77,clear sky
+1134,23,26,26,Free Flow,2026-08-31 17:26:50.817,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,32.38,31,7.77,clear sky
+1135,24,26,26,Free Flow,2026-08-31 17:26:51.583,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,33.83,30,8.61,clear sky
+1136,25,20,20,Free Flow,2026-08-31 17:26:52.350,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,34.31,25,2.85,clear sky
+1137,26,34,34,Free Flow,2026-08-31 17:26:53.140,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,34.31,25,2.85,clear sky
+1138,27,36,42,Moderate,2026-08-31 17:26:53.963,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,34.31,25,2.85,clear sky
+1139,28,11,11,Free Flow,2026-08-31 17:26:54.750,Ring Road - Marg,Cairo,30.1524,31.3452,34.42,27,4.12,clear sky
+1140,29,79,79,Free Flow,2026-08-31 17:26:55.573,Ring Road - Al Salam City,Cairo,30.1654,31.3854,34.42,27,4.12,clear sky
+1141,30,77,77,Free Flow,2026-08-31 17:26:56.357,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,34.42,27,4.12,clear sky
+1142,31,66,66,Free Flow,2026-08-31 17:26:57.200,Ring Road - Katameya,Cairo,29.9854,31.3541,34.42,27,4.12,clear sky
+1143,32,17,20,Moderate,2026-08-31 17:26:57.987,Ring Road - Maadi,Cairo,29.9621,31.2754,34.42,27,4.12,clear sky
+1144,33,42,42,Free Flow,2026-08-31 17:26:58.780,Ring Road - Mounib,Giza,29.9821,31.2154,34.41,27,2.29,clear sky
+1145,34,13,13,Free Flow,2026-08-31 17:26:59.593,Ring Road - Mariouteya,Giza,29.9754,31.1542,34.41,27,2.29,clear sky
+1146,35,14,14,Free Flow,2026-08-31 17:27:00.387,Ring Road - El Waraq,Giza,30.0854,31.2014,34.41,27,2.29,clear sky
+1147,36,19,26,Moderate,2026-08-31 17:27:01.183,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,34.41,27,2.29,clear sky
+1148,37,8,16,Heavy Congestion,2026-08-31 17:27:02.140,October Bridge - Ramses,Cairo,30.0565,31.2442,34.42,27,4.12,clear sky
+1149,38,20,20,Free Flow,2026-08-31 17:27:03.017,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,34.42,27,4.12,clear sky
+1150,39,17,21,Moderate,2026-08-31 17:27:03.897,October Bridge - Zamalek,Cairo,30.0621,31.2215,34.42,27,4.12,clear sky
+1151,40,22,30,Moderate,2026-08-31 17:27:04.690,October Bridge - Doqqi,Giza,30.0454,31.2145,34.41,27,2.29,clear sky
+1152,41,14,23,Moderate,2026-08-31 17:27:05.520,October Bridge - Mohandessin End,Giza,30.0541,31.1985,34.41,27,2.29,clear sky
+1153,42,29,36,Moderate,2026-08-31 17:27:06.293,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,34.42,27,4.12,clear sky
+1154,43,25,34,Moderate,2026-08-31 17:27:07.077,October Bridge - Al-Manial,Cairo,30.0312,31.2285,34.42,27,4.12,clear sky
+1155,44,42,42,Free Flow,2026-08-31 17:27:07.840,Salah Salem - Airport Road,Cairo,30.1054,31.3854,34.42,27,4.12,clear sky
+1156,45,58,58,Free Flow,2026-08-31 17:27:08.603,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,34.42,27,4.12,clear sky
+1157,46,49,49,Free Flow,2026-08-31 17:27:09.377,Salah Salem - Citadel,Cairo,30.0285,31.2654,34.42,27,4.12,clear sky
+1158,47,46,46,Free Flow,2026-08-31 17:27:10.147,Salah Salem - Panorama,Cairo,30.0721,31.3154,34.42,27,4.12,clear sky
+1159,48,17,20,Moderate,2026-08-31 17:27:10.953,Autostrad - Maadi,Cairo,29.9754,31.2654,34.42,27,4.12,clear sky
+1160,49,20,20,Free Flow,2026-08-31 17:27:11.720,Autostrad - Helwan,Cairo,29.8541,31.3154,34.42,27,4.12,clear sky
+1161,50,59,67,Moderate,2026-08-31 17:27:12.500,Autostrad - Nasr City,Cairo,30.0354,31.3354,34.42,27,4.12,clear sky
+1162,51,31,38,Moderate,2026-08-31 17:27:13.263,Corniche - Maspero,Cairo,30.0541,31.2312,34.42,27,4.12,clear sky
+1163,52,20,20,Free Flow,2026-08-31 17:27:14.043,Corniche - Garden City,Cairo,30.0354,31.2285,34.42,27,4.12,clear sky
+1164,53,37,41,Moderate,2026-08-31 17:27:14.883,Corniche - Maadi,Cairo,29.9621,31.2454,34.42,27,4.12,clear sky
+1165,54,25,33,Moderate,2026-08-31 17:27:15.667,Qasr El Nil Bridge,Cairo,30.0435,31.2312,34.42,27,4.12,clear sky
+1166,55,13,13,Free Flow,2026-08-31 17:27:17.917,Abbas Bridge,Cairo,30.0198,31.2312,34.42,27,4.12,clear sky
+1167,56,25,27,Moderate,2026-08-31 17:27:18.697,El Galaa Bridge,Cairo,30.0512,31.2214,34.42,27,4.12,clear sky
+1168,57,33,37,Moderate,2026-08-31 17:27:19.940,Tahya Masr Bridge,Cairo,30.0954,31.2245,34.42,27,4.12,clear sky
+1169,58,29,34,Moderate,2026-08-31 17:27:20.720,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,34.41,27,2.29,clear sky
+1170,59,45,56,Moderate,2026-08-31 17:27:21.523,Axis 26 July - Hyper One,Giza,30.0714,31.0254,34.41,27,2.29,clear sky
+1171,60,18,21,Moderate,2026-08-31 17:27:22.303,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,34.41,27,2.29,clear sky
+1172,61,32,32,Free Flow,2026-08-31 17:27:23.067,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,34.31,25,2.85,clear sky
+1173,62,105,105,Free Flow,2026-08-31 17:27:23.820,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,34.41,27,2.29,clear sky
+1174,63,31,39,Moderate,2026-08-31 17:27:24.670,Haram Street - Giza Square,Giza,30.0124,31.2145,34.41,27,2.29,clear sky
+1175,64,32,32,Free Flow,2026-08-31 17:27:25.447,Haram Street - Al Arish,Giza,29.9954,31.1754,34.41,27,2.29,clear sky
+1176,65,36,36,Free Flow,2026-08-31 17:27:26.237,Haram Street - El Remaya,Giza,29.9821,31.1354,34.41,27,2.29,clear sky
+1177,66,28,38,Moderate,2026-08-31 17:27:27.007,Faisal Street - El Massaha,Giza,30.0254,31.2014,34.41,27,2.29,clear sky
+1178,67,32,32,Free Flow,2026-08-31 17:27:27.780,Faisal Street - El Talbeya,Giza,29.9921,31.1654,34.41,27,2.29,clear sky
+1179,68,61,61,Free Flow,2026-08-31 17:27:28.530,King Faisal Street End,Giza,29.9854,31.1245,34.41,27,2.29,clear sky
+1180,69,83,83,Free Flow,2026-08-31 17:27:29.337,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,34.41,27,2.29,clear sky
+1181,70,40,40,Free Flow,2026-08-31 17:27:30.093,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,34.41,27,2.29,clear sky
+1182,71,81,81,Free Flow,2026-08-31 17:27:30.853,Wadi El Natrun Road,Beheira,30.4541,30.3541,32.38,31,7.77,clear sky
+1183,72,70,70,Free Flow,2026-08-31 17:27:31.633,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,34.42,27,4.12,clear sky
+1184,73,40,48,Moderate,2026-08-31 17:27:32.420,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,34.42,27,4.12,clear sky
+1185,74,74,74,Free Flow,2026-08-31 17:27:33.177,New Cairo - American University,Cairo,30.0054,31.5021,34.42,27,4.12,clear sky
+1186,75,48,57,Moderate,2026-08-31 17:27:33.963,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,34.42,27,4.12,clear sky
+1187,76,63,63,Free Flow,2026-08-31 17:27:34.833,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,34.42,27,4.12,clear sky
+1188,77,39,39,Free Flow,2026-08-31 17:27:35.610,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,34.42,27,4.12,clear sky
+1189,78,25,32,Moderate,2026-08-31 17:27:36.380,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,34.42,27,4.12,clear sky
+1190,79,40,40,Free Flow,2026-08-31 17:27:37.130,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,34.42,27,4.12,clear sky
+1191,80,31,31,Free Flow,2026-08-31 17:27:37.903,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,34.42,27,4.12,clear sky
+1192,81,30,48,Moderate,2026-08-31 17:27:38.670,Heliopolis - Merghany,Cairo,30.0854,31.3354,34.42,27,4.12,clear sky
+1193,82,55,55,Free Flow,2026-08-31 17:27:39.480,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,34.42,27,4.12,clear sky
+1194,83,37,41,Moderate,2026-08-31 17:27:40.267,Maadi - Victoria Square,Cairo,29.9541,31.2541,34.42,27,4.12,clear sky
+1195,84,25,32,Moderate,2026-08-31 17:27:41.027,Maadi - Degla,Cairo,29.9602,31.2565,34.42,27,4.12,clear sky
+1196,85,17,21,Moderate,2026-08-31 17:27:41.790,Zamalek - 26 July St,Cairo,30.0654,31.2214,34.42,27,4.12,clear sky
+1197,86,12,19,Moderate,2026-08-31 17:27:42.560,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,34.42,27,4.12,clear sky
+1198,87,16,16,Free Flow,2026-08-31 17:27:43.307,Downtown - Talaat Harb,Cairo,30.0512,31.2412,34.42,27,4.12,clear sky
+1199,88,23,33,Moderate,2026-08-31 17:27:44.073,Dokki - Mesaha Sq,Giza,30.0387,31.2145,34.41,27,2.29,clear sky
+1200,89,23,23,Free Flow,2026-08-31 17:27:44.897,Mohandessin - Shehab St,Giza,30.0554,31.2014,34.41,27,2.29,clear sky
+1201,90,14,14,Free Flow,2026-08-31 17:27:45.643,Mohandessin - Sudan St,Giza,30.0687,31.2054,34.41,27,2.29,clear sky
+1202,91,14,14,Free Flow,2026-08-31 17:27:46.410,Giza - El Omraneya,Giza,29.9954,31.2014,34.41,27,2.29,clear sky
+1203,92,17,22,Moderate,2026-08-31 17:27:47.180,Shubra - Corniche,Cairo,30.0854,31.2454,34.42,27,4.12,clear sky
+1204,93,18,23,Moderate,2026-08-31 17:27:47.943,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,34.42,27,4.12,clear sky
+1205,94,19,19,Free Flow,2026-08-31 17:27:48.720,Ain Shams - El Matareya,Cairo,30.1254,31.3154,34.42,27,4.12,clear sky
+1206,95,35,49,Moderate,2026-08-31 17:27:49.487,Ain Shams University Area,Cairo,30.0754,31.2854,34.42,27,4.12,clear sky
+1207,96,30,32,Moderate,2026-08-31 17:27:50.260,Helwan - Corniche,Cairo,29.8454,31.3354,34.42,27,4.12,clear sky
+1208,97,24,24,Free Flow,2026-08-31 17:27:51.027,Helwan University Area,Cairo,29.8512,31.3054,34.42,27,4.12,clear sky
+1209,98,19,54,Heavy Congestion,2026-08-31 17:27:51.777,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,34.42,27,4.12,clear sky
+1210,99,46,46,Free Flow,2026-08-31 17:27:52.567,Cairo International Stadium Area,Cairo,30.0714,31.3154,34.42,27,4.12,clear sky
+1211,100,72,72,Free Flow,2026-08-31 17:27:53.340,Cairo Festival City Area,Cairo,30.0312,31.4014,34.42,27,4.12,clear sky
+1212,101,38,38,Free Flow,2026-08-31 17:27:54.107,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,34.42,27,4.12,clear sky
+1213,1,12,17,Moderate,2026-08-31 18:14:05.393,Stanley Bridge,Alexandria,31.2291,29.9575,27.89,68,5.12,clear sky
+1214,2,19,26,Moderate,2026-08-31 18:14:06.183,Corniche - San Stefano,Alexandria,31.2465,29.9723,27.89,68,5.12,clear sky
+1215,3,17,22,Moderate,2026-08-31 18:14:06.973,Corniche - Gleem,Alexandria,31.2391,29.9654,27.89,68,5.12,clear sky
+1216,4,17,22,Moderate,2026-08-31 18:14:07.757,Corniche - Roushdy,Alexandria,31.2365,29.9621,27.89,68,5.12,clear sky
+1217,5,18,28,Moderate,2026-08-31 18:14:08.513,Corniche - Sporting,Alexandria,31.2214,29.9482,27.89,68,5.12,clear sky
+1218,6,18,28,Moderate,2026-08-31 18:14:09.293,Corniche - Ibrahimia,Alexandria,31.2145,29.9412,27.89,68,5.12,clear sky
+1219,7,33,37,Moderate,2026-08-31 18:14:10.080,Corniche - Camp Cesar,Alexandria,31.2098,29.9365,27.89,68,5.12,clear sky
+1220,8,24,26,Moderate,2026-08-31 18:14:10.867,Corniche - Chatby,Alexandria,31.2012,29.9284,27.89,68,5.12,clear sky
+1221,9,24,26,Moderate,2026-08-31 18:14:11.617,Corniche - Silsela,Alexandria,31.2054,29.8965,27.89,68,5.12,clear sky
+1222,10,17,17,Free Flow,2026-08-31 18:14:12.400,Corniche - Citadel Qaitbay,Alexandria,31.2123,29.8854,27.89,68,5.12,clear sky
+1223,11,32,34,Moderate,2026-08-31 18:14:13.160,Corniche - Miami,Alexandria,31.2825,30.0152,27.89,68,5.12,clear sky
+1224,12,34,34,Free Flow,2026-08-31 18:14:13.953,Corniche - Montaza,Alexandria,31.2871,30.0214,27.89,68,5.12,clear sky
+1225,13,34,34,Free Flow,2026-08-31 18:14:14.723,Abu Qir Road - Victoria,Alexandria,31.2412,29.9854,27.89,68,5.12,clear sky
+1226,14,22,22,Free Flow,2026-08-31 18:14:15.657,Abu Qir Road - Fleming,Alexandria,31.2354,29.9741,27.89,68,5.12,clear sky
+1227,15,13,18,Moderate,2026-08-31 18:14:16.433,Abu Qir Road - Sidi Gaber,Alexandria,31.2215,29.9354,27.89,68,5.12,clear sky
+1228,16,60,60,Free Flow,2026-08-31 18:14:17.210,Alexandria Desert Road - Carrefour,Alexandria,31.1854,29.9541,27.89,68,5.12,clear sky
+1229,17,50,50,Free Flow,2026-08-31 18:14:17.977,Alexandria Agriculture Road Entrance,Alexandria,31.2014,30.0254,27.89,68,5.12,clear sky
+1230,18,48,48,Free Flow,2026-08-31 18:14:18.737,Mahmoudia Axis - Smouha,Alexandria,31.2087,29.9542,27.89,68,5.12,clear sky
+1231,19,86,86,Free Flow,2026-08-31 18:14:19.513,Alexandria Desert Road - km 21,Alexandria,31.1025,29.8214,27.89,68,5.12,clear sky
+1232,20,32,37,Moderate,2026-08-31 18:14:20.290,Kafoury Road,Alexandria,31.0854,29.7541,27.89,68,5.12,clear sky
+1233,21,82,82,Free Flow,2026-08-31 18:14:21.057,Borg El Arab Entrance,Alexandria,30.9124,29.5412,27.89,68,5.12,clear sky
+1234,22,75,75,Free Flow,2026-08-31 18:14:21.830,Cairo-Alex Desert Road - toll gate,Beheira,30.8541,30.1245,32.51,35,7.34,clear sky
+1235,23,26,26,Free Flow,2026-08-31 18:14:22.593,Agricultural Road - Damanhour,Beheira,31.0412,30.4754,32.51,35,7.34,clear sky
+1236,24,21,25,Moderate,2026-08-31 18:14:23.367,Agricultural Road - Tanta Bridge,Gharbia,30.7854,31.0024,33.44,31,7.45,clear sky
+1237,25,20,20,Free Flow,2026-08-31 18:14:24.137,Agricultural Road - Benha,Qalyubia,30.4612,31.1854,34.21,26,7.36,clear sky
+1238,26,34,34,Free Flow,2026-08-31 18:14:24.930,Ring Road - Benha Exit,Qalyubia,30.4354,31.2145,34.21,26,7.36,clear sky
+1239,27,33,43,Moderate,2026-08-31 18:14:25.753,Ring Road - Shubra El Kheima,Qalyubia,30.1245,31.2451,34.21,26,7.36,clear sky
+1240,28,11,11,Free Flow,2026-08-31 18:14:26.527,Ring Road - Marg,Cairo,30.1524,31.3452,33.42,27,3.09,clear sky
+1241,29,79,79,Free Flow,2026-08-31 18:14:27.303,Ring Road - Al Salam City,Cairo,30.1654,31.3854,33.42,27,3.09,clear sky
+1242,30,77,77,Free Flow,2026-08-31 18:14:28.077,Ring Road - New Cairo Entrance,Cairo,30.0541,31.4251,33.42,27,3.09,clear sky
+1243,31,66,66,Free Flow,2026-08-31 18:14:28.853,Ring Road - Katameya,Cairo,29.9854,31.3541,33.42,27,3.09,clear sky
+1244,32,16,20,Moderate,2026-08-31 18:14:29.627,Ring Road - Maadi,Cairo,29.9621,31.2754,33.42,27,3.09,clear sky
+1245,33,37,42,Moderate,2026-08-31 18:14:30.397,Ring Road - Mounib,Giza,29.9821,31.2154,33.41,26,2.71,clear sky
+1246,34,13,13,Free Flow,2026-08-31 18:14:31.160,Ring Road - Mariouteya,Giza,29.9754,31.1542,33.41,26,2.71,clear sky
+1247,35,14,14,Free Flow,2026-08-31 18:14:31.937,Ring Road - El Waraq,Giza,30.0854,31.2014,33.41,26,2.71,clear sky
+1248,36,21,26,Moderate,2026-08-31 18:14:32.690,Ring Road - Mohandessin Axis,Giza,30.0654,31.1925,33.41,26,2.71,clear sky
+1249,37,9,16,Heavy Congestion,2026-08-31 18:14:33.477,October Bridge - Ramses,Cairo,30.0565,31.2442,33.42,27,3.09,clear sky
+1250,38,20,20,Free Flow,2026-08-31 18:14:34.223,October Bridge - Tahrir Sq,Cairo,30.0444,31.2357,33.42,27,3.09,clear sky
+1251,39,16,20,Moderate,2026-08-31 18:14:35.000,October Bridge - Zamalek,Cairo,30.0621,31.2215,33.42,27,3.09,clear sky
+1252,40,21,30,Moderate,2026-08-31 18:14:35.820,October Bridge - Doqqi,Giza,30.0454,31.2145,33.41,26,2.71,clear sky
+1253,41,18,23,Moderate,2026-08-31 18:14:36.580,October Bridge - Mohandessin End,Giza,30.0541,31.1985,33.41,26,2.71,clear sky
+1254,42,28,35,Moderate,2026-08-31 18:14:37.337,October Bridge - Nasr City (Abbas El Akkad),Cairo,30.0687,31.3354,33.42,27,3.09,clear sky
+1255,43,27,34,Moderate,2026-08-31 18:14:38.113,October Bridge - Al-Manial,Cairo,30.0312,31.2285,33.42,27,3.09,clear sky
+1256,44,42,42,Free Flow,2026-08-31 18:14:38.880,Salah Salem - Airport Road,Cairo,30.1054,31.3854,33.42,27,3.09,clear sky
+1257,45,58,58,Free Flow,2026-08-31 18:14:39.660,Salah Salem - Al Azhar,Cairo,30.0454,31.2621,33.42,27,3.09,clear sky
+1258,46,49,49,Free Flow,2026-08-31 18:14:40.417,Salah Salem - Citadel,Cairo,30.0285,31.2654,33.42,27,3.09,clear sky
+1259,47,46,46,Free Flow,2026-08-31 18:14:41.193,Salah Salem - Panorama,Cairo,30.0721,31.3154,33.42,27,3.09,clear sky
+1260,48,16,20,Moderate,2026-08-31 18:14:41.957,Autostrad - Maadi,Cairo,29.9754,31.2654,33.42,27,3.09,clear sky
+1261,49,20,20,Free Flow,2026-08-31 18:14:42.727,Autostrad - Helwan,Cairo,29.8541,31.3154,33.42,27,3.09,clear sky
+1262,50,61,67,Moderate,2026-08-31 18:14:43.503,Autostrad - Nasr City,Cairo,30.0354,31.3354,33.42,27,3.09,clear sky
+1263,51,29,39,Moderate,2026-08-31 18:14:44.270,Corniche - Maspero,Cairo,30.0541,31.2312,33.42,27,3.09,clear sky
+1264,52,20,20,Free Flow,2026-08-31 18:14:45.030,Corniche - Garden City,Cairo,30.0354,31.2285,33.42,27,3.09,clear sky
+1265,53,36,41,Moderate,2026-08-31 18:14:45.900,Corniche - Maadi,Cairo,29.9621,31.2454,33.42,27,3.09,clear sky
+1266,54,27,34,Moderate,2026-08-31 18:14:46.677,Qasr El Nil Bridge,Cairo,30.0435,31.2312,33.42,27,3.09,clear sky
+1267,55,13,13,Free Flow,2026-08-31 18:14:47.430,Abbas Bridge,Cairo,30.0198,31.2312,33.42,27,3.09,clear sky
+1268,56,25,27,Moderate,2026-08-31 18:14:48.217,El Galaa Bridge,Cairo,30.0512,31.2214,33.42,27,3.09,clear sky
+1269,57,33,37,Moderate,2026-08-31 18:14:49.000,Tahya Masr Bridge,Cairo,30.0954,31.2245,33.42,27,3.09,clear sky
+1270,58,22,35,Moderate,2026-08-31 18:14:49.787,Axis 26 July - Lebanon Sq,Giza,30.0612,31.1985,33.41,26,2.71,clear sky
+1271,59,48,55,Moderate,2026-08-31 18:14:50.543,Axis 26 July - Hyper One,Giza,30.0714,31.0254,33.41,26,2.71,clear sky
+1272,60,18,21,Moderate,2026-08-31 18:14:51.317,Axis 26 July - Juhayna Sq,Giza,29.9714,30.9542,33.41,26,2.71,clear sky
+1273,61,32,32,Free Flow,2026-08-31 18:14:52.097,محور روض الفرج - شبرا,Qalyubia,30.1025,31.2214,34.21,26,7.36,clear sky
+1274,62,105,105,Free Flow,2026-08-31 18:14:52.867,محور روض الفرج - الضبعة,Giza,30.0854,30.9854,33.41,26,2.71,clear sky
+1275,63,26,38,Moderate,2026-08-31 18:14:53.637,Haram Street - Giza Square,Giza,30.0124,31.2145,33.41,26,2.71,clear sky
+1276,64,26,32,Moderate,2026-08-31 18:14:54.417,Haram Street - Al Arish,Giza,29.9954,31.1754,33.41,26,2.71,clear sky
+1277,65,36,36,Free Flow,2026-08-31 18:14:55.190,Haram Street - El Remaya,Giza,29.9821,31.1354,33.41,26,2.71,clear sky
+1278,66,39,39,Free Flow,2026-08-31 18:14:56.007,Faisal Street - El Massaha,Giza,30.0254,31.2014,33.41,26,2.71,clear sky
+1279,67,26,32,Moderate,2026-08-31 18:14:56.780,Faisal Street - El Talbeya,Giza,29.9921,31.1654,33.41,26,2.71,clear sky
+1280,68,61,61,Free Flow,2026-08-31 18:14:57.557,King Faisal Street End,Giza,29.9854,31.1245,33.41,26,2.71,clear sky
+1281,69,83,83,Free Flow,2026-08-31 18:14:58.333,Cairo-Alexandria Desert Road - Smart Village,Giza,30.0714,31.0154,33.41,26,2.71,clear sky
+1282,70,40,40,Free Flow,2026-08-31 18:14:59.117,Cairo-Alexandria Desert Road - Sphinx,Giza,30.0214,30.9054,33.41,26,2.71,clear sky
+1283,71,81,81,Free Flow,2026-08-31 18:14:59.887,Wadi El Natrun Road,Beheira,30.4541,30.3541,32.51,35,7.34,clear sky
+1284,72,70,70,Free Flow,2026-08-31 18:15:00.687,New Cairo - Teseen Street North,Cairo,30.0254,31.4154,33.42,27,3.09,clear sky
+1285,73,41,47,Moderate,2026-08-31 18:15:01.460,New Cairo - Teseen Street South,Cairo,29.9954,31.4452,33.42,27,3.09,clear sky
+1286,74,74,74,Free Flow,2026-08-31 18:15:02.250,New Cairo - American University,Cairo,30.0054,31.5021,33.42,27,3.09,clear sky
+1287,75,46,57,Moderate,2026-08-31 18:15:03.067,New Cairo - Mohamed Naguib Axis,Cairo,30.0154,31.4354,33.42,27,3.09,clear sky
+1288,76,63,63,Free Flow,2026-08-31 18:15:03.833,New Cairo - Sadat Axis,Cairo,30.0454,31.4254,33.42,27,3.09,clear sky
+1289,77,39,39,Free Flow,2026-08-31 18:15:04.600,Nasr City - Abbas El Akkad,Cairo,30.0512,31.3354,33.42,27,3.09,clear sky
+1290,78,27,32,Moderate,2026-08-31 18:15:05.437,Nasr City - Makram Ebeid,Cairo,30.0587,31.3485,33.42,27,3.09,clear sky
+1291,79,40,40,Free Flow,2026-08-31 18:15:06.200,Nasr City - Mostafa El Nahas,Cairo,30.0454,31.3521,33.42,27,3.09,clear sky
+1292,80,31,31,Free Flow,2026-08-31 18:15:07.013,Heliopolis - Roxy Sq,Cairo,30.0898,31.3254,33.42,27,3.09,clear sky
+1293,81,37,48,Moderate,2026-08-31 18:15:07.783,Heliopolis - Merghany,Cairo,30.0854,31.3354,33.42,27,3.09,clear sky
+1294,82,55,55,Free Flow,2026-08-31 18:15:08.550,Heliopolis - El Khalifa El Mamoun,Cairo,30.0787,31.3054,33.42,27,3.09,clear sky
+1295,83,36,41,Moderate,2026-08-31 18:15:09.350,Maadi - Victoria Square,Cairo,29.9541,31.2541,33.42,27,3.09,clear sky
+1296,84,33,33,Free Flow,2026-08-31 18:15:10.107,Maadi - Degla,Cairo,29.9602,31.2565,33.42,27,3.09,clear sky
+1297,85,17,21,Moderate,2026-08-31 18:15:10.877,Zamalek - 26 July St,Cairo,30.0654,31.2214,33.42,27,3.09,clear sky
+1298,86,20,20,Free Flow,2026-08-31 18:15:11.650,Downtown - Tahrir Sq,Cairo,30.0444,31.2357,33.42,27,3.09,clear sky
+1299,87,16,16,Free Flow,2026-08-31 18:15:12.417,Downtown - Talaat Harb,Cairo,30.0512,31.2412,33.42,27,3.09,clear sky
+1300,88,21,33,Moderate,2026-08-31 18:15:13.200,Dokki - Mesaha Sq,Giza,30.0387,31.2145,33.41,26,2.71,clear sky
+1301,89,23,23,Free Flow,2026-08-31 18:15:14.013,Mohandessin - Shehab St,Giza,30.0554,31.2014,33.41,26,2.71,clear sky
+1302,90,14,14,Free Flow,2026-08-31 18:15:14.780,Mohandessin - Sudan St,Giza,30.0687,31.2054,33.41,26,2.71,clear sky
+1303,91,14,14,Free Flow,2026-08-31 18:15:15.703,Giza - El Omraneya,Giza,29.9954,31.2014,33.41,26,2.71,clear sky
+1304,92,18,22,Moderate,2026-08-31 18:15:16.480,Shubra - Corniche,Cairo,30.0854,31.2454,33.42,27,3.09,clear sky
+1305,93,23,23,Free Flow,2026-08-31 18:15:17.250,Shubra - Ahmed Helmy,Cairo,30.0687,31.2485,33.42,27,3.09,clear sky
+1306,94,19,19,Free Flow,2026-08-31 18:15:18.027,Ain Shams - El Matareya,Cairo,30.1254,31.3154,33.42,27,3.09,clear sky
+1307,95,26,49,Heavy Congestion,2026-08-31 18:15:18.973,Ain Shams University Area,Cairo,30.0754,31.2854,33.42,27,3.09,clear sky
+1308,96,32,32,Free Flow,2026-08-31 18:15:19.743,Helwan - Corniche,Cairo,29.8454,31.3354,33.42,27,3.09,clear sky
+1309,97,24,24,Free Flow,2026-08-31 18:15:20.530,Helwan University Area,Cairo,29.8512,31.3054,33.42,27,3.09,clear sky
+1310,98,14,57,Heavy Congestion,2026-08-31 18:15:21.297,Nasr City - Al-Ahly Club Area,Cairo,30.0812,31.3541,33.42,27,3.09,clear sky
+1311,99,46,46,Free Flow,2026-08-31 18:15:22.123,Cairo International Stadium Area,Cairo,30.0714,31.3154,33.42,27,3.09,clear sky
+1312,100,72,72,Free Flow,2026-08-31 18:15:22.907,Cairo Festival City Area,Cairo,30.0312,31.4014,33.42,27,3.09,clear sky
+1313,101,38,38,Free Flow,2026-08-31 18:15:23.663,Maadi - Ring Road Carrefour,Cairo,29.9714,31.2954,33.42,27,3.09,clear sky

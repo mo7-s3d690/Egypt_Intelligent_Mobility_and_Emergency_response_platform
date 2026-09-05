@@ -1,0 +1,4765 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EG Intelligent Mobility</title>
+
+    <!-- Leaflet -->
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+    <!-- Cairo Font -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+<style>
+
+/* =========================================================
+   ROOT
+========================================================= */
+
+:root {
+
+    --primary: #1a73e8;
+    --primary-dark: #1557b0;
+
+    --bg: #f7f9fc;
+
+    --text: #202124;
+    --muted: #5f6368;
+
+    --border: #dadce0;
+
+    --danger: #d93025;
+
+    --success: #188038;
+
+    --shadow:
+        0 4px 20px rgba(0,0,0,.14);
+
+}
+
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family: "Cairo", sans-serif;
+
+    background: var(--bg);
+
+    overflow: hidden;
+
+}
+
+
+button,
+input {
+
+    font-family: "Cairo", sans-serif;
+
+}
+
+
+/* =========================================================
+   MAP
+========================================================= */
+
+#map {
+
+    position: fixed;
+
+    inset: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    z-index: 1;
+
+}
+
+
+/* =========================================================
+   TOP SEARCH
+========================================================= */
+
+.top-container {
+
+    position: fixed;
+
+    top: 20px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: min(760px, 92vw);
+
+    z-index: 1000;
+
+}
+
+
+.search-box {
+
+    width: 100%;
+
+    height: 64px;
+
+    background: white;
+
+    border-radius: 36px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 6px 12px 6px 20px;
+
+    box-shadow:
+        0 5px 25px rgba(0,0,0,.18);
+
+    position: relative;
+
+}
+
+
+.logo-circle {
+
+    width: 48px;
+
+    height: 48px;
+
+    min-width: 48px;
+
+    border-radius: 50%;
+
+    background: #e8f0fe;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 22px;
+
+}
+
+
+.search-box input {
+
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 16px;
+
+    padding: 0 15px;
+
+    color: var(--text);
+
+    background: transparent;
+
+}
+
+
+.search-btn {
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+}
+
+
+.search-btn:hover {
+
+    background: #f1f3f4;
+
+}
+
+
+/* =========================================================
+   AUTOCOMPLETE
+========================================================= */
+
+/* =========================================================
+   SMART PLACE SEARCH / AUTOCOMPLETE
+========================================================= */
+
+#autocomplete,
+.place-suggestions {
+
+    position: absolute;
+
+    background: white;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.18);
+
+    border: 1px solid #e8eaed;
+
+    display: none;
+
+    z-index: 9000;
+
+}
+
+#autocomplete {
+
+    top: 74px;
+
+    right: 0;
+
+    left: 0;
+
+}
+
+.place-suggestions {
+
+    top: 66px;
+
+    right: 0;
+
+    left: 0;
+
+    max-height: 290px;
+
+    overflow-y: auto;
+
+}
+
+.autocomplete-item {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px 15px;
+
+    cursor: pointer;
+
+    border: 0;
+
+    border-bottom: 1px solid #f1f3f4;
+
+    background: white;
+
+    text-align: right;
+
+    font-size: 14px;
+
+    color: var(--text);
+
+    transition: background .15s ease;
+
+}
+
+.autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.active {
+    background: #f1f5ff;
+}
+
+.autocomplete-icon {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f3f4;
+    font-size: 18px;
+}
+
+.autocomplete-text {
+    min-width: 0;
+    flex: 1;
+}
+
+.autocomplete-title {
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.45;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.autocomplete-address {
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.autocomplete-state {
+    padding: 16px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.input-row {
+    position: relative;
+}
+
+.place-suggestions::-webkit-scrollbar {
+    width: 7px;
+}
+
+.place-suggestions::-webkit-scrollbar-thumb {
+    background: #dadce0;
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   QUICK BUTTONS
+========================================================= */
+
+.quick-actions {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 14px;
+
+    overflow-x: auto;
+
+    padding: 4px 5px 10px;
+
+    scrollbar-width: none;
+
+}
+
+
+.quick-actions::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+
+.quick-btn {
+
+    border: 1px solid var(--border);
+
+    background: white;
+
+    color: var(--text);
+
+    padding: 9px 20px;
+
+    border-radius: 24px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+    box-shadow:
+        0 2px 7px rgba(0,0,0,.08);
+
+}
+
+
+.quick-btn:hover {
+
+    transform: translateY(-1px);
+
+    border-color: var(--primary);
+
+}
+
+
+.quick-btn.active {
+
+    background: #e8f0fe;
+
+    border-color: var(--primary);
+
+    color: var(--primary);
+
+    box-shadow:
+        0 2px 10px rgba(26,115,232,.22);
+
+}
+
+
+/* =========================================================
+   TRAFFIC INCIDENTS
+========================================================= */
+
+.traffic-incident-marker {
+    background: transparent;
+    border: none;
+}
+
+.traffic-incident-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.28);
+    border: 3px solid #d93025;
+}
+
+.traffic-incident-line {
+    stroke: #d93025;
+    stroke-width: 6;
+    stroke-opacity: .75;
+}
+
+.traffic-popup {
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+    min-width: 240px;
+}
+
+.traffic-popup-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #d93025;
+    margin-bottom: 10px;
+}
+
+.traffic-popup-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 13px;
+    margin: 7px 0;
+}
+
+.traffic-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 12px;
+    background: #fff1f0;
+    color: #d93025;
+    font-weight: 700;
+}
+
+.traffic-status.good {
+    background: #e6f4ea;
+    color: #188038;
+}
+
+.traffic-status.warning {
+    background: #fef7e0;
+    color: #b06000;
+}
+
+.traffic-status.danger {
+    background: #fff1f0;
+    color: #d93025;
+}
+
+.traffic-popup-divider {
+    height: 1px;
+    background: #eee;
+    margin: 10px 0;
+}
+
+/* Clear road/congestion status badges inside the location popup */
+.popup-traffic-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 9px 10px;
+    margin: 8px 0;
+    border-radius: 12px;
+    background: #f8f9fa;
+}
+
+.popup-traffic-status > span {
+    white-space: nowrap;
+}
+
+.popup-traffic-status > b {
+    text-align: right;
+}
+
+/* =========================================================
+   DIRECTIONS BUTTON
+========================================================= */
+
+.directions-floating {
+
+    position: fixed;
+
+    bottom: 30px;
+
+    right: 25px;
+
+    z-index: 1100;
+
+    width: 58px;
+
+    height: 58px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    background: var(--primary);
+
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 18px rgba(26,115,232,.4);
+
+}
+
+
+.directions-floating:hover {
+
+    background: var(--primary-dark);
+
+}
+
+
+/* =========================================================
+   ROUTING PANEL
+========================================================= */
+
+.routing-panel {
+
+    position: fixed;
+
+    top: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    width: 430px;
+
+    max-width: 100%;
+
+    background: white;
+
+    z-index: 3000;
+
+    box-shadow:
+        -5px 0 25px rgba(0,0,0,.18);
+
+    transform: translateX(110%);
+
+    transition:
+        transform .3s ease;
+
+    overflow-y: auto;
+
+}
+
+
+.routing-panel.open {
+
+    transform: translateX(0);
+
+}
+
+
+.panel-header {
+
+    height: 78px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 25px;
+
+    border-bottom:
+        1px solid #eee;
+
+}
+
+
+.panel-header h2 {
+
+    margin: 0;
+
+    font-size: 20px;
+
+    color: var(--text);
+
+}
+
+
+.close-btn {
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    background: transparent;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    font-size: 22px;
+
+}
+
+
+.close-btn:hover {
+
+    background: #f1f3f4;
+
+    color: var(--danger);
+
+}
+
+
+.panel-content {
+
+    padding: 22px;
+
+}
+
+
+/* =========================================================
+   TRAVEL MODES
+========================================================= */
+
+.travel-modes {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.mode-btn {
+
+    height: 100px;
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 18px;
+
+    cursor: pointer;
+
+    font-family: inherit;
+
+    transition: .2s;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    font-size: 14px;
+
+    color: var(--muted);
+
+}
+
+
+.mode-btn span:first-child {
+
+    font-size: 25px;
+
+}
+
+
+.mode-btn:hover {
+
+    background: #f8faff;
+
+}
+
+
+.mode-btn.active {
+
+    background: #e8f0fe;
+
+    border-color: var(--primary);
+
+    color: var(--primary);
+
+}
+
+
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.route-inputs {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+
+.input-row {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.input-row input {
+
+    width: 100%;
+
+    height: 60px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    background: #f1f3f4;
+
+    padding:
+        0 48px 0 15px;
+
+    font-size: 15px;
+
+    outline: none;
+
+}
+
+
+.input-row input:focus {
+
+    background: white;
+
+    border:
+        2px solid var(--primary);
+
+}
+
+
+.input-icon {
+
+    position: absolute;
+
+    right: 16px;
+
+    z-index: 2;
+
+    font-size: 17px;
+
+}
+
+
+.gps-btn {
+
+    position: absolute;
+
+    left: 8px;
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    background: transparent;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    z-index: 5;
+
+}
+
+
+.gps-btn:hover {
+
+    background: #e8f0fe;
+
+}
+
+
+.swap-btn {
+
+    align-self: center;
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    border:
+        1px solid var(--border);
+
+    background: white;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    margin: -4px 0;
+
+    z-index: 10;
+
+}
+
+
+.swap-btn:hover {
+
+    background: #f1f3f4;
+
+}
+
+
+/* =========================================================
+   CALCULATE BUTTON
+========================================================= */
+
+.calculate-btn {
+
+    width: 100%;
+
+    height: 58px;
+
+    margin-top: 18px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    background: var(--primary);
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+}
+
+
+.calculate-btn:hover {
+
+    background: var(--primary-dark);
+
+}
+
+
+/* =========================================================
+   ROUTES
+========================================================= */
+
+#routes-list {
+
+    margin-top: 18px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+
+.route-option {
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+.route-option:hover {
+
+    background: #f8faff;
+
+}
+
+
+.route-option.active {
+
+    background: #e8f0fe;
+
+    border-color: var(--primary);
+
+}
+
+
+.route-time {
+
+    color: var(--primary);
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+}
+
+
+.route-distance {
+
+    color: var(--muted);
+
+    font-size: 13px;
+
+    margin-top: 3px;
+
+}
+
+
+.route-badge {
+
+    background: white;
+
+    padding: 5px 10px;
+
+    border-radius: 15px;
+
+    font-size: 12px;
+
+    color: var(--primary);
+
+}
+
+
+/* =========================================================
+   START BUTTON
+========================================================= */
+
+.start-btn {
+
+    width: 100%;
+
+    height: 58px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    background: var(--success);
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    display: none;
+
+}
+
+
+.start-btn:hover {
+
+    background: #137333;
+
+}
+
+
+/* =========================================================
+   NAVIGATION BAR
+========================================================= */
+
+#navigation-ui {
+
+    position: fixed;
+
+    bottom: 25px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    z-index: 4000;
+
+    display: none;
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 12px;
+
+    box-shadow:
+        0 5px 25px rgba(0,0,0,.25);
+
+    min-width: 280px;
+
+}
+
+
+.navigation-info {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+.stop-nav-btn {
+
+    background: var(--danger);
+
+    border: none;
+
+    color: white;
+
+    border-radius: 12px;
+
+    padding: 10px 15px;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+}
+
+
+/* =========================================================
+   POPUP
+========================================================= */
+
+.leaflet-popup-content-wrapper {
+
+    border-radius: 16px;
+
+}
+
+
+.popup-data {
+
+    direction: rtl;
+
+    font-family: "Cairo", sans-serif;
+
+    min-width: 230px;
+
+    padding: 5px;
+
+}
+
+
+.popup-title {
+
+    color: var(--primary);
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+
+    padding-bottom: 8px;
+
+    border-bottom:
+        1px solid #eee;
+
+}
+
+
+.popup-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    font-size: 13px;
+
+    margin-bottom: 7px;
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .top-container {
+
+        top: 12px;
+
+        width: 94vw;
+
+    }
+
+    .search-box {
+
+        height: 58px;
+
+    }
+
+    .quick-actions {
+
+        justify-content: flex-start;
+
+    }
+
+    .routing-panel {
+
+        width: 100%;
+
+    }
+
+    .panel-content {
+
+        padding: 18px;
+
+    }
+
+    .mode-btn {
+
+        height: 88px;
+
+    }
+
+    .directions-floating {
+
+        bottom: 20px;
+
+        right: 18px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     MAP
+========================================================= -->
+
+<div id="map"></div>
+
+
+
+<!-- =========================================================
+     TOP SEARCH
+========================================================= -->
+
+<div class="top-container">
+
+    <div class="search-box">
+
+        <div class="logo-circle">
+            🚗
+        </div>
+
+
+        <input
+            id="main-search"
+            type="text"
+            placeholder="ابحث عن مكان أو مدينة..."
+            autocomplete="off"
+        >
+
+
+        <button
+            class="search-btn"
+            onclick="searchLocation()"
+        >
+            🔍
+        </button>
+
+    </div>
+
+
+    <div id="autocomplete"></div>
+
+
+    <!-- Quick Actions -->
+
+    <div class="quick-actions">
+
+        <button
+            class="quick-btn"
+            data-tag="restaurant"
+            data-label="مطاعم"
+            onclick="toggleNearby(this)"
+        >
+            🍽️ مطاعم
+        </button>
+
+
+        <button
+            class="quick-btn"
+            data-tag="cafe"
+            data-label="كافيهات"
+            onclick="toggleNearby(this)"
+        >
+            ☕ كافيهات
+        </button>
+
+
+        <button
+            class="quick-btn"
+            data-tag="fuel"
+            data-label="محطات وقود"
+            onclick="toggleNearby(this)"
+        >
+            ⛽ وقود
+        </button>
+
+
+        <button
+            class="quick-btn"
+            data-tag="pharmacy"
+            data-label="صيدليات"
+            onclick="toggleNearby(this)"
+        >
+            💊 صيدليات
+        </button>
+
+
+        <button
+            class="quick-btn"
+            data-tag="hospital"
+            data-label="مستشفيات"
+            onclick="toggleNearby(this)"
+        >
+            🏥 مستشفيات
+        </button>
+
+
+        <button
+            class="quick-btn"
+            data-tag="hotel"
+            data-label="فنادق"
+            onclick="toggleNearby(this)"
+        >
+            🏨 فنادق
+        </button>
+
+
+        <button
+            class="quick-btn"
+            id="traffic-incidents-btn"
+            onclick="toggleTrafficIncidents(this)"
+            title="عرض الحوادث والازدحام وأعمال الطرق الحالية"
+        >
+            ⚠️ حالة الطريق
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     DIRECTIONS BUTTON
+========================================================= -->
+
+<button
+    class="directions-floating"
+    onclick="openRoutingPanel()"
+    title="الاتجاهات"
+>
+    🧭
+</button>
+
+
+
+<!-- =========================================================
+     ROUTING PANEL
+========================================================= -->
+
+<div
+    class="routing-panel"
+    id="routing-panel"
+>
+
+
+    <!-- Header -->
+
+    <div class="panel-header">
+
+        <h2>
+            🚗 تخطيط الرحلة
+        </h2>
+
+
+        <button
+            class="close-btn"
+            onclick="cancelRoute()"
+            title="إلغاء الرحلة"
+        >
+            ✕
+        </button>
+
+    </div>
+
+
+
+    <div class="panel-content">
+
+
+        <!-- Travel Modes -->
+
+        <div class="travel-modes">
+
+
+            <button
+                class="mode-btn active"
+                onclick="setTravelMode('car', this)"
+            >
+
+                <span>🚗</span>
+                <span>سيارة</span>
+
+            </button>
+
+
+            <button
+                class="mode-btn"
+                onclick="setTravelMode('bicycle', this)"
+            >
+
+                <span>🚲</span>
+                <span>دراجة</span>
+
+            </button>
+
+
+            <button
+                class="mode-btn"
+                onclick="setTravelMode('pedestrian', this)"
+            >
+
+                <span>🚶</span>
+                <span>مشي</span>
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- Driver State Selector (ADAS) -->
+        <div style="margin-bottom: 18px;">
+            <label style="display: block; font-weight: 700; margin-bottom: 6px; color: var(--text); font-size: 14px;">حالة السائق ونظام الـ ADAS:</label>
+            <select id="driver-state-select" style="width: 100%; height: 48px; border-radius: 14px; border: 1px solid var(--border); padding: 0 12px; font-family: 'Cairo', sans-serif; font-size: 14px; outline: none; background: #f1f3f4; cursor: pointer;">
+                <option value="Normal">🟢 منتبه / طبيعي (Normal)</option>
+                <option value="Drowsy">🟡 نعسان / يغفل (Drowsy)</option>
+                <option value="Fatigued">🟠 مرهق / تعبان (Fatigued)</option>
+                <option value="Distracted">🔴 مشتت الانتباه (Distracted)</option>
+            </select>
+        </div>
+
+
+        <!-- Route Inputs -->
+
+        <div class="route-inputs">
+
+
+            <!-- Start -->
+
+            <div class="input-row">
+
+                <span class="input-icon">
+                    📍
+                </span>
+
+
+                <input
+                    id="start-point"
+                    type="text"
+                    placeholder="موقعي الحالي أو اكتب نقطة البداية..."
+                    autocomplete="off"
+                >
+
+                <div
+                    id="start-suggestions"
+                    class="place-suggestions"
+                ></div>
+
+
+                <button
+                    class="gps-btn"
+                    onclick="useCurrentGPS()"
+                    title="استخدام موقعي الحالي"
+                >
+                    📡
+                </button>
+
+            </div>
+
+
+
+            <!-- Swap -->
+
+            <button
+                class="swap-btn"
+                onclick="swapPoints()"
+                title="تبديل البداية والنهاية"
+            >
+                ⇅
+            </button>
+
+
+
+            <!-- End -->
+
+            <div class="input-row">
+
+                <span class="input-icon">
+                    🏁
+                </span>
+
+
+                <input
+                    id="end-point"
+                    type="text"
+                    placeholder="إلى أين تريد الذهاب؟"
+                    autocomplete="off"
+                >
+
+                <div
+                    id="end-suggestions"
+                    class="place-suggestions"
+                ></div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Calculate -->
+
+        <button
+            class="calculate-btn"
+            onclick="calculateRoutes()"
+        >
+            🔍 البحث عن أفضل المسارات
+        </button>
+
+
+
+        <!-- Routes -->
+
+        <div id="routes-list"></div>
+
+
+
+        <!-- Start -->
+
+        <button
+            class="start-btn"
+            id="start-navigation-btn"
+            onclick="startNavigation()"
+        >
+            🚀 بدء الرحلة
+        </button>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     NAVIGATION UI
+========================================================= -->
+
+<div id="navigation-ui">
+
+    <div class="navigation-info">
+
+        <div>
+
+            <strong id="nav-time">
+                جاري التنقل
+            </strong>
+
+            <div
+                id="nav-distance"
+                style="
+                    font-size:12px;
+                    color:#5f6368;
+                "
+            >
+            </div>
+
+        </div>
+
+
+        <button
+            class="stop-nav-btn"
+            onclick="stopNavigation()"
+        >
+            إنهاء
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<script>
+
+
+/* =========================================================
+   API KEYS
+========================================================= */
+
+const TOMTOM_KEY =
+    "5cUh0bqAswvmUlzjXzwg2hAS7nDoG87L";
+
+
+const WEATHER_KEY =
+    "7bec552fd2f4e89cfce26bda17cc94e9";
+
+
+/* =========================================================
+   MAP
+========================================================= */
+
+const map = L.map(
+    "map",
+    {
+        zoomControl: false
+    }
+).setView(
+    [30.0444, 31.2357],
+    10
+);
+
+
+/* OpenStreetMap */
+
+L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+        maxZoom: 19,
+        attribution:
+            "&copy; OpenStreetMap contributors"
+    }
+).addTo(map);
+
+
+L.control.zoom({
+    position: "bottomleft"
+}).addTo(map);
+
+
+
+/* =========================================================
+   GLOBAL VARIABLES
+========================================================= */
+
+let currentPosition = null;
+
+let routeLayers = [];
+
+let searchMarkers = [];
+
+let nearbyLayers = {};
+
+// Traffic incidents / road conditions layers
+let trafficIncidentLayers = [];
+let trafficIncidentsVisible = false;
+let trafficIncidentRequestId = 0;
+let popupRequestId = 0;
+
+let allRoutesData = [];
+
+let activeRouteIndex = 0;
+
+let currentTravelMode = "car";
+
+let movingMarker = null;
+
+let currentPopup = null;
+
+let currentStartCoords = null;
+
+let currentEndCoords = null;
+
+// Prevent old asynchronous route requests from restoring a cancelled route
+let routeRequestId = 0;
+
+
+
+/* =========================================================
+   ROUTING PANEL
+========================================================= */
+
+function openRoutingPanel() {
+
+    document
+        .getElementById("routing-panel")
+        .classList
+        .add("open");
+
+    const startInput = document.getElementById("start-point");
+
+    if (!currentPosition) {
+        useCurrentGPS();
+        return;
+    }
+
+    if (!startInput.value.trim()) {
+        startSelectedPlace = {
+            lat: currentPosition.lat,
+            lon: currentPosition.lon,
+            name: "موقعي الحالي",
+            address: "GPS"
+        };
+
+        currentStartCoords = startSelectedPlace;
+        startInput.value = "📍 موقعي الحالي (GPS)";
+    }
+
+}
+
+
+function closeRoutingPanel() {
+
+    document
+        .getElementById("routing-panel")
+        .classList
+        .remove("open");
+
+}
+
+
+/* =========================================================
+   CLEAR ROUTE / CANCEL TRIP
+========================================================= */
+
+function clearRoute() {
+
+    // Invalidate any route request that is still in progress
+    routeRequestId++;
+
+    // Remove all route lines from the map
+    routeLayers.forEach(layer => {
+        if (layer) {
+            map.removeLayer(layer);
+        }
+    });
+
+    routeLayers = [];
+
+    // Clear route data
+    allRoutesData = [];
+    activeRouteIndex = 0;
+
+    // Clear route coordinates and selected search results
+    currentStartCoords = null;
+    currentEndCoords = null;
+    startSelectedPlace = null;
+    endSelectedPlace = null;
+
+    // Clear route list
+    const routesList = document.getElementById("routes-list");
+
+    if (routesList) {
+        routesList.innerHTML = "";
+    }
+
+    // Hide start navigation button
+    const startBtn = document.getElementById("start-navigation-btn");
+
+    if (startBtn) {
+        startBtn.style.display = "none";
+    }
+
+    // Clear route inputs
+    const startInput = document.getElementById("start-point");
+    const endInput = document.getElementById("end-point");
+
+    if (startInput) {
+        startInput.value = "";
+    }
+
+    if (endInput) {
+        endInput.value = "";
+    }
+
+}
+
+
+function cancelRoute() {
+
+    // Stop navigation marker if it exists
+    if (movingMarker) {
+        map.removeLayer(movingMarker);
+        movingMarker = null;
+    }
+
+    // Hide navigation UI
+    document
+        .getElementById("navigation-ui")
+        .style
+        .display = "none";
+
+    // Clear everything related to the current trip
+    clearRoute();
+
+    // Close routing panel
+    closeRoutingPanel();
+
+}
+
+
+
+/* =========================================================
+   GPS
+========================================================= */
+
+function useCurrentGPS() {
+
+    const input =
+        document.getElementById(
+            "start-point"
+        );
+
+
+    if (!navigator.geolocation) {
+
+        alert(
+            "المتصفح لا يدعم تحديد الموقع."
+        );
+
+        return;
+
+    }
+
+
+    input.value =
+        "📍 جاري تحديد موقعك...";
+
+
+    navigator.geolocation.getCurrentPosition(
+
+        function(position) {
+
+            currentPosition = {
+
+                lat:
+                    position.coords.latitude,
+
+                lon:
+                    position.coords.longitude
+
+            };
+
+
+            startSelectedPlace = {
+                lat: currentPosition.lat,
+                lon: currentPosition.lon,
+                name: "موقعي الحالي",
+                address: "GPS"
+            };
+
+            currentStartCoords = startSelectedPlace;
+
+            input.value =
+                "📍 موقعي الحالي (GPS)";
+
+            hidePlaceSuggestions("start");
+
+
+            map.flyTo(
+                [
+                    currentPosition.lat,
+                    currentPosition.lon
+                ],
+                15
+            );
+
+        },
+
+
+        function() {
+
+            input.value = "";
+
+            alert(
+                "تعذر تحديد موقعك. تأكد من السماح للمتصفح باستخدام الموقع."
+            );
+
+        },
+
+
+        {
+            enableHighAccuracy: true,
+            timeout: 10000,
+            maximumAge: 30000
+        }
+
+    );
+
+}
+
+
+
+/* =========================================================
+   SWAP POINTS
+========================================================= */
+
+function swapPoints() {
+
+    const start =
+        document.getElementById(
+            "start-point"
+        );
+
+
+    const end =
+        document.getElementById(
+            "end-point"
+        );
+
+
+    const temp =
+        start.value;
+
+
+    start.value =
+        end.value;
+
+
+    end.value =
+        temp;
+
+
+    const tempCoords =
+        currentStartCoords;
+
+    currentStartCoords =
+        currentEndCoords;
+
+    currentEndCoords =
+        tempCoords;
+
+    const tempSelectedPlace = startSelectedPlace;
+
+    startSelectedPlace = endSelectedPlace;
+
+    endSelectedPlace = tempSelectedPlace;
+
+    hideAllPlaceSuggestions();
+
+}
+
+
+
+/* =========================================================
+   TRAVEL MODE
+========================================================= */
+
+function setTravelMode(mode, button) {
+
+    currentTravelMode =
+        mode;
+
+
+    document
+        .querySelectorAll(".mode-btn")
+        .forEach(btn => {
+
+            btn.classList.remove("active");
+
+        });
+
+
+    button.classList.add("active");
+
+
+    if (
+        allRoutesData.length > 0
+    ) {
+
+        calculateRoutes();
+
+    }
+
+}
+
+
+
+/* =========================================================
+   SMART PLACE SEARCH - TOMTOM
+========================================================= */
+
+let mainSelectedPlace = null;
+let startSelectedPlace = null;
+let endSelectedPlace = null;
+
+const placeSearchStates = {
+    main: {
+        inputId: "main-search",
+        listId: "autocomplete",
+        timer: null,
+        requestId: 0,
+        suggestions: [],
+        activeIndex: -1
+    },
+    start: {
+        inputId: "start-point",
+        listId: "start-suggestions",
+        timer: null,
+        requestId: 0,
+        suggestions: [],
+        activeIndex: -1
+    },
+    end: {
+        inputId: "end-point",
+        listId: "end-suggestions",
+        timer: null,
+        requestId: 0,
+        suggestions: [],
+        activeIndex: -1
+    }
+};
+
+
+function getPlaceSearchAnchor() {
+
+    if (currentPosition) {
+        return {
+            lat: currentPosition.lat,
+            lon: currentPosition.lon
+        };
+    }
+
+    const center = map.getCenter();
+
+    return {
+        lat: center.lat,
+        lon: center.lng
+    };
+}
+
+
+function normalizeTomTomPlace(result) {
+
+    const position = result?.position || {};
+    const address = result?.address || {};
+    const poiName = result?.poi?.name || "";
+
+    const freeformAddress =
+        address.freeformAddress ||
+        address.streetName ||
+        address.municipality ||
+        "";
+
+    const secondary = poiName
+        ? freeformAddress
+        : (
+            [
+                address.streetName,
+                address.municipality,
+                address.country
+            ]
+            .filter(Boolean)
+            .filter((value, index, arr) => arr.indexOf(value) === index)
+            .join("، ")
+        );
+
+    const name =
+        poiName ||
+        freeformAddress ||
+        address.municipality ||
+        result?.type ||
+        "موقع محدد";
+
+    return {
+        lat: Number(position.lat),
+        lon: Number(position.lon),
+        name,
+        address: secondary || freeformAddress,
+        fullAddress: freeformAddress,
+        raw: result
+    };
+}
+
+
+function getPlaceIcon(place) {
+
+    const poiName = place?.raw?.poi?.name;
+    const type = place?.raw?.type;
+
+    if (poiName) {
+        return "📍";
+    }
+
+    if (type === "Street") {
+        return "🛣️";
+    }
+
+    if (type === "Geography") {
+        return "🌍";
+    }
+
+    return "📌";
+}
+
+
+function buildPlaceSearchUrl(query, options = {}) {
+
+    const params = new URLSearchParams();
+
+    params.set("key", TOMTOM_KEY);
+    params.set("language", "ar");
+    params.set("countrySet", "EG");
+    params.set("limit", String(options.limit || 6));
+    params.set("maxFuzzyLevel", String(options.maxFuzzyLevel || 4));
+
+    if (options.typeahead) {
+        params.set("typeahead", "true");
+    }
+
+    const anchor = getPlaceSearchAnchor();
+
+    params.set("lat", anchor.lat.toFixed(6));
+    params.set("lon", anchor.lon.toFixed(6));
+    params.set("geobias", `point:${anchor.lat},${anchor.lon}`);
+
+    return (
+        "https://api.tomtom.com/search/2/search/" +
+        encodeURIComponent(query) +
+        ".json?" +
+        params.toString()
+    );
+}
+
+
+async function searchPlaces(query, options = {}) {
+
+    const cleanQuery = String(query || "").trim();
+
+    if (cleanQuery.length < (options.typeahead ? 2 : 1)) {
+        return [];
+    }
+
+    const url = buildPlaceSearchUrl(cleanQuery, options);
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (!response.ok) {
+        throw new Error(
+            data?.error?.description ||
+            data?.error?.message ||
+            "فشل البحث عن المكان"
+        );
+    }
+
+    const results = Array.isArray(data?.results)
+        ? data.results
+        : [];
+
+    return results
+        .map(normalizeTomTomPlace)
+        .filter(place =>
+            Number.isFinite(place.lat) &&
+            Number.isFinite(place.lon)
+        );
+}
+
+
+async function geocodeLocation(query) {
+
+    const results = await searchPlaces(query, {
+        typeahead: false,
+        limit: 8,
+        maxFuzzyLevel: 4
+    });
+
+    if (!results.length) {
+        throw new Error(
+            "لم يتم العثور على المكان. جرّب كتابة اسم المكان أو الشارع بشكل أبسط."
+        );
+    }
+
+    return results[0];
+}
+
+
+function hidePlaceSuggestions(key) {
+
+    const state = placeSearchStates[key];
+    const list = document.getElementById(state.listId);
+
+    if (!list) {
+        return;
+    }
+
+    list.style.display = "none";
+    state.activeIndex = -1;
+}
+
+
+function hideAllPlaceSuggestions() {
+
+    Object.keys(placeSearchStates).forEach(hidePlaceSuggestions);
+}
+
+
+function renderPlaceSuggestions(key, places) {
+
+    const state = placeSearchStates[key];
+    const list = document.getElementById(state.listId);
+
+    if (!list) {
+        return;
+    }
+
+    state.suggestions = places;
+    state.activeIndex = -1;
+    list.innerHTML = "";
+
+    if (!places.length) {
+        const empty = document.createElement("div");
+        empty.className = "autocomplete-state";
+        empty.textContent = "لا توجد نتائج مطابقة";
+        list.appendChild(empty);
+        list.style.display = "block";
+        return;
+    }
+
+    places.forEach((place, index) => {
+
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "autocomplete-item";
+        item.dataset.index = String(index);
+
+        const icon = document.createElement("div");
+        icon.className = "autocomplete-icon";
+        icon.textContent = getPlaceIcon(place);
+
+        const text = document.createElement("div");
+        text.className = "autocomplete-text";
+
+        const title = document.createElement("div");
+        title.className = "autocomplete-title";
+        title.textContent = place.name;
+
+        text.appendChild(title);
+
+        if (place.address) {
+            const address = document.createElement("div");
+            address.className = "autocomplete-address";
+            address.textContent = place.address;
+            text.appendChild(address);
+        }
+
+        item.appendChild(icon);
+        item.appendChild(text);
+
+        item.addEventListener("mousedown", event => {
+            event.preventDefault();
+            event.stopPropagation();
+        });
+
+        item.addEventListener("click", event => {
+            event.preventDefault();
+            event.stopPropagation();
+            selectPlaceSuggestion(key, index);
+        });
+
+        list.appendChild(item);
+    });
+
+    list.style.display = "block";
+}
+
+
+function setPlaceInputValue(key, place) {
+
+    const input = document.getElementById(
+        placeSearchStates[key].inputId
+    );
+
+    if (!input) {
+        return;
+    }
+
+    input.value = place.name;
+}
+
+
+function setSelectedPlace(key, place) {
+
+    if (key === "main") {
+        mainSelectedPlace = place;
+    }
+
+    if (key === "start") {
+        startSelectedPlace = place;
+        currentStartCoords = place;
+    }
+
+    if (key === "end") {
+        endSelectedPlace = place;
+        currentEndCoords = place;
+    }
+}
+
+
+function selectPlaceSuggestion(key, index) {
+
+    const state = placeSearchStates[key];
+    const place = state.suggestions[index];
+
+    if (!place) {
+        return;
+    }
+
+    setPlaceInputValue(key, place);
+    setSelectedPlace(key, place);
+    hidePlaceSuggestions(key);
+
+    if (key === "main") {
+        applyMainPlace(place);
+        return;
+    }
+
+    // Selecting a route point invalidates the previous calculated route.
+    if (routeLayers.length || allRoutesData.length) {
+        routeRequestId++;
+        routeLayers.forEach(layer => {
+            if (layer && map.hasLayer(layer)) {
+                map.removeLayer(layer);
+            }
+        });
+        routeLayers = [];
+        allRoutesData = [];
+        activeRouteIndex = 0;
+        document.getElementById("routes-list").innerHTML = "";
+        document.getElementById("start-navigation-btn").style.display = "none";
+    }
+}
+
+
+async function loadPlaceSuggestions(key) {
+
+    const state = placeSearchStates[key];
+    const input = document.getElementById(state.inputId);
+    const list = document.getElementById(state.listId);
+
+    if (!input || !list) {
+        return;
+    }
+
+    const query = input.value.trim();
+    const requestId = ++state.requestId;
+
+    if (key === "main") {
+        mainSelectedPlace = null;
+    }
+
+    if (key === "start") {
+        startSelectedPlace = null;
+        currentStartCoords = null;
+    }
+
+    if (key === "end") {
+        endSelectedPlace = null;
+        currentEndCoords = null;
+    }
+
+    if (query.length < 2) {
+        hidePlaceSuggestions(key);
+        return;
+    }
+
+    list.innerHTML = "";
+
+    const loading = document.createElement("div");
+    loading.className = "autocomplete-state";
+    loading.textContent = "🔎 جاري البحث...";
+    list.appendChild(loading);
+    list.style.display = "block";
+
+    try {
+
+        const places = await searchPlaces(query, {
+            typeahead: true,
+            limit: 6,
+            maxFuzzyLevel: 4
+        });
+
+        if (requestId !== state.requestId) {
+            return;
+        }
+
+        renderPlaceSuggestions(key, places);
+    }
+    catch (error) {
+
+        if (requestId !== state.requestId) {
+            return;
+        }
+
+        console.error("Smart search error:", error);
+
+        list.innerHTML = "";
+        const errorBox = document.createElement("div");
+        errorBox.className = "autocomplete-state";
+        errorBox.textContent = "تعذر تحميل الاقتراحات";
+        list.appendChild(errorBox);
+        list.style.display = "block";
+    }
+}
+
+
+function schedulePlaceSuggestions(key) {
+
+    const state = placeSearchStates[key];
+    const input = document.getElementById(state.inputId);
+
+    clearTimeout(state.timer);
+
+    const query = input.value.trim();
+
+    if (key === "main") {
+        mainSelectedPlace = null;
+    }
+
+    if (key === "start") {
+        startSelectedPlace = null;
+        currentStartCoords = null;
+    }
+
+    if (key === "end") {
+        endSelectedPlace = null;
+        currentEndCoords = null;
+    }
+
+    if (query.length < 2) {
+        hidePlaceSuggestions(key);
+        return;
+    }
+
+    state.timer = setTimeout(() => {
+        loadPlaceSuggestions(key);
+    }, 280);
+}
+
+
+function setActiveSuggestion(key, index) {
+
+    const state = placeSearchStates[key];
+    const list = document.getElementById(state.listId);
+    const items = list.querySelectorAll(".autocomplete-item");
+
+    if (!items.length) {
+        state.activeIndex = -1;
+        return;
+    }
+
+    state.activeIndex = Math.max(
+        -1,
+        Math.min(index, items.length - 1)
+    );
+
+    items.forEach((item, itemIndex) => {
+        item.classList.toggle(
+            "active",
+            itemIndex === state.activeIndex
+        );
+    });
+
+    if (state.activeIndex >= 0) {
+        items[state.activeIndex].scrollIntoView({
+            block: "nearest"
+        });
+    }
+}
+
+
+function handlePlaceKeydown(key, event) {
+
+    const state = placeSearchStates[key];
+    const list = document.getElementById(state.listId);
+    const visible = list && list.style.display === "block";
+
+    if (!visible) {
+        if (event.key === "Enter") {
+            if (key === "main") {
+                searchLocation();
+            }
+            else {
+                calculateRoutes();
+            }
+        }
+        return;
+    }
+
+    if (event.key === "ArrowDown") {
+        event.preventDefault();
+        setActiveSuggestion(
+            key,
+            state.activeIndex + 1 >= state.suggestions.length
+                ? 0
+                : state.activeIndex + 1
+        );
+        return;
+    }
+
+    if (event.key === "ArrowUp") {
+        event.preventDefault();
+        setActiveSuggestion(
+            key,
+            state.activeIndex - 1 < 0
+                ? state.suggestions.length - 1
+                : state.activeIndex - 1
+        );
+        return;
+    }
+
+    if (event.key === "Enter") {
+        event.preventDefault();
+
+        if (state.activeIndex >= 0) {
+            selectPlaceSuggestion(key, state.activeIndex);
+        }
+        else if (state.suggestions.length) {
+            selectPlaceSuggestion(key, 0);
+        }
+
+        return;
+    }
+
+    if (event.key === "Escape") {
+        event.preventDefault();
+        hidePlaceSuggestions(key);
+    }
+}
+
+
+function setupPlaceSearch(key) {
+
+    const state = placeSearchStates[key];
+    const input = document.getElementById(state.inputId);
+
+    if (!input) {
+        return;
+    }
+
+    input.addEventListener("input", () => {
+        schedulePlaceSuggestions(key);
+    });
+
+    input.addEventListener("focus", () => {
+        if (input.value.trim().length >= 2) {
+            schedulePlaceSuggestions(key);
+        }
+    });
+
+    input.addEventListener("keydown", event => {
+        handlePlaceKeydown(key, event);
+    });
+}
+
+
+async function resolveRoutePlace(key, value) {
+
+    const selected = key === "start"
+        ? startSelectedPlace
+        : endSelectedPlace;
+
+    if (selected && Number.isFinite(selected.lat) && Number.isFinite(selected.lon)) {
+        return selected;
+    }
+
+    const place = await geocodeLocation(value);
+    setSelectedPlace(key, place);
+    return place;
+}
+
+
+function clearSearchMarkers() {
+
+    searchMarkers.forEach(marker => {
+
+        if (marker && map.hasLayer(marker)) {
+            map.removeLayer(marker);
+        }
+
+    });
+
+    searchMarkers = [];
+
+    // Remove any open search popup from the map
+    if (currentPopup && map.hasLayer(currentPopup)) {
+        map.closePopup(currentPopup);
+    }
+
+    currentPopup = null;
+}
+
+
+function applyMainPlace(place) {
+
+    clearSearchMarkers();
+
+    document.getElementById("main-search").value = place.name;
+
+    const marker = L.marker([place.lat, place.lon])
+        .addTo(map);
+
+    const address = place.address
+        ? `<div class="popup-row"><span>العنوان</span><b>${escapeHtml(place.address)}</b></div>`
+        : "";
+
+    marker
+        .bindPopup(`
+            <div class="popup-data">
+                <div class="popup-title">📍 ${escapeHtml(place.name)}</div>
+                ${address}
+            </div>
+        `)
+        .openPopup();
+
+    searchMarkers.push(marker);
+
+    map.flyTo(
+        [place.lat, place.lon],
+        16
+    );
+}
+
+
+setupPlaceSearch("main");
+setupPlaceSearch("start");
+setupPlaceSearch("end");
+
+
+
+/* =========================================================
+   GET START COORDINATES
+========================================================= */
+
+async function getStartCoordinates() {
+
+    const input = document.getElementById("start-point");
+    const value = input.value.trim();
+
+    if (!value || value === "📍 موقعي الحالي (GPS)") {
+
+        if (!currentPosition) {
+            throw new Error("لم يتم تحديد موقعك الحالي.");
+        }
+
+        startSelectedPlace = {
+            lat: currentPosition.lat,
+            lon: currentPosition.lon,
+            name: "موقعي الحالي",
+            address: "GPS"
+        };
+
+        currentStartCoords = startSelectedPlace;
+
+        return startSelectedPlace;
+    }
+
+    return await resolveRoutePlace("start", value);
+}
+
+
+/* =========================================================
+   GET END COORDINATES
+========================================================= */
+
+async function getEndCoordinates() {
+
+    const input = document.getElementById("end-point");
+    const value = input.value.trim();
+
+    if (!value) {
+        throw new Error("يرجى إدخال الوجهة.");
+    }
+
+    return await resolveRoutePlace("end", value);
+}
+
+/* =========================================================
+   CALCULATE ROUTES
+========================================================= */
+
+async function calculateRoutes() {
+
+    hideAllPlaceSuggestions();
+
+    // Give every calculation a unique id so an old request cannot
+    // redraw a route after the user cancels it.
+    const requestId = ++routeRequestId;
+
+    const routesList =
+        document.getElementById(
+            "routes-list"
+        );
+
+
+    routesList.innerHTML = `
+
+        <div
+            style="
+                text-align:center;
+                padding:20px;
+                color:#5f6368;
+            "
+        >
+
+            ⏳ جاري حساب أفضل المسارات...
+
+        </div>
+
+    `;
+
+
+    document
+        .getElementById(
+            "start-navigation-btn"
+        )
+        .style
+        .display =
+        "none";
+
+
+    try {
+
+
+        /*
+         * Get Start
+         */
+
+        const start =
+            await getStartCoordinates();
+
+
+        /*
+         * Get End
+         */
+
+        const end =
+            await getEndCoordinates();
+
+
+        currentStartCoords =
+            start;
+
+
+        currentEndCoords =
+            end;
+
+
+        /*
+         * TomTom URL
+         */
+
+        const routeUrl =
+            "https://api.tomtom.com/routing/1/calculateRoute/"
+            +
+            `${start.lat},${start.lon}:${end.lat},${end.lon}`
+            +
+            "/json"
+            +
+            `?key=${TOMTOM_KEY}`
+            +
+            "&maxAlternatives=2"
+            +
+            "&alternativeType=anyRoute"
+            +
+            `&travelMode=${currentTravelMode}`
+            +
+            "&routeType=fastest"
+            +
+            "&traffic=true"
+            +
+            "&routeRepresentation=polyline";
+
+
+        const response =
+            await fetch(routeUrl);
+
+
+        const data =
+            await response.json();
+
+
+        if (
+            !response.ok
+        ) {
+
+            throw new Error(
+                data?.detailedError?.message
+                ||
+                "فشل حساب المسار"
+            );
+
+        }
+
+
+        if (
+
+            !data.routes ||
+
+            !data.routes.length
+
+        ) {
+
+            throw new Error(
+                "لا توجد مسارات متاحة."
+            );
+
+        }
+
+
+        // Ignore the response if the user has already cancelled
+        // or started another calculation.
+        if (requestId !== routeRequestId) {
+            return;
+        }
+
+        allRoutesData =
+            data.routes;
+
+
+        drawAllRoutes();
+
+
+    }
+
+    catch(error) {
+
+        console.error(error);
+
+
+        routesList.innerHTML = `
+
+            <div
+                style="
+                    color:#d93025;
+                    text-align:center;
+                    padding:20px;
+                "
+            >
+
+                ❌ ${error.message || error}
+
+            </div>
+
+        `;
+
+    }
+
+}
+
+
+
+/* =========================================================
+   DRAW ROUTES
+========================================================= */
+
+function drawAllRoutes() {
+
+
+    /*
+     * Clear old routes
+     */
+
+    routeLayers.forEach(layer => {
+
+        map.removeLayer(layer);
+
+    });
+
+
+    routeLayers = [];
+
+
+    const list =
+        document.getElementById(
+            "routes-list"
+        );
+
+
+    list.innerHTML = "";
+
+
+    /*
+     * Draw backwards
+     * Main route stays on top
+     */
+
+    for (
+
+        let i =
+        allRoutesData.length - 1;
+
+        i >= 0;
+
+        i--
+
+    ) {
+
+
+        const route =
+            allRoutesData[i];
+
+
+        const points =
+
+            route.legs
+                .flatMap(
+                    leg =>
+                        leg.points
+                )
+                .map(
+                    point => [
+
+                        point.latitude,
+                        point.longitude
+
+                    ]
+                );
+
+
+        const layer =
+            L.polyline(
+
+                points,
+
+                {
+
+                    color:
+                        i === 0
+                        ?
+                        "#1a73e8"
+                        :
+                        "#9aa0a6",
+
+                    weight:
+                        i === 0
+                        ?
+                        7
+                        :
+                        5,
+
+                    opacity:
+                        i === 0
+                        ?
+                        1
+                        :
+                        .75
+
+                }
+
+            )
+            .addTo(map);
+
+
+        layer.on(
+            "click",
+            () =>
+                selectRoute(i)
+        );
+
+
+        routeLayers[i] =
+            layer;
+
+    }
+
+
+
+    /*
+     * Route cards
+     */
+
+    allRoutesData.forEach(
+        (route, index) => {
+
+
+            const distance =
+                (
+                    route.summary.lengthInMeters
+                    /
+                    1000
+                )
+                .toFixed(1);
+
+
+            const minutes =
+                Math.round(
+
+                    route.summary
+                        .travelTimeInSeconds
+                    /
+                    60
+
+                );
+
+
+            const time =
+                formatTime(minutes);
+
+
+            const card =
+                document.createElement("div");
+
+
+            card.className =
+                `route-option ${
+                    index === 0
+                    ?
+                    "active"
+                    :
+                    ""
+                }`;
+
+
+            card.innerHTML = `
+
+                <div>
+
+                    <div class="route-time">
+
+                        ${time}
+
+                    </div>
+
+
+                    <div class="route-distance">
+
+                        ${distance} كم
+
+                    </div>
+
+                </div>
+
+
+                <div class="route-badge">
+
+                    ${
+                        index === 0
+                        ?
+                        "الأسرع"
+                        :
+                        "بديل"
+                    }
+
+                </div>
+
+            `;
+
+
+            card.onclick =
+                () =>
+                    selectRoute(index);
+
+
+            list.appendChild(card);
+
+
+        }
+    );
+
+
+    selectRoute(0);
+
+
+    if (routeLayers[0]) {
+
+        map.fitBounds(
+
+            routeLayers[0].getBounds(),
+
+            {
+                padding:
+                    [80, 80]
+            }
+
+        );
+
+    }
+
+
+    document
+        .getElementById(
+            "start-navigation-btn"
+        )
+        .style
+        .display =
+        "block";
+
+}
+
+
+
+/* =========================================================
+   SELECT ROUTE
+========================================================= */
+
+function selectRoute(index) {
+
+    activeRouteIndex =
+        index;
+
+
+    routeLayers.forEach(
+        (layer, i) => {
+
+            layer.setStyle({
+
+                color:
+                    i === index
+                    ?
+                    "#1a73e8"
+                    :
+                    "#9aa0a6",
+
+                weight:
+                    i === index
+                    ?
+                    7
+                    :
+                    5,
+
+                opacity:
+                    i === index
+                    ?
+                    1
+                    :
+                    .65
+
+            });
+
+
+            if (i === index) {
+
+                layer.bringToFront();
+
+            }
+
+        }
+    );
+
+
+    document
+        .querySelectorAll(
+            ".route-option"
+        )
+        .forEach(
+            (card, i) => {
+
+                card.classList.toggle(
+
+                    "active",
+
+                    i === index
+
+                );
+
+            }
+        );
+
+}
+
+
+
+/* =========================================================
+   FORMAT TIME
+========================================================= */
+
+function formatTime(minutes) {
+
+    if (minutes < 60) {
+
+        return minutes +
+            " دقيقة";
+
+    }
+
+
+    const hours =
+        Math.floor(
+            minutes / 60
+        );
+
+
+    const mins =
+        minutes % 60;
+
+
+    let result =
+        hours +
+        " ساعة";
+
+
+    if (mins > 0) {
+
+        result +=
+            " و "
+            +
+            mins
+            +
+            " دقيقة";
+
+    }
+
+
+    return result;
+
+}
+
+
+
+/* =========================================================
+   AI ROUTE RISK ANALYSIS (ADAS)
+========================================================= */
+
+// دالة استدعاء موديل الذكاء الاصطناعي المصري
+async function analyzeRouteRiskWithAI(routeSummary, weatherTemp, weatherDesc, driverState) {
+    try {
+        const payload = {
+            hour: new Date().getHours(),
+            day_of_week: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][new Date().getDay()],
+            temperature_c: typeof weatherTemp === 'number' ? weatherTemp : 30.0,
+            humidity_pct: 55.0,
+            wind_speed_ms: 4.2,
+            current_speed: routeSummary.averageSpeed || 60.0,
+            weather_encoded: weatherDesc.includes("مطر") ? "Rainy" : (weatherDesc.includes("شبورة") ? "Foggy" : "Sunny"),
+            adas_encoded: driverState
+        };
+
+        const apiRes = await fetch("http://127.0.0.1:8000/predict/egypt", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+
+        if (!apiRes.ok) throw new Error("فشل الاتصال بموديل الذكاء الاصطناعي");
+        return await apiRes.json();
+    } catch (error) {
+        console.error("AI Model Error:", error);
+        return null;
+    }
+}
+
+
+/* =========================================================
+   START NAVIGATION
+========================================================= */
+
+async function startNavigation() {
+    if (!currentStartCoords || !allRoutesData.length) {
+        return;
+    }
+
+    // 🌟 جلب حالة السائق المختارة من القائمة المنسدلة
+    const driverSelect = document.getElementById("driver-state-select");
+    const selectedDriverState = driverSelect ? driverSelect.value : "Normal";
+
+    const route = allRoutesData[activeRouteIndex];
+
+    try {
+        // 🌟 استدعاء الموديل وإظهار التنبيه بنتيجة التحليل والتبرير
+        const aiResult = await analyzeRouteRiskWithAI(route.summary, 30.0, "Sunny", selectedDriverState);
+        if (aiResult) {
+            alert(`🚗 تقييم خطورة الطريق (ADAS): ${aiResult.predicted_severity_level}\n💡 تبرير المساعد الذكي: ${aiResult.recommendation_reason}`);
+        }
+    } catch (e) {
+        console.error("AI integration warning:", e);
+    }
+
+    closeRoutingPanel();
+
+    document
+        .getElementById(
+            "navigation-ui"
+        )
+        .style
+        .display =
+        "block";
+
+    const distance =
+        (
+            route.summary.lengthInMeters
+            /
+            1000
+        )
+        .toFixed(1);
+
+    const time =
+        formatTime(
+
+            Math.round(
+
+                route.summary
+                    .travelTimeInSeconds
+                /
+                60
+
+            )
+
+        );
+
+    document
+        .getElementById("nav-time")
+        .textContent =
+        "🚗 " + time;
+
+    document
+        .getElementById("nav-distance")
+        .textContent =
+        distance +
+        " كم متبقية";
+
+    let emoji = "🚗";
+
+    if (
+        currentTravelMode ===
+        "bicycle"
+    ) {
+        emoji = "🚲";
+    }
+
+    if (
+        currentTravelMode ===
+        "pedestrian"
+    ) {
+        emoji = "🚶";
+    }
+
+    const icon =
+        L.divIcon({
+
+            className:
+                "vehicle-marker",
+
+            html: `
+
+                <div
+                    style="
+                        width:48px;
+                        height:48px;
+                        background:white;
+                        border-radius:50%;
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
+                        font-size:25px;
+                        box-shadow:
+                            0 3px 15px
+                            rgba(0,0,0,.3);
+                    "
+                >
+
+                    ${emoji}
+
+                </div>
+
+            `,
+
+            iconSize:
+                [48, 48],
+
+            iconAnchor:
+                [24, 24]
+
+        });
+
+    if (movingMarker) {
+        map.removeLayer(
+            movingMarker
+        );
+    }
+
+    movingMarker =
+        L.marker(
+
+            [
+
+                currentStartCoords.lat,
+                currentStartCoords.lon
+
+            ],
+
+            {
+
+                icon: icon
+
+            }
+
+        )
+        .addTo(map);
+
+    map.flyTo(
+
+        [
+
+            currentStartCoords.lat,
+            currentStartCoords.lon
+
+        ],
+
+        17,
+
+        {
+
+            duration: 1.5
+
+        }
+
+    );
+
+}
+
+
+/* =========================================================
+   STOP NAVIGATION
+========================================================= */
+
+function stopNavigation() {
+
+    // Hide navigation UI
+    document
+        .getElementById("navigation-ui")
+        .style
+        .display = "none";
+
+    // Remove moving vehicle marker
+    if (movingMarker) {
+        map.removeLayer(movingMarker);
+        movingMarker = null;
+    }
+
+    // End the trip and remove the route from the map
+    clearRoute();
+
+    // Open a clean routing panel
+    openRoutingPanel();
+
+}
+
+
+/* =========================================================
+   MAIN SEARCH
+========================================================= */
+
+async function searchLocation() {
+
+    const input = document.getElementById("main-search");
+    const query = input.value.trim();
+
+    if (!query) {
+        return;
+    }
+
+    hidePlaceSuggestions("main");
+
+    try {
+
+        let result = mainSelectedPlace;
+
+        if (!result) {
+            result = await geocodeLocation(query);
+            mainSelectedPlace = result;
+        }
+
+        applyMainPlace(result);
+    }
+    catch(error) {
+        console.error(error);
+        alert(error.message || "تعذر البحث عن المكان.");
+    }
+}
+
+
+
+
+
+/* =========================================================
+   TOGGLE NEARBY
+========================================================= */
+
+async function toggleNearby(button) {
+
+    const tag =
+        button.dataset.tag;
+
+
+    const label =
+        button.dataset.label;
+
+
+    /*
+     * If active -> remove only this category
+     */
+
+    if (nearbyLayers[tag]) {
+
+
+        nearbyLayers[tag].forEach(
+            marker =>
+                map.removeLayer(marker)
+        );
+
+
+        delete nearbyLayers[tag];
+
+
+        button.classList.remove(
+            "active"
+        );
+
+
+        return;
+
+    }
+
+
+    /*
+     * Otherwise load it
+     */
+
+    button.classList.add(
+        "active"
+    );
+
+
+    await loadNearby(
+        tag,
+        label,
+        button
+    );
+
+}
+
+
+
+/* =========================================================
+   LOAD NEARBY
+========================================================= */
+
+async function loadNearby(
+    tag,
+    label,
+    button
+) {
+
+    try {
+
+
+        const bounds =
+            map.getBounds();
+
+
+        const viewbox =
+            [
+
+                bounds.getWest(),
+                bounds.getSouth(),
+                bounds.getEast(),
+                bounds.getNorth()
+
+            ]
+            .join(",");
+
+
+        const url =
+            "https://nominatim.openstreetmap.org/search"
+            +
+            "?q="
+            +
+            encodeURIComponent(tag)
+            +
+            "&format=jsonv2"
+            +
+            "&limit=20"
+            +
+            "&viewbox="
+            +
+            encodeURIComponent(viewbox)
+            +
+            "&bounded=1"
+            +
+            "&accept-language=ar";
+
+
+        const response =
+            await fetch(url);
+
+
+        const data =
+            await response.json();
+
+
+        if (!data.length) {
+
+            button.classList.remove(
+                "active"
+            );
+
+
+            alert(
+                `لم يتم العثور على ${label} في المنطقة الحالية.`
+            );
+
+
+            return;
+
+        }
+
+
+        nearbyLayers[tag] =
+            [];
+
+
+        data.forEach(place => {
+
+
+            const marker =
+                L.marker(
+
+                    [
+                        place.lat,
+                        place.lon
+                    ]
+
+                )
+                .addTo(map);
+
+
+            const name =
+                place.display_name
+                    .split(",")[0];
+
+
+            marker.bindPopup(
+
+                `
+
+                <div class="popup-data">
+
+                    <div class="popup-title">
+
+                        📍 ${name}
+
+                    </div>
+
+                    <div class="popup-row">
+
+                        <span>
+                            التصنيف
+                        </span>
+
+                        <b>
+                            ${label}
+                        </b>
+
+                    </div>
+
+                </div>
+
+                `
+
+            );
+
+
+            nearbyLayers[tag].push(
+                marker
+            );
+
+        });
+
+
+    }
+
+    catch(error) {
+
+        console.error(error);
+
+
+        button.classList.remove(
+            "active"
+        );
+
+
+        delete nearbyLayers[tag];
+
+
+        alert(
+            "حدث خطأ أثناء البحث."
+        );
+
+    }
+
+}
+
+
+
+/* =========================================================
+   TRAFFIC INCIDENTS / ROAD CONDITIONS
+========================================================= */
+
+function clearTrafficIncidents() {
+
+    trafficIncidentLayers.forEach(layer => {
+        if (layer && map.hasLayer(layer)) {
+            map.removeLayer(layer);
+        }
+    });
+
+    trafficIncidentLayers = [];
+}
+
+
+function getTrafficIncidentInfo(incident) {
+
+    const properties = incident?.properties || {};
+
+    const events = Array.isArray(properties.events)
+        ? properties.events
+        : [];
+
+    const event = events[0] || {};
+
+    const iconCategory = Number(
+        properties.iconCategory ?? event.iconCategory
+    );
+
+    const categories = {
+        0: { icon: "⚠️", title: "حالة مرورية" },
+        1: { icon: "🚨", title: "حادث مروري" },
+        2: { icon: "🌫️", title: "ضباب" },
+        3: { icon: "⚠️", title: "ظروف خطرة" },
+        4: { icon: "🌧️", title: "أمطار" },
+        5: { icon: "🧊", title: "جليد" },
+        6: { icon: "🚗", title: "ازدحام مروري" },
+        7: { icon: "🚧", title: "حارة مغلقة" },
+        8: { icon: "⛔", title: "طريق مغلق" },
+        9: { icon: "🚧", title: "أعمال طرق" },
+        10: { icon: "💨", title: "رياح قوية" },
+        11: { icon: "🌊", title: "سيول / مياه على الطريق" },
+        14: { icon: "🚙", title: "مركبة متعطلة" }
+    };
+
+    const category = categories[iconCategory] || categories[0];
+
+    const description =
+        event.description ||
+        properties.description ||
+        category.title;
+
+    return {
+        icon: category.icon,
+        title: category.title,
+        description,
+        delay: properties.delay,
+        from: properties.from,
+        to: properties.to,
+        roadNumbers: Array.isArray(properties.roadNumbers)
+            ? properties.roadNumbers.join("، ")
+            : properties.roadNumbers,
+        startTime: properties.startTime,
+        endTime: properties.endTime,
+        iconCategory,
+        eventCode: event.code || ""
+    };
+}
+
+function getIncidentPoint(geometry) {
+
+    if (!geometry || !geometry.coordinates) {
+        return null;
+    }
+
+    const coordinates = geometry.coordinates;
+
+    // Point: [lon, lat]
+    if (
+        geometry.type === "Point" &&
+        Array.isArray(coordinates) &&
+        coordinates.length >= 2
+    ) {
+        return [coordinates[1], coordinates[0]];
+    }
+
+    // LineString: [[lon, lat], ...]
+    if (
+        geometry.type === "LineString" &&
+        Array.isArray(coordinates) &&
+        coordinates.length
+    ) {
+        const middle = coordinates[Math.floor(coordinates.length / 2)];
+        return middle ? [middle[1], middle[0]] : null;
+    }
+
+    // MultiLineString: [[[lon, lat], ...], ...]
+    if (
+        geometry.type === "MultiLineString" &&
+        Array.isArray(coordinates) &&
+        coordinates.length &&
+        coordinates[0]?.length
+    ) {
+        const line = coordinates[0];
+        const middle = line[Math.floor(line.length / 2)];
+        return middle ? [middle[1], middle[0]] : null;
+    }
+
+    return null;
+}
+
+
+function formatIncidentDelay(delay) {
+
+    if (delay === null || delay === undefined || delay === "") {
+        return "غير متاح";
+    }
+
+    const seconds = Number(delay);
+
+    if (!Number.isFinite(seconds)) {
+        return String(delay);
+    }
+
+    const minutes = Math.round(seconds / 60);
+
+    if (minutes <= 0) {
+        return "أقل من دقيقة";
+    }
+
+    return `${minutes} دقيقة`;
+}
+
+
+async function toggleTrafficIncidents(button) {
+
+    if (trafficIncidentsVisible) {
+
+        trafficIncidentsVisible = false;
+        trafficIncidentRequestId++;
+        clearTrafficIncidents();
+        button.classList.remove("active");
+        return;
+    }
+
+    trafficIncidentsVisible = true;
+    button.classList.add("active");
+
+    await loadTrafficIncidents();
+}
+
+
+async function loadTrafficIncidents() {
+
+    const requestId = ++trafficIncidentRequestId;
+
+    clearTrafficIncidents();
+
+    const bounds = map.getBounds();
+
+    const bbox = [
+        bounds.getWest(),
+        bounds.getSouth(),
+        bounds.getEast(),
+        bounds.getNorth()
+    ].join(",");
+
+    const fields =
+        "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code,iconCategory},startTime,endTime,from,to,length,delay,roadNumbers}}}";
+
+    const url =
+        "https://api.tomtom.com/traffic/services/5/incidentDetails" +
+        `?bbox=${encodeURIComponent(bbox)}` +
+        `&fields=${encodeURIComponent(fields)}` +
+        "&language=ar" +
+        "&timeValidityFilter=present" +
+        `&key=${TOMTOM_KEY}`;
+
+    try {
+
+        const response = await fetch(url);
+
+        const data = await response.json();
+
+        if (requestId !== trafficIncidentRequestId || !trafficIncidentsVisible) {
+            return;
+        }
+
+        if (!response.ok) {
+            throw new Error(
+                data?.error?.description ||
+                data?.error?.message ||
+                "تعذر تحميل حالة الطريق."
+            );
+        }
+
+        const incidents = Array.isArray(data?.incidents)
+            ? data.incidents
+            : [];
+
+        if (!incidents.length) {
+            alert("لا توجد حوادث أو مشاكل مرورية مسجلة حاليًا في المنطقة الظاهرة.");
+            return;
+        }
+
+        incidents.forEach(incident => {
+
+            const point = getIncidentPoint(incident.geometry);
+
+            if (!point) {
+                return;
+            }
+
+            const info = getTrafficIncidentInfo(incident);
+
+            const icon = L.divIcon({
+                className: "traffic-incident-marker",
+                html: `
+                    <div class="traffic-incident-icon" title="${info.title}">
+                        ${info.icon}
+                    </div>
+                `,
+                iconSize: [38, 38],
+                iconAnchor: [19, 19],
+                popupAnchor: [0, -20]
+            });
+
+            const marker = L.marker(point, { icon })
+                .addTo(map);
+
+            const popup = `
+                <div class="traffic-popup">
+                    <div class="traffic-popup-title">
+                        ${info.icon} ${info.title}
+                    </div>
+
+                    <div class="traffic-popup-row">
+                        <span>الحالة</span>
+                        <span class="traffic-status">⚠️ موجودة حاليًا</span>
+                    </div>
+
+                    <div class="traffic-popup-row">
+                        <span>التفاصيل</span>
+                        <b>${info.description}</b>
+                    </div>
+
+                    ${info.delay !== undefined && info.delay !== null ? `
+                        <div class="traffic-popup-row">
+                            <span>التأخير المتوقع</span>
+                            <b>${formatIncidentDelay(info.delay)}</b>
+                        </div>
+                    ` : ""}
+
+                    ${info.roadNumbers ? `
+                        <div class="traffic-popup-row">
+                            <span>الطريق</span>
+                            <b>${info.roadNumbers}</b>
+                        </div>
+                    ` : ""}
+
+                    ${info.from ? `
+                        <div class="traffic-popup-row">
+                            <span>من</span>
+                            <b>${info.from}</b>
+                        </div>
+                    ` : ""}
+
+                    ${info.to ? `
+                        <div class="traffic-popup-row">
+                            <span>إلى</span>
+                            <b>${info.to}</b>
+                        </div>
+                    ` : ""}
+                </div>
+            `;
+
+            marker.bindPopup(popup);
+            trafficIncidentLayers.push(marker);
+
+            // Draw the affected road section when geometry is a line.
+            const geometry = incident.geometry;
+
+            if (geometry?.type === "LineString" && Array.isArray(geometry.coordinates)) {
+
+                const points = geometry.coordinates
+                    .filter(c => Array.isArray(c) && c.length >= 2)
+                    .map(c => [c[1], c[0]]);
+
+                if (points.length >= 2) {
+                    const line = L.polyline(points, {
+                        className: "traffic-incident-line",
+                        color: "#d93025",
+                        weight: 6,
+                        opacity: .75
+                    })
+                    .addTo(map)
+                    .bindPopup(popup);
+
+                    trafficIncidentLayers.push(line);
+                }
+            }
+        });
+
+    }
+    catch (error) {
+
+        console.error("Traffic incidents error:", error);
+
+        if (requestId !== trafficIncidentRequestId) {
+            return;
+        }
+
+        trafficIncidentsVisible = false;
+
+        const button = document.getElementById("traffic-incidents-btn");
+
+        if (button) {
+            button.classList.remove("active");
+        }
+
+        clearTrafficIncidents();
+
+        alert(
+            error.message ||
+            "تعذر تحميل حالة الطريق."
+        );
+    }
+}
+
+
+/* =========================================================
+   ROAD STATUS + CONGESTION HELPERS
+========================================================= */
+
+function escapeHtml(value) {
+
+    if (value === null || value === undefined) {
+        return "";
+    }
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+function classifyCongestion(currentSpeed, freeFlowSpeed) {
+
+    const current = Number(currentSpeed);
+    const freeFlow = Number(freeFlowSpeed);
+
+    if (!Number.isFinite(current) || !Number.isFinite(freeFlow) || freeFlow <= 0) {
+        return {
+            label: "غير متاح",
+            icon: "❓",
+            className: "warning",
+            ratio: null
+        };
+    }
+
+    const ratio = current / freeFlow;
+
+    if (current <= 5 || ratio < 0.40) {
+        return {
+            label: "زحمة شديدة",
+            icon: "🔴",
+            className: "danger",
+            ratio
+        };
+    }
+
+    if (ratio < 0.65) {
+        return {
+            label: "زحمة",
+            icon: "🟠",
+            className: "danger",
+            ratio
+        };
+    }
+
+    if (ratio < 0.80) {
+        return {
+            label: "حركة متوسطة",
+            icon: "🟡",
+            className: "warning",
+            ratio
+        };
+    }
+
+    return {
+        label: "الطريق سالك",
+        icon: "🟢",
+        className: "good",
+        ratio
+    };
+}
+
+
+function getRoadStatusFromIncident(incident) {
+
+    const properties = incident?.properties || {};
+    const events = Array.isArray(properties.events)
+        ? properties.events
+        : [];
+
+    const event = events[0] || {};
+
+    const iconCategory = Number(
+        properties.iconCategory ?? event.iconCategory
+    );
+
+    const eventText = events
+        .map(item => `${item?.description || ""} ${item?.code || ""}`)
+        .join(" ")
+        .toLowerCase();
+
+    // Priority: closure > accident > lane closure > road works > broken vehicle.
+    if (iconCategory === 8 || /road ?closed|road closure|closed|closure|مغلق|إغلاق/.test(eventText)) {
+        return {
+            label: "الطريق مقفول",
+            icon: "⛔",
+            className: "danger"
+        };
+    }
+
+    if (iconCategory === 1 || /accident|حادث|collision|تصادم/.test(eventText)) {
+        return {
+            label: "يوجد حادث",
+            icon: "🚨",
+            className: "danger"
+        };
+    }
+
+    if (iconCategory === 7 || /lane closed|حارة مغلقة/.test(eventText)) {
+        return {
+            label: "حارة مغلقة",
+            icon: "🚧",
+            className: "warning"
+        };
+    }
+
+    if (iconCategory === 9 || /road ?work|roadworks|works|أعمال طرق|صيانة|إصلاح/.test(eventText)) {
+        return {
+            label: "أعمال طرق / إصلاحات",
+            icon: "🚧",
+            className: "warning"
+        };
+    }
+
+    if (iconCategory === 14 || /broken down|breakdown|broken|تعطل|متعطلة|مركبة/.test(eventText)) {
+        return {
+            label: "مركبة متعطلة",
+            icon: "🚙",
+            className: "warning"
+        };
+    }
+
+    // A jam is handled separately by speed/free-flow, so it is not a road closure.
+    if (iconCategory === 6 || /jam|traffic jam|ازدحام|زحام/.test(eventText)) {
+        return {
+            label: "الطريق طبيعي",
+            icon: "🟢",
+            className: "good"
+        };
+    }
+
+    return {
+        label: "يوجد حدث على الطريق",
+        icon: "⚠️",
+        className: "warning"
+    };
+}
+
+function getIncidentCoordinates(geometry) {
+
+    if (!geometry || !geometry.coordinates) {
+        return [];
+    }
+
+    const coordinates = geometry.coordinates;
+
+    if (geometry.type === "Point") {
+        return Array.isArray(coordinates) ? [coordinates] : [];
+    }
+
+    if (geometry.type === "LineString") {
+        return Array.isArray(coordinates) ? coordinates : [];
+    }
+
+    if (geometry.type === "MultiLineString") {
+        return Array.isArray(coordinates)
+            ? coordinates.flat().filter(Boolean)
+            : [];
+    }
+
+    return [];
+}
+
+
+function distanceInMeters(lat1, lon1, lat2, lon2) {
+
+    const R = 6371000;
+    const toRad = value => value * Math.PI / 180;
+
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+
+    const a =
+        Math.sin(dLat / 2) ** 2 +
+        Math.cos(toRad(lat1)) *
+        Math.cos(toRad(lat2)) *
+        Math.sin(dLon / 2) ** 2;
+
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+
+function findNearestIncident(incidents, lat, lon) {
+
+    let nearest = null;
+    let nearestDistance = Infinity;
+
+    incidents.forEach(incident => {
+
+        const coordinates = getIncidentCoordinates(incident.geometry);
+
+        coordinates.forEach(coordinate => {
+
+            if (!Array.isArray(coordinate) || coordinate.length < 2) {
+                return;
+            }
+
+            const incidentLon = Number(coordinate[0]);
+            const incidentLat = Number(coordinate[1]);
+
+            if (!Number.isFinite(incidentLat) || !Number.isFinite(incidentLon)) {
+                return;
+            }
+
+            const distance = distanceInMeters(
+                lat,
+                lon,
+                incidentLat,
+                incidentLon
+            );
+
+            if (distance < nearestDistance) {
+                nearestDistance = distance;
+                nearest = incident;
+            }
+        });
+    });
+
+    // Only consider an incident relevant to the clicked road if it is close enough.
+    if (nearest && nearestDistance <= 700) {
+        return {
+            incident: nearest,
+            distance: nearestDistance
+        };
+    }
+
+    return null;
+}
+
+
+async function getNearbyRoadIncident(lat, lon) {
+
+    const delta = 0.008;
+
+    const bbox = [
+        lon - delta,
+        lat - delta,
+        lon + delta,
+        lat + delta
+    ].join(",");
+
+    const fields =
+        "{incidents{type,geometry{type,coordinates},properties{iconCategory,magnitudeOfDelay,events{description,code,iconCategory},startTime,endTime,from,to,length,delay,roadNumbers}}}";
+
+    const url =
+        "https://api.tomtom.com/traffic/services/5/incidentDetails" +
+        `?bbox=${encodeURIComponent(bbox)}` +
+        `&fields=${encodeURIComponent(fields)}` +
+        "&language=ar" +
+        "&timeValidityFilter=present" +
+        `&key=${TOMTOM_KEY}`;
+
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (!response.ok) {
+        throw new Error(
+            data?.error?.description ||
+            data?.error?.message ||
+            "تعذر قراءة حالة الطريق"
+        );
+    }
+
+    const incidents = Array.isArray(data?.incidents)
+        ? data.incidents
+        : [];
+
+    return findNearestIncident(incidents, lat, lon);
+}
+
+
+/* =========================================================
+   MAP CLICK
+========================================================= */
+
+map.on(
+    "click",
+
+    async function(event) {
+
+
+        if (
+
+            document
+                .getElementById(
+                    "navigation-ui"
+                )
+                .style
+                .display ===
+                "block"
+
+        ) {
+
+            return;
+
+        }
+
+
+        const lat =
+            event.latlng.lat;
+
+
+        const lon =
+            event.latlng.lng;
+
+
+        const requestId = ++popupRequestId;
+
+
+        currentPopup =
+            L.popup()
+
+            .setLatLng(
+                [lat, lon]
+            )
+
+            .setContent(
+
+                `
+
+                <div class="popup-data">
+
+                    ⏳ جاري تحليل الموقع...
+
+                </div>
+
+                `
+
+            )
+
+            .openOn(map);
+
+
+        try {
+
+
+            /*
+             * Reverse Geocoding
+             */
+
+            const geoURL =
+                "https://nominatim.openstreetmap.org/reverse"
+                +
+                `?lat=${lat}`
+                +
+                `&lon=${lon}`
+                +
+                "&format=jsonv2"
+                +
+                "&accept-language=ar";
+
+
+            const geoResponse =
+                await fetch(geoURL);
+
+
+            const geoData =
+                await geoResponse.json();
+
+
+            const locationName =
+                geoData.display_name
+                ?
+                geoData.display_name
+                    .split(",")
+                    .slice(0, 2)
+                    .join(",")
+                :
+                "موقع محدد";
+
+
+
+            /*
+             * Weather
+             */
+
+            const weatherURL =
+                "https://api.openweathermap.org/data/2.5/weather"
+                +
+                `?lat=${lat}`
+                +
+                `&lon=${lon}`
+                +
+                `&appid=${WEATHER_KEY}`
+                +
+                "&units=metric"
+                +
+                "&lang=ar";
+
+
+            const weatherResponse =
+                await fetch(
+                    weatherURL
+                );
+
+
+            const weather =
+                await weatherResponse.json();
+
+
+
+            /*
+             * Traffic
+             */
+
+            const trafficURL =
+                "https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/10/json"
+                +
+                `?point=${lat},${lon}`
+                +
+                `&key=${TOMTOM_KEY}`;
+
+
+            const trafficResponse =
+                await fetch(
+                    trafficURL
+                );
+
+
+            const traffic =
+                await trafficResponse.json();
+
+
+            const temperature =
+                weather.main
+                ?
+                weather.main.temp
+                :
+                "غير متاح";
+
+
+            const weatherDescription =
+                weather.weather
+                ?
+                weather.weather[0].description
+                :
+                "";
+
+
+            const currentSpeed =
+                traffic.flowSegmentData
+                ?
+                traffic.flowSegmentData
+                    .currentSpeed
+                :
+                "غير متاح";
+
+
+            const freeFlowSpeed =
+                traffic.flowSegmentData
+                ?
+                traffic.flowSegmentData
+                    .freeFlowSpeed
+                :
+                "غير متاح";
+
+
+            // Determine congestion from current speed vs. free-flow speed.
+            const congestion = classifyCongestion(
+                currentSpeed,
+                freeFlowSpeed
+            );
+
+
+            // Ask TomTom whether an active incident is affecting this point.
+            let roadStatus = {
+                label: "الطريق طبيعي",
+                icon: "🟢",
+                className: "good"
+            };
+
+            let nearbyIncident = null;
+
+            try {
+                nearbyIncident = await getNearbyRoadIncident(
+                    lat,
+                    lon
+                );
+
+                if (nearbyIncident?.incident) {
+                    roadStatus = getRoadStatusFromIncident(
+                        nearbyIncident.incident
+                    );
+                }
+            }
+            catch (incidentError) {
+                console.warn(
+                    "Road status lookup failed:",
+                    incidentError
+                );
+
+                roadStatus = {
+                    label: "تعذر التحقق",
+                    icon: "❓",
+                    className: "warning"
+                };
+            }
+
+
+            // Ignore a late response if the user already clicked another location.
+            if (requestId !== popupRequestId) {
+                return;
+            }
+
+
+            currentPopup.setContent(
+
+                `
+
+                <div class="popup-data">
+
+                    <div class="popup-title">
+
+                        📍 ${locationName}
+
+                    </div>
+
+
+                    <div class="popup-traffic-status">
+                        <span>🛣️ حالة الطريق</span>
+                        <b class="traffic-status ${roadStatus.className}">
+                            ${roadStatus.icon} ${escapeHtml(roadStatus.label)}
+                        </b>
+                    </div>
+
+                    <div class="popup-traffic-status">
+                        <span>🚦 حالة الزحمة</span>
+                        <b class="traffic-status ${congestion.className}">
+                            ${congestion.icon} ${escapeHtml(congestion.label)}
+                        </b>
+                    </div>
+
+
+                    <div class="popup-divider"></div>
+
+                    ${nearbyIncident?.incident ? `
+                        <div class="popup-row">
+                            <span>📌 التفاصيل</span>
+                            <b>${escapeHtml(
+                                getTrafficIncidentInfo(nearbyIncident.incident).description
+                            )}</b>
+                        </div>
+                    ` : ""}
+
+                    <div class="popup-row">
+
+                        <span>
+                            🌡️ الحرارة
+                        </span>
+
+                        <b>
+                            ${temperature}°C
+                        </b>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            ⛅ الطقس
+                        </span>
+
+                        <b>
+                            ${weatherDescription}
+                        </b>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            🚗 سرعة الطريق
+                        </span>
+
+                        <b>
+
+                            ${currentSpeed}
+                            كم/س
+
+                        </b>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                        <span>
+                            🛣️ السرعة الطبيعية
+                        </span>
+
+                        <b>
+
+                            ${freeFlowSpeed}
+                            كم/س
+
+                        </b>
+
+                    </div>
+
+                    <div class="popup-row">
+                        <span>📊 تقييم السرعة</span>
+                        <b>
+                            ${congestion.ratio !== null ? Math.round(congestion.ratio * 100) + "% من السرعة الطبيعية" : "غير متاح"}
+                        </b>
+                    </div>
+
+                </div>
+
+                `
+
+            );
+
+
+        }
+
+        catch(error) {
+
+            console.error(error);
+
+
+            currentPopup.setContent(
+
+                `
+
+                <div class="popup-data">
+
+                    ❌ تعذر تحميل بيانات الموقع
+
+                </div>
+
+                `
+
+            );
+
+        }
+
+    }
+
+);
+
+
+
+/* =========================================================
+   REFRESH TRAFFIC INCIDENTS WHEN MAP MOVES
+========================================================= */
+
+let trafficRefreshTimer = null;
+
+map.on("moveend", function() {
+
+    if (!trafficIncidentsVisible) {
+        return;
+    }
+
+    clearTimeout(trafficRefreshTimer);
+
+    trafficRefreshTimer = setTimeout(() => {
+        loadTrafficIncidents();
+    }, 400);
+});
+
+
+/* =========================================================
+   CLOSE PLACE SUGGESTIONS
+========================================================= */
+
+document.addEventListener("click", function(event) {
+
+    const insideSuggestion =
+        event.target.closest(".place-suggestions") ||
+        event.target.closest("#autocomplete");
+
+    const insideSearchInput =
+        event.target.closest("#main-search") ||
+        event.target.closest("#start-point") ||
+        event.target.closest("#end-point");
+
+    if (!insideSuggestion && !insideSearchInput) {
+        hideAllPlaceSuggestions();
+    }
+});
+
+
+</script>
+
+</body>
+
+</html>
